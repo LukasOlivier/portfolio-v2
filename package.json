@@ -35,7 +35,7 @@
     "@vesp/nuxt-fontawesome": "^1.0.4"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "4.9.5",
-    "@css-inline/css-inline-linux-x64-gnu": "4.9.5"
+    "@css-inline/css-inline-linux-x64-gnu": "4.9.5",
+    "@rollup/rollup-linux-x64-gnu": "4.9.5"
   }
 }
