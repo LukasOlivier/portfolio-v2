@@ -10,6 +10,10 @@ export default defineNuxtConfig({
     },
   },
 
+  build: {
+    transpile: [/vue3-library-reproduction/],
+  },
+
   sitemap: {
     strictNuxtContentPaths: true,
   },
