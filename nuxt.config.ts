@@ -20,16 +20,6 @@ export default defineNuxtConfig({
     },
   },
 
-  fontawesome: {
-    icons: {
-      solid: ['dollar-sign', 'cog', 'circle', 'check', 'calendar'],
-      regular: ['user'],
-      //  Could not find main icon { prefix: 'fas', iconName: 'github' }
-      brands: ['github', 'linkedin', 'twitter'],
-
-    },
-  },
-
   typescript: {
     strict: true,
   },
@@ -60,7 +50,6 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     'nuxt-simple-sitemap',
     '@nuxtjs/tailwindcss',
-    '@vesp/nuxt-fontawesome',
   ],
 
   content: {
