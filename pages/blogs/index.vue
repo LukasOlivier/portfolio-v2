@@ -13,7 +13,6 @@ const formattedData = computed(() => {
       description: articles.description || 'no-description available',
       image: articles.image || '/not-found.jpg',
       alt: articles.alt || 'no alter data available',
-      ogImage: articles.ogImage || '/not-found.jpg',
       date: articles.date || 'not-date-available',
       published: articles.published || false,
     }
@@ -66,16 +65,6 @@ useHead({
   ],
   titleTemplate: 'Lukas Olivier - %s',
 })
-
-// Generate OG Image
-const siteData = useSiteConfig()
-defineOgImage({
-  props: {
-    title: 'Archive',
-    description: 'Here you will find all the blog posts I have written & published on this site.',
-    siteName: siteData.url,
-  },
-})
 </script>
 
 <template>
@@ -101,7 +90,6 @@ defineOgImage({
             :description="post.description"
             :image="post.image"
             :alt="post.alt"
-            :og-image="post.ogImage"
             :published="post.published"
           />
         </template>

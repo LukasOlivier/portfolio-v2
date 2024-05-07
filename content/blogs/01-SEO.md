@@ -4,7 +4,6 @@ date: 07/11/23
 description: "Discovering SEO: Frederik Vermeire's Dive into Website Optimization."
 image: /blogs-img/seo.png
 alt: SEO
-ogImage: /blogs-img/seo.png
 published: true
 ---
 

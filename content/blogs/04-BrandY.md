@@ -4,7 +4,6 @@ date: 03/12/23
 description: "Transformative Week, Inspiring Insights, Global Connections!"
 image: /blogs-img/brandy.png
 alt: BrandY 2.0
-ogImage: /blogs-img/blog5.jpg
 published: true
 ---
 

@@ -6,7 +6,6 @@ interface Props {
   description?: string
   image?: string
   alt?: string
-  ogImage?: string
   published?: boolean
 }
 
@@ -17,7 +16,6 @@ withDefaults(defineProps<Props>(), {
   description: 'no-description',
   image: '/blogs-img/blog.jpg',
   alt: 'no-alt',
-  ogImage: '/blogs-img/blog.jpg',
   published: false,
 })
 </script>

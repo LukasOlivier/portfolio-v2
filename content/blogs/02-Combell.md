@@ -4,7 +4,6 @@ date: 07/11/23
 description: "Combell Unveiled: Premium Hosting for the Technological Tomorrow by Simon Verdonck "
 image: /blogs-img/combell.jpg
 alt: "Combell Unveiled: Premium Hosting for the Technological Tomorrow by Simon Verdonck"
-ogImage: /blogs-img/combell.jpg
 published: true
 ---
 Combell: Premium Hosting - A Dive into the Technological Future

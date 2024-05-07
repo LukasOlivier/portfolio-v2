@@ -14,7 +14,6 @@ const data = computed<BlogPost>(() => {
     description: articles.value?.description || 'no-description available',
     image: articles.value?.image || '/not-found.jpg',
     alt: articles.value?.alt || 'no alter data available',
-    ogImage: articles.value?.ogImage || '/not-found.jpg',
     date: articles.value?.date || 'not-date-available',
     published: articles.value?.published || false,
   }
@@ -73,15 +72,6 @@ useHead({
       href: `https://lukasolivier.be/${path}`,
     },
   ],
-})
-
-// Generate OG Image
-defineOgImageComponent('Test', {
-  headline: 'Greetings 👋',
-  title: data.value.title || '',
-  description: data.value.description || '',
-  link: data.value.ogImage,
-
 })
 </script>
 
