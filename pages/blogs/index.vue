@@ -121,13 +121,12 @@ defineOgImage({
     </ClientOnly>
 
     <div class="flex justify-center items-center space-x-6 ">
-      <button :disabled="pageNumber <= 1" @click="onPreviousPageClick">
-        <Icon name="mdi:code-less-than" size="30" :class="{ 'text-sky-700 dark:text-sky-400': pageNumber > 1 }" />
-      </button>
+      <button
+        :disabled="pageNumber <= 1" class="fa fa-arrow-left"
+        @click="onPreviousPageClick"
+      />
       <p>{{ pageNumber }} / {{ totalPage }}</p>
-      <button :disabled="pageNumber >= totalPage" @click="onNextPageClick">
-        <Icon name="mdi:code-greater-than" size="30" :class="{ 'text-sky-700 dark:text-sky-400': pageNumber < totalPage }" />
-      </button>
+      <button :disabled="pageNumber >= totalPage" class="fa fa-arrow-right" @click="onNextPageClick" />
     </div>
   </main>
 </template>

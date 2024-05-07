@@ -31,14 +31,12 @@ export default defineNuxtConfig({
   },
 
   modules: [
-    'nuxt-icon',
     '@nuxt/image',
     '@vueuse/nuxt',
     'nuxt-og-image',
     '@nuxtjs/robots',
     '@nuxtjs/fontaine',
     '@nuxtjs/color-mode',
-    'nuxt-simple-sitemap',
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
   ],
