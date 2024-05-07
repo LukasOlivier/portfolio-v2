@@ -10,9 +10,6 @@ export default defineNuxtConfig({
     },
   },
 
-  sitemap: {
-    strictNuxtContentPaths: true,
-  },
   site: {
     url: 'https://lukasolivier.be',
     identity: {
@@ -33,7 +30,6 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/image',
     '@vueuse/nuxt',
-    'nuxt-og-image',
     '@nuxtjs/robots',
     '@nuxtjs/fontaine',
     '@nuxtjs/color-mode',
