@@ -10,10 +10,6 @@ export default defineNuxtConfig({
     },
   },
 
-  build: {
-    transpile: [/vue3-library-reproduction/],
-  },
-
   sitemap: {
     strictNuxtContentPaths: true,
   },
@@ -28,15 +24,6 @@ export default defineNuxtConfig({
     strict: true,
   },
 
-  nitro: {
-    prerender: {
-      crawlLinks: true,
-      routes: [
-        '/',
-      ],
-    },
-  },
-
   colorMode: {
     classSuffix: '',
     preference: 'dark',
@@ -48,12 +35,12 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@vueuse/nuxt',
     'nuxt-og-image',
-    '@nuxt/content',
     '@nuxtjs/robots',
     '@nuxtjs/fontaine',
     '@nuxtjs/color-mode',
     'nuxt-simple-sitemap',
     '@nuxtjs/tailwindcss',
+    '@nuxt/content',
   ],
 
   content: {
