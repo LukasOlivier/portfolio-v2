@@ -3,8 +3,7 @@
     <header class="fixed w-full bg-[#F1F2F4] dark:bg-slate-950 z-10">
       <MainHeader />
     </header>
-    <main>
-      <div class="p-9" />
+    <main class="pt-20 pb-10 px-6 sm:px-0">
       <slot />
     </main>
     <footer>
