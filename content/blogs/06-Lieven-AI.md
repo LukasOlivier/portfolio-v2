@@ -9,9 +9,13 @@ published: true
 
 In an enlightening session, [Lieven Scheire](https://www.lievenscheire.be/) took us on a captivating journey through the evolution and current state of Artificial Intelligence. From the humble beginnings of AI, hindered by insufficient computing power, to today's powerful machines enabling revolutionary applications like DALL-E, Lieven covered it all.
 
+<img src="/blogs-img/lieven2.jpg" style="height: 20rem; width: 100%; object-fit: cover;"/>
+
 ## The AI Revolution: Pattern Recognition vs. Classical Programming 💡
 
 Lieven shed light on the AI revolution, emphasizing the shift from classical programming to pattern recognition. He drew parallels with Clippy, Microsoft's once-revolutionary but often annoying virtual assistant, as an early example of AI attempting to understand and assist users.
+
+<img src="/blogs-img/lieven3.jpg" style="height: 20rem; width: 100%; object-fit: cover;"/>
 
 ## The Power of Modern Smartphones: Beyond Apollo 11 🚀
 
@@ -20,9 +24,12 @@ Diving into AI Use Cases: From [Photomath](https://photomath.com/) to Multilingu
 
 Lieven presented various AI use cases, from solving math problems with apps like Photomath to using Google Translate for real-time translation of traffic signs or menus using your smartphone's camera. He even showcased the futuristic ability to translate videos of oneself into different languages with corresponding mouth movements and voices.
 
+
 ## The Enigma of Neural Networks: Explained with a Dice 🎲
 
 With a touch of humor, Lieven demystified the complexity of neural networks by comparing them to a dice. This analogy provided a simple yet effective understanding of how these networks function.
+
+<img src="/blogs-img/lieven4.jpg" style="height: 20rem; width: 100%; object-fit: cover;"/>
 
 ## Unveiling the Black Box: AI's Self-Training Mystery 🤖
 
@@ -44,51 +51,9 @@ Surprising the audience, Lieven highlighted that Captcha serves not only as a te
 
 In a powerful demonstration, Lieven showcased the capabilities of ChatGPT, emphasizing its strength in natural language processing and interaction. The audience witnessed firsthand the potential of AI in generating human-like text.
 
+<img src="/blogs-img/lieven5.jpg" style="height: 20rem; width: 100%; object-fit: cover;"/>
+
+
 ## Wrapping Up: Thank You, Lieven! 👏
 
 A heartfelt thank you to Lieven Scheire for taking us on this insightful journey through the world of AI. From its humble beginnings to the complex challenges and incredible advancements, Lieven left us with a deeper understanding and appreciation for the power of Artificial Intelligence.
-
-<div
-  style={{
-    display: "flex",
-    flexWrap: "wrap",
-    gap: "5%",
-    justifyContent: "center",
-  }}>
-  <img
-    src="/img/lieven2.jpg"
-    style={{
-      flexGrow: "1",
-      maxWidth: "30rem",
-      height: "300px",
-      objectFit: "cover",
-    }}
-  />
-  <img
-    src="/img/lieven3.jpg"
-    style={{
-      flexGrow: "1",
-      maxWidth: "30rem",
-      height: "300px",
-      objectFit: "cover",
-    }}
-  />
-  <img
-    src="/img/lieven4.jpg"
-    style={{
-      flexGrow: "1",
-      maxWidth: "30rem",
-      height: "300px",
-      objectFit: "cover",
-    }}
-  />
-  <img
-    src="/img/lieven5.jpg"
-    style={{
-      flexGrow: "1",
-      maxWidth: "30rem",
-      height: "300px",
-      objectFit: "cover",
-    }}
-  />
-</div>

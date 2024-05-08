@@ -48,47 +48,9 @@ A heartfelt thank you to the Howest Bruges team and all the Applied Computer Sci
 
 You can download our workshop [here](https://drive.google.com/drive/folders/1YFTZ3GLQilWwrtiMukJCJgMazEaH1Dec?usp=sharing)
 
-<div
-  style={{
-    display: "flex",
-    flexWrap: "wrap",
-    gap: "5%",
-    justifyContent: "center",
-  }}>
-  <img
-    src="/img/vti1.jpg"
-    style={{
-      flexGrow: "1",
-      maxWidth: "30rem",
-      height: "300px",
-      objectFit: "cover",
-    }}
-  />
-  <img
-    src="/img/vti2.jpg"
-    style={{
-      flexGrow: "1",
-      maxWidth: "30rem",
-      height: "300px",
-      objectFit: "cover",
-    }}
-  />
-  <img
-    src="/img/vti3.jpg"
-    style={{
-      flexGrow: "1",
-      maxWidth: "30rem",
-      height: "300px",
-      objectFit: "cover",
-    }}
-  />
-  <img
-    src="/img/vti4.jpg"
-    style={{
-      flexGrow: "1",
-      maxWidth: "30rem",
-      height: "300px",
-      objectFit: "cover",
-    }}
-  />
+<div style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: space-between">
+ <img src="/blogs-img/vti1.jpg" style="object-fit: cover; height: 18rem;" />
+  <img src="/blogs-img/vti4.jpg" style="object-fit: cover; height: 18rem;" />
+  <img src="/blogs-img/vti2.jpg" style="object-fit: cover; height: 18rem;" />
 </div>
+<img src="/blogs-img/vti3.jpg" style="object-fit: cover; height: 20rem; width: 100%" />
