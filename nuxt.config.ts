@@ -10,21 +10,14 @@ export default defineNuxtConfig({
     },
   },
 
-  site: {
-    url: 'https://lukasolivier.be',
-    identity: {
-      type: 'Person',
-    },
-  },
-
   typescript: {
     strict: true,
   },
 
   colorMode: {
+    preference: 'system', // default value of $colorMode.preference
     classSuffix: '',
-    preference: 'dark',
-    fallback: 'light',
+
   },
 
   modules: [
@@ -35,6 +28,7 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
+    '@nuxtjs/color-mode',
   ],
 
   content: {
