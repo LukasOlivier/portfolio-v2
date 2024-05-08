@@ -56,7 +56,7 @@ function onNextPageClick() {
 }
 
 useHead({
-  title: 'Archive',
+  title: 'Blog',
   meta: [
     {
       name: 'description',

@@ -7,6 +7,7 @@ export default defineNuxtConfig({
       title: 'Lukas Olivier',
       titleTemplate: '%s - Lukas Olivier',
       meta: [{ name: 'description', content: 'The e-portfolio of Lukas Olivier' }],
+      link: [{ rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css' }],
     },
   },
 

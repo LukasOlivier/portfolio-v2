@@ -36,8 +36,6 @@ onMounted(() => {
         ref="typeWriterElement" class="
         text-black
         dark:text-white
-        text-1xl
-        md:text-2xl
         mb-10"
       />
 
@@ -54,7 +52,6 @@ onMounted(() => {
         "
       >
         <NuxtLink
-
           to="/blogs"
         >
           Check my blog!
@@ -85,8 +82,14 @@ onMounted(() => {
       src="~/assets/images/pattern5.png"
       alt="pattern"
     >
-    <a class="arrow-container" href="#about-me">
-      <i class="arrow" />
+    <a
+      class="absolute bottom-10 w-full flex justify-center text-black dark:text-white "
+      href="#about-me"
+    >
+      <i
+        id="down-arrow"
+        class="fa fa-chevron-down text-4xl" aria-hidden="true"
+      />
     </a>
   </div>
 </template>
@@ -100,5 +103,19 @@ button{
 }
 button:hover{
     background-position: left bottom;
+}
+#down-arrow{
+    animation: bounce 2s infinite;
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-15px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
 }
 </style>
