@@ -29,8 +29,8 @@ withDefaults(defineProps<Props>(), {
         :src="image"
         :alt="alt"
       />
-      <div class="px-3 pb-4">
-        <div class="text-black dark:text-zinc-300    pt-3 pb-2">
+      <div class="pb-4">
+        <div class="text-black dark:text-zinc-300 pt-3 pb-2">
           <div class="flex items-center">
             <LogoDate />
             {{ date }}

@@ -68,10 +68,10 @@ useHead({
 </script>
 
 <template>
-  <main class="container max-w-5xl mx-auto text-zinc-600">
+  <main class="w-8/12 mx-auto text-zinc-600">
     <ArchiveHero />
 
-    <div class="px-6">
+    <div>
       <input
         v-model="searchTest"
         placeholder="Search"
@@ -81,7 +81,7 @@ useHead({
     </div>
 
     <ClientOnly>
-      <div class="space-y-5 my-5 px-4">
+      <div class="space-y-5 my-5 ">
         <template v-for="post in paginatedData" :key="post.title">
           <ArchiveCard
             :path="post.path"
