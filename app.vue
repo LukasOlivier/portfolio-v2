@@ -1,17 +1,20 @@
 <script setup>
+const age = new Date().getFullYear() - 2003
+
 const description
-  = 'Riyad, Software Engineer at AppsCode working on ByteBuilders, with over 2+ years experience in Frontend development.'
+  = `Lukas Olivier: I am a ${age}-year-old software engineering student, deeply passionate about programming and technology.`
 const ogTitle
-  = 'Riyad codes and helps others learn Javascript, Typescript, Vue, Nuxt, & Problem Solving'
+  = 'Lukas Olivier - Software Engineering Student'
 const twitterDescription
-  = 'My blog website, where I play around with Nuxt, Vue, and more and showcase my blog, resources, etc'
+  = `Lukas Olivier: I am a ${age}-year-old software engineering student, deeply passionate about programming and technology.`
 const image
   = 'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp'
-const mySite = 'https://blog-nurriyad.vercel.app/'
+const mySite = 'https://lukasolivier.be'
 useHead({
   htmlAttrs: {
     lang: 'en',
   },
+  link: [{ rel: 'canonical', href: 'https://lukasolivier.be' }],
   meta: [
     {
       name: 'description',
