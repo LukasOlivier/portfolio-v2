@@ -1,9 +1,23 @@
 <script setup lang="ts">
+import { useRoute } from 'vue-router'
 import type { BlogPost } from '@/types/blog'
 
 const { path } = useRoute()
 
 const { data: articles, error } = await useAsyncData(`blog-post-${path}`, () => queryContent(path).findOne())
+
+const router = useRouter()
+function handleBrowserBack(t) {
+  router.push('/blogs')
+}
+
+onMounted(() => {
+  window.addEventListener('popstate', handleBrowserBack)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('popstate', handleBrowserBack)
+})
 
 if (error.value)
   navigateTo('/404')
