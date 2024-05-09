@@ -69,7 +69,10 @@ onMounted(() => {
         opacity-50
         w-1/5
         invert
-        dark:invert-0"
+        dark:invert-0
+        sm:hidden
+        xl:block
+        "
       src="/assets/images/pattern4.png"
       alt="swiggle"
     >
@@ -83,6 +86,8 @@ onMounted(() => {
         w-1/5
         invert
         dark:invert-0
+        sm:hidden
+        md:block
         "
       src="~/assets/images/pattern5.png"
       alt="pattern"
