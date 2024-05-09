@@ -74,6 +74,7 @@ const projects = ref([
     image: '/projects-img/pilsopoly.jpg',
     category: 'School',
     tags: ['HTML5-plain', 'CSS3-plain', 'JavaScript-plain', 'Java-plain', 'VertX-plain'],
+    github: 'https://github.com/LukasOlivier/pilsopoly',
   },
   {
     id: 2,
