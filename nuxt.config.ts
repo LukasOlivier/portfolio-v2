@@ -18,7 +18,6 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'system', // default value of $colorMode.preference
     classSuffix: '',
-
   },
 
   modules: [
@@ -29,7 +28,6 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
-    '@nuxtjs/color-mode',
     '@vueuse/motion/nuxt',
   ],
 
