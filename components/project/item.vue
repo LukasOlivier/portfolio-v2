@@ -81,14 +81,16 @@ function toggleShowFullDescription() {
   transition: transform 0.3s;
 }
 
-.card:nth-child(2n+1):hover {
-  transform: scale(1.05) rotate(2deg) ;
-  cursor: pointer;
-}
+@media (min-width: 768px) {
+  .card:nth-child(2n+1):hover {
+    transform: scale(1.05) rotate(2deg);
+    cursor: pointer;
+  }
 
-.card:nth-child(2n):hover {
-  transform: scale(1.05) rotate(-2deg) ;
-  cursor: pointer;
+  .card:nth-child(2n):hover {
+    transform: scale(1.05) rotate(-2deg);
+    cursor: pointer;
+  }
 }
 
 /* Truncate text */
