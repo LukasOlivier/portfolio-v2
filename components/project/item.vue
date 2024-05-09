@@ -22,10 +22,30 @@ function toggleShowFullDescription() {
       :src="project.image"
       :alt="project.title"
     >
+
     <div class="p-6">
-      <h2 class="text-black dark:text-zinc-300 text-xl font-semibold mb-2">
-        {{ project.title }}
-      </h2>
+      <div class="flex items-center justify-between">
+        <h2 class="text-black dark:text-zinc-300 text-xl font-semibold mb-2">
+          {{ project.title }}
+        </h2>
+        <nav class="flex gap-3">
+          <a
+            v-if="project.github"
+            :href="project.github" class="text-indigo-500 dark:text-zinc-300"
+            target="_blank"
+          >
+            <i class="fab fa-github " />
+          </a>
+          <a v-if="project.website" :href="project.website" class="text-indigo-500 dark:text-zinc-300" target="_blank">
+            <i class="fas fa-external-link-alt " />
+
+          </a>
+          <a v-if="project.linkedin" :href="project.linkedin" class="text-indigo-500 dark:text-zinc-300" target="_blank">
+            <i class="fab fa-linkedin " />
+          </a>
+        </nav>
+      </div>
+
       <p
         class="text-gray-600 dark:text-zinc-400 text-base"
         :class="{
@@ -38,9 +58,18 @@ function toggleShowFullDescription() {
         class="mt-5 text-indigo-500 dark:text-zinc-300 inline-flex items-center cursor-pointer hover:underline"
         @click.prevent="toggleShowFullDescription"
       >
-        Learn More
+        {{ showFullDescription ? 'Show less' : 'Show more' }}
       </p>
     </div>
+    <ul class="flex items-center ml-6 mb-6 gap-3">
+      <li
+        v-for="tag in project.tags"
+        :key="tag"
+        class="text-gray-600 dark:text-zinc-400 "
+      >
+        <i :class="`devicon-${tag.toLowerCase()} text-lg`" />
+      </li>
+    </ul>
   </div>
 </template>
 
