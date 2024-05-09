@@ -65,6 +65,7 @@ const projects = ref([
     image: '/projects-img/mars.jpg',
     category: 'School',
     tags: ['HTML5-plain', 'SASS-plain', 'JavaScript-plain', 'Java-plain', 'VertX-plain'],
+    github: 'https://github.com/LukasOlivier/events-united',
   },
   {
     id: 3,
