@@ -29,17 +29,20 @@ onMounted(() => {
     <section
       id="home" class="xl:w-1/3 mx-auto mt-52 sm:w-9/12 "
     >
-      <h1 class=" text-black dark:text-white font-semibold leading-tight text-6xl md:text-7xl ">
+      <h1 v-motion-slide-visible-once-top class=" text-black dark:text-white font-semibold leading-tight text-6xl md:text-7xl ">
         Lukas Olivier
       </h1>
       <p
-        ref="typeWriterElement" class="
+        ref="typeWriterElement"
+        v-motion-slide-visible-once-top class="
         text-black
         dark:text-white
         mb-10"
       />
 
       <button
+        v-motion-slide-visible-once-left
+
         class="
         text-black
         dark:text-zinc-300
@@ -59,6 +62,7 @@ onMounted(() => {
       </button>
     </section>
     <img
+      v-motion-pop-visible-once
       class="
         absolute
         bottom-40
@@ -70,6 +74,7 @@ onMounted(() => {
       alt="swiggle"
     >
     <img
+      v-motion-pop-visible-once
       class="
         absolute
         bottom-40

@@ -139,7 +139,7 @@ function getProjects() {
           </li>
         </ul>
       </div>
-      <ul class="grid grid-cols-4 gap-5 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4">
+      <ul v-motion-slide-visible-once-top class="grid grid-cols-4 gap-5 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4 ">
         <project-item v-for="project in getProjects()" :key="project.id" :project="project" @click="showFullDescription(project)" />
       </ul>
     </section>

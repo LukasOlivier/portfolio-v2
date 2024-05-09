@@ -30,6 +30,7 @@ export default defineNuxtConfig({
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
     '@nuxtjs/color-mode',
+    '@vueuse/motion/nuxt',
   ],
 
   content: {

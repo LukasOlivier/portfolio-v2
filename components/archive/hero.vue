@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto mb-5">
     <div class="grid grid-cols-1 sm:grid-cols-2 items-center">
-      <div>
+      <div v-motion-slide-visible-once-top>
         <h1 class="text-black dark:text-zinc-300 font-semibold leading-tight text-4xl md:text-5xl my-5">
           Welcome to my blog!
         </h1>
@@ -10,7 +10,7 @@
         </p>
       </div>
       <div class="scale-50 justify-self-center">
-        <LogoDogpow />
+        <LogoDogpow v-motion-slide-visible-once-right />
       </div>
     </div>
   </div>

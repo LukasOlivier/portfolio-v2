@@ -71,7 +71,7 @@ useHead({
   <main class="w-9/12 mx-auto text-zinc-600">
     <ArchiveHero />
 
-    <div>
+    <div v-motion-slide-visible-once-top>
       <input
         v-model="searchTest"
         placeholder="Search"
@@ -81,7 +81,7 @@ useHead({
     </div>
 
     <ClientOnly>
-      <div class="space-y-5 my-5 ">
+      <div v-motion-slide-visible-once-top class="space-y-5 my-5 ">
         <template v-for="post in paginatedData" :key="post.title">
           <ArchiveCard
             :path="post.path"
