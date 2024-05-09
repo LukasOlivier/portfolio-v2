@@ -68,7 +68,7 @@ useHead({
 </script>
 
 <template>
-  <main class="w-8/12 mx-auto text-zinc-600">
+  <main class="w-9/12 mx-auto text-zinc-600">
     <ArchiveHero />
 
     <div>

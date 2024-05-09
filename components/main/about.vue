@@ -1,5 +1,5 @@
 <template>
-  <section id="about-me" class="w-8/12 mx-auto py-20 flex justify-between">
+  <section id="about-me" class="w-9/12 mx-auto py-20 flex justify-between">
     <div class="w-3/5 flex flex-col">
       <h1
         class="
