@@ -121,11 +121,11 @@ function getProjects() {
       Here you will find all the projects I have worked on during my career.
     </p>
     <section class="flex flex-col">
-      <div class="w-1/4">
+      <div>
         <h2 class="text-black dark:text-zinc-300 font-semibold leading-tight text-2xl md:text-3xl my-5">
           Categories
         </h2>
-        <ul class="flex flex-wrap justify-between mb-5">
+        <ul class="flex flex-wrap gap-5 mb-5">
           <li
             v-for="category in categories"
             :key="category"
@@ -139,7 +139,7 @@ function getProjects() {
           </li>
         </ul>
       </div>
-      <ul class="grid grid-cols-4 gap-5">
+      <ul class="grid grid-cols-4 gap-5 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4">
         <project-item v-for="project in getProjects()" :key="project.id" :project="project" @click="showFullDescription(project)" />
       </ul>
     </section>

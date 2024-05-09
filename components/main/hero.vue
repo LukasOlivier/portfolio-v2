@@ -27,7 +27,7 @@ onMounted(() => {
 <template>
   <div class=" flex flex-col h-screen">
     <section
-      id="home" class="w-1/3 mx-auto mt-52 "
+      id="home" class="xl:w-1/3 mx-auto mt-52 sm:w-9/12 "
     >
       <h1 class=" text-black dark:text-white font-semibold leading-tight text-6xl md:text-7xl ">
         Lukas Olivier

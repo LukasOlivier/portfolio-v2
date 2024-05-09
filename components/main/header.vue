@@ -7,9 +7,9 @@ function onClick(val: string) {
 
 <template>
   <div class="py-5 border-b dark:border-gray-800  font-semibold">
-    <div class="flex container w-9/12 justify-between mx-auto items-baseline ">
+    <div class="flex w-9/12 justify-between mx-auto items-baseline ">
       <ul class="flex items-baseline space-x-5">
-        <li class="text-base sm:text-2xl font-bold">
+        <li class="text-base sm:text-xl font-bold">
           <NuxtLink to="/">
             Lukas Olivier
           </NuxtLink>
