@@ -18,7 +18,6 @@ function toggleShowFullDescription() {
 <template>
   <div
     class="card bg-white dark:bg-slate-700 shadow-lg rounded-lg overflow-hidden"
-    @click.prevent="toggleShowFullDescription"
   >
     <img
       class="w-full h-56 object-cover object-center"
@@ -54,6 +53,7 @@ function toggleShowFullDescription() {
         :class="{
           'text-truncate': !showFullDescription,
         }"
+        @click.prevent="toggleShowFullDescription"
       >
         {{ project.description }}
       </p>
