@@ -1,7 +1,3 @@
-<script setup lang="ts">
-
-</script>
-
 <template>
   <footer
     id="contact" class="py-10 mt-20 bg-black dark:bg-opacity-30 bg-opacity-5"
@@ -15,10 +11,10 @@
         </li>
         <li>
           <p>
-            This website is made with <a class="underline" href="https://nuxt.com/">Nuxt 3</a> and <a class="underline" href="https://tailwindcss.com/">Tailwind</a>
+            This website is made with <a class="underline" href="https://nuxt.com/">Nuxt 3</a> and <a class="underline" href="https://tailwindcss.com/">Tailwind CSS</a>
           </p>
         </li>
-        <li><p>Made using <a href="https://code.visualstudio.com/">Visual Studio Code</a></p></li>
+        <li><p>Made using <a class="underline" href="https://code.visualstudio.com/">Visual Studio Code</a></p></li>
         <li><p>Hosted on <a class="underline" href="https://www.cloudflare.com/">Cloudflare</a></p></li>
       </ul>
 
