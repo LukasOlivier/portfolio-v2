@@ -16,7 +16,10 @@ function toggleShowFullDescription() {
 </script>
 
 <template>
-  <div class="card bg-white dark:bg-slate-700 shadow-lg rounded-lg overflow-hidden">
+  <div
+    class="card bg-white dark:bg-slate-700 shadow-lg rounded-lg overflow-hidden"
+    @click.prevent="toggleShowFullDescription"
+  >
     <img
       class="w-full h-56 object-cover object-center"
       :src="project.image"
@@ -80,10 +83,12 @@ function toggleShowFullDescription() {
 
 .card:nth-child(2n+1):hover {
   transform: scale(1.05) rotate(2deg) ;
+  cursor: pointer;
 }
 
 .card:nth-child(2n):hover {
   transform: scale(1.05) rotate(-2deg) ;
+  cursor: pointer;
 }
 
 /* Truncate text */
