@@ -15,6 +15,13 @@ export default defineNuxtConfig({
     strict: true,
   },
 
+  site: {
+    url: 'https://lukasolivier.be',
+    name: 'Lukas Olivier',
+    description: 'The e-portfolio of Lukas Olivier',
+    defaultLocale: 'en',
+  },
+
   colorMode: {
     preference: 'system', // default value of $colorMode.preference
     classSuffix: '',
@@ -23,12 +30,12 @@ export default defineNuxtConfig({
   modules: [
     '@nuxt/image',
     '@vueuse/nuxt',
-    '@nuxtjs/robots',
     '@nuxtjs/fontaine',
     '@nuxtjs/color-mode',
     '@nuxtjs/tailwindcss',
     '@nuxt/content',
     '@vueuse/motion/nuxt',
+    '@nuxtjs/seo',
   ],
 
   content: {
