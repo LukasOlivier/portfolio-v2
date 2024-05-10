@@ -112,6 +112,17 @@ function getProjects() {
     return project.category === pickedCategory.value
   })
 }
+
+useHead({
+  title: 'Projects',
+  meta: [
+    {
+      name: 'description',
+      content: 'Here you will find all the projects I have worked on during my career.',
+    },
+  ],
+  titleTemplate: 'Lukas Olivier - %s',
+})
 </script>
 
 <template>
