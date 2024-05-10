@@ -17,51 +17,47 @@
         <li><p>Made using <a class="underline" href="https://code.visualstudio.com/">Visual Studio Code</a></p></li>
         <li><p>Hosted on <a class="underline" href="https://www.cloudflare.com/">Cloudflare</a></p></li>
       </ul>
-
       <ul
         id="social-links" class="grid grid-cols-2 gap-x-10 gap-y-2 sm:gap-2 "
       >
         <li>
           <p class="sm:text-2xl md:text-base">
-            <i class="fa-brands fa-linkedin " />
-            <a
-              target="_blank"
-              href="https://www.linkedin.com/in/lukas-olivier-a19862231/"
-            ><span
-              class="sm:hidden md:inline"
-            >LukasOlivier</span></a>
+            <a target="_blank" href="https://www.linkedin.com/in/lukas-olivier-a19862231/">
+              <i class="fa-brands fa-linkedin mr-2" />
+              <span class="sm:hidden md:inline">LukasOlivier</span>
+            </a>
           </p>
         </li>
         <li>
           <p class="sm:text-2xl md:text-base">
-            <i class="fa-brands fa-github " />
-            <a target="_blank" href="https://github.com/LukasOlivier"><span
-              class="sm:hidden md:inline"
-            >LukasOlivier</span></a>
+            <a target="_blank" href="https://github.com/LukasOlivier">
+              <i class="fa-brands fa-github mr-2" />
+              <span class="sm:hidden md:inline">LukasOlivier</span>
+            </a>
           </p>
         </li>
         <li>
           <p class="sm:text-2xl md:text-base">
-            <i class="fa-brands fa-instagram m" />
-            <a target="_blank" href="https://www.instagram.com/lukasoli4/"><span
-              class="sm:hidden md:inline"
-            >LukasOli4</span></a>
+            <a target="_blank" href="https://www.instagram.com/lukasoli4/">
+              <i class="fa-brands fa-instagram mr-2" />
+              <span class="sm:hidden md:inline">LukasOli4</span>
+            </a>
           </p>
         </li>
         <li>
           <p class="sm:text-2xl md:text-base">
-            <i class="fa-brands fa-facebook " />
-            <a target="_blank" href="https://www.facebook.com/LukasOlivier2"><span
-              class="sm:hidden md:inline"
-            >LukasOlivier2</span></a>
+            <a target="_blank" href="https://www.facebook.com/LukasOlivier2">
+              <i class="fa-brands fa-facebook mr-2 " />
+              <span class="sm:hidden md:inline">LukasOlivier2</span>
+            </a>
           </p>
         </li>
         <li>
           <p class="sm:text-2xl md:text-base">
-            <i class="fa-regular fa-envelope " />
-            <a href="mailto:mail@lukasolivier.be "><span
-              class="sm:hidden md:inline"
-            >mail@lukasolivier.be</span></a>
+            <a href="mailto:mail@lukasolivier.be ">
+              <i class="fa-regular fa-envelope mr-2 " />
+              <span class="sm:hidden md:inline">mail@lukasolivier.be</span>
+            </a>
           </p>
         </li>
       </ul>
