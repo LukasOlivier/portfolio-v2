@@ -6,8 +6,8 @@ function onClick(val: string) {
 </script>
 
 <template>
-  <div class="py-5 border-b dark:border-gray-800  font-semibold">
-    <div class="flex w-9/12 justify-between mx-auto items-baseline ">
+  <div class="py-5 border-b dark:border-gray-800  font-semibold ">
+    <div class="flex w-9/12 md:justify-between mx-auto items-baseline sm:justify-center ">
       <ul class="flex items-baseline sm:hidden md:block space-x-5">
         <li class="text-base sm:text-xl font-bold ">
           <NuxtLink to="/">

@@ -2,8 +2,8 @@
   <footer
     id="contact" class="py-10 mt-20 bg-black dark:bg-opacity-30 bg-opacity-5"
   >
-    <div class="w-9/12 mx-auto flex justify-between items-center ">
-      <ul class="flex flex-col gap-1">
+    <div class="w-9/12 mx-auto flex justify-between items-center gap-4 ">
+      <ul class="flex flex-col gap-1 ">
         <li>
           <h4 class="text-4xl font-bold mb-2">
             Thank you!
