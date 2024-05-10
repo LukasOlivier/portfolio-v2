@@ -18,7 +18,7 @@
         <li><p>Hosted on <a class="underline" href="https://www.cloudflare.com/">Cloudflare</a></p></li>
       </ul>
       <ul
-        id="social-links" class="grid grid-cols-2 gap-x-10 gap-y-2 sm:gap-2 "
+        id="social-links" class="grid grid-cols-2 gap-x-10 gap-y-2"
       >
         <li>
           <p class="sm:text-2xl md:text-base">
