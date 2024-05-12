@@ -79,7 +79,7 @@ const projects = ref([
   {
     id: 2,
     title: 'Home server',
-    description: 'I run all sorts of self hosted services on my Raspberry Pi. These are run using Docker containers and managed using Dockge. Safely exposed to the internet using Cloudflare Tunnels. The server is running Ubuntu Server 23.10 LTS. Iam running Nextcloud for file storage, Bitwarden for password management and Immich for photo and video storage. Iam using RAID 1 for data redundancy.',
+    description: 'I run all sorts of self hosted services on my Raspberry Pi. These are run using Docker containers and managed using Dockge. Safely exposed to the internet using Cloudflare Tunnels. The server is running Ubuntu Server 23.10 LTS. I am running Nextcloud for file storage, Bitwarden for password management and Immich for photo and video storage. I am using RAID 1 for data redundancy.',
     image: '/projects-img/homeserver.jpg',
     category: 'Personal',
     tags: ['Docker-plain', 'Ubuntu-plain', 'Cloudflare-plain'],

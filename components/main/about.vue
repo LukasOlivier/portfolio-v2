@@ -19,7 +19,7 @@
         actively contribute to a youth movement, and in my free time I
         find creative expression in drumming.
         <br><br>
-        This year Iam starting my final year of my bachelor's degree in
+        This year I am starting my final year of my bachelor's degree in
         software engineering at Howest Brugge. I am looking for an
         internship in the field of software engineering. I am open to all
         kinds of opportunities, but I am especially interested in web
