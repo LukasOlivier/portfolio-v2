@@ -15,7 +15,7 @@
           </p>
         </li>
         <li><p>Made using <a class="underline" href="https://code.visualstudio.com/">Visual Studio Code</a></p></li>
-        <li><p>Hosted on <a class="underline" href="https://www.cloudflare.com/">Cloudflare</a></p></li>
+        <li><p>Hosted on <a class="underline" href="https://vercel.com/">Vercel</a></p></li>
       </ul>
       <ul
         id="social-links" class="grid grid-cols-2 gap-x-10 gap-y-2"
