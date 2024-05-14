@@ -14,22 +14,13 @@
         About me
       </h1>
       <p>
-        I am a {{ new Date().getFullYear() - 2003 }}-year-old software engineering student, deeply passionate
-        about programming and technology. In addition to my studies, I
-        actively contribute to a youth movement, and in my free time I
-        find creative expression in drumming.
-        <br><br>
-        This year I am starting my final year of my bachelor's degree in
-        software engineering at Howest Brugge. I am looking for an
-        internship in the field of software engineering. I am open to all
-        kinds of opportunities, but I am especially interested in web
-        development and mobile development.
-        <br><br>
-        I am a fast learner and I am always eager to learn new things. I
-        am a team player and I am always ready to help others, but I can
-        also work independently. I am a perfectionist and I always strive
-        to deliver the best possible result.
-        <br><br>
+        As a {{ new Date().getFullYear() - 2003 }}-year-old software engineering student, I have a deep passion for programming and technology. Besides my studies, I actively contribute to a youth movement, and I find creative expression through drumming in my free time. <br><br>
+
+        This year marks the final year in the bachelor's program in software engineering at Howest Brugge.
+
+        I'm a fast learner, always eager to acquire new knowledge. While I thrive in team environments and am ready to assist others, I am equally capable of working independently. As a perfectionist, I strive to deliver the best possible results.<br><br>
+
+        I am currently learning <a class="underline" target="_blank" href="https://nuxt.com/">Nuxt 3</a>  and <a class="underline" target="_blank" href="https://tailwindcss.com/">Tailwind CSS</a> to create websites like this one. Find all my projects on <a class="underline" href="/projects">my projects page</a>. Or read about my experiences as a software engineering student on <a class="underline" href="/blogs">my blog</a>. <br><br>
       </p>
       <h2
         class="
