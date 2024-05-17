@@ -1,58 +1,56 @@
 ---
 title: Flutter Belgium Meetup
 date: 15/05/24
-description: "Een Evenement Vol Innovatie en inzichten over Toegankelijkheid"
+description: "An Event Full of Innovation and Insights on Accessibility"
 image: /blogs-img/flutter/thumbnail.png
 alt: Flutter Belgium
 published: true
 ---
 
-# Flutter Belgium Meetup: Een Evenement Vol Innovatie
+# Flutter Belgium Meetup: An Event Full of Innovation
 
-[**Flutter Belgium**](https://www.linkedin.com/company/flutter-belgium/) organiseerde onlangs een evenement dat volledig in het teken stond van innovatieve projecten en de cruciale rol van toegankelijkheid in softwareontwikkeling. Hier zijn de belangrijkste punten.
+[**Flutter Belgium**](https://www.linkedin.com/company/flutter-belgium/) recently organized an event that focused entirely on innovative projects and the crucial role of accessibility in software development. Here are the key points.
 
-## Lightning Talks: Inspirerende Projecten
+## Lightning Talks: Inspiring Projects
 
-Tijdens de **Lightning Talks** werden verschillende opwindende projecten gepresenteerd:
+During the **Lightning Talks**, various exciting projects were presented:
 
-**WebRTC Bestanden Delen**: Een demo-app die bestanden uitwisselt tussen apparaten via WebRTC.
+**WebRTC File Sharing**: A demo app that exchanges files between devices via WebRTC.
 
-**Brouwerijen Weergeven**: Een project dat brouwerijen op een kaart toont met GeoJSON.
+**Displaying Breweries**: A project that shows breweries on a map using GeoJSON.
 
-**Bitcoin Wallet**: Een applicatie voor het beheren van Bitcoin.
+**Bitcoin Wallet**: An application for managing Bitcoin.
 
-## OCR en YOLO: Slimme Oplossingen voor Landbouw
+## OCR and YOLO: Smart Solutions for Agriculture
 
-Een diepgaande presentatie toonde hoe OCR en de YOLO-bibliotheek worden gebruikt om boeren te helpen. Dit systeem controleert of de juiste producten in de juiste silo's worden afgeleverd en of de slangen correct zijn aangesloten, wat helpt verspilling te voorkomen.
+An in-depth presentation demonstrated how OCR and the YOLO library are used to help farmers. This system checks if the right products are delivered to the correct silos and if the hoses are properly connected, helping to prevent waste and wrong deliveries.
 <img src="/blogs-img/flutter/ocr.jpg" style="object-fit: cover; height: 20rem; width: 100%" />
 
-## De Noodzaak van Toegankelijkheid
+## The Necessity of Accessibility
 
-Een belangrijk thema van het evenement was **toegankelijkheid**:
+A major theme of the event was **accessibility**:
 
-**Waarom is Toegankelijkheid Belangrijk?**: Toegankelijkheid is essentieel voor 15% van de bevolking. Het is echter belangrijk voor iedereen, zoals mensen die tijdelijk beperkte mobiliteit hebben door een blessure.
+**Why is Accessibility Important?**: Accessibility is essential for 15% of the population. However, it is important for everyone, such as people with temporary mobility limitations due to injury.
 
-**Misvattingen Over Toegankelijkheid**: Toegankelijkheid hoeft niet duur te zijn als je er vroeg mee begint. Een ontoegankelijk product is vaak slecht ontworpen.
+**Misconceptions About Accessibility**: Accessibility doesn't have to be expensive if you start early. An inaccessible product is often just poorly designed.
 <img src="/blogs-img/flutter/accesiblity.jpg" style="object-fit: cover; height: 20rem; width: 100%" />
 
-
-### **Oplossingen voor Toegankelijkheid**:
+### **Solutions for Accessibility**:
 
 **Sensory**: 
-Grotere lettertypen en componenten, gebruik semantiek voor knoppen en acties voor blinde gebruikers.
+Larger fonts and components, use semantics for buttons and actions for blind users.
+<img src="/blogs-img/flutter/amazon.jpg" style="object-fit: cover; height: 20rem; width: 100%" />
 
-**Cognitieve Toegankelijkheid**: 
-Dyslectische lettertypen, korte teksten voor ADHD.
+**Cognitive Accessibility**: 
+Dyslexic fonts, short texts for ADHD.
 <img src="/blogs-img/flutter/dyslectic.jpg" style="object-fit: cover; height: 20rem; width: 100%" />
 
-
-**Mobiliteit**: 
-Heatmaps voor éénhandige bediening.
+**Mobility**: 
+Heatmaps for one-handed use. Place buttons where they are easy to reach.
 <img src="/blogs-img/flutter/onehanded.png" style="object-fit: cover; height: 23rem; width: 100%" />
 
-**Territoriale Toegankelijkheid**: 
-Denk aan landen met dure data-abonnementen of oudere telefoons, zoals bij Facebook Lite.
+**Territorial Accessibility**: 
+Consider countries with expensive data plans or older phones. Apps such as Facebook Lite are designed for these users. They are lightweight and use less data.
 <img src="/blogs-img/flutter/fblite.jpg" style="object-fit: cover; height: 20rem; width: 100%" />
 
-Het evenement van Flutter Belgium bood waardevolle inzichten en benadrukte hoe belangrijk het is om vanaf het begin toegankelijkheid te integreren in softwareontwikkeling. Deze interessante infosessie is trouwens beschikbaar op [YouTube](https://www.youtube.com/live/Xu0mEC6lB9Q?si=YWAx-uJFTBR8dkr-).
-
+Flutter Belgium's event provided valuable insights and emphasized the importance of integrating accessibility into software development from the start. This interesting info session is also available on [YouTube](https://www.youtube.com/live/Xu0mEC6lB9Q?si=YWAx-uJFTBR8dkr-).
