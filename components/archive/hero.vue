@@ -10,7 +10,7 @@
         </p>
       </div>
       <div class="scale-50 justify-self-center sm:hidden lg:block">
-        <LogoDogpow v-motion-slide-visible-once-right />
+        <LogoBlog v-motion-slide-visible-once-right />
       </div>
     </div>
   </div>

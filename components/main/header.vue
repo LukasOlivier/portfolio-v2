@@ -53,9 +53,3 @@ function onClick(val: string) {
     </div>
   </div>
 </template>
-
-<style>
-.router-link-active .router-link-exact-active  {
-  @apply underline
-}
-</style>
