@@ -2,7 +2,7 @@
 title: Flutter Belgium Meetup
 date: 15/05/24
 description: "Een Evenement Vol Innovatie en inzichten over Toegankelijkheid"
-image: /blogs-img/flutter.png
+image: /blogs-img/flutter/thumbnail.png
 alt: Flutter Belgium
 published: true
 ---
@@ -24,7 +24,7 @@ Tijdens de **Lightning Talks** werden verschillende opwindende projecten geprese
 ## OCR en YOLO: Slimme Oplossingen voor Landbouw
 
 Een diepgaande presentatie toonde hoe OCR en de YOLO-bibliotheek worden gebruikt om boeren te helpen. Dit systeem controleert of de juiste producten in de juiste silo's worden afgeleverd en of de slangen correct zijn aangesloten, wat helpt verspilling te voorkomen.
-<img src="/blogs-img/flutter-ocr.jpg" style="object-fit: cover; height: 20rem; width: 100%" />
+<img src="/blogs-img/flutter/ocr.jpg" style="object-fit: cover; height: 20rem; width: 100%" />
 
 ## De Noodzaak van Toegankelijkheid
 
