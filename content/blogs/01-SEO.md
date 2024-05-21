@@ -2,7 +2,7 @@
 title: Guest Lecture SEO
 date: 07/11/23
 description: "Discovering SEO: Frederik Vermeire's Dive into Website Optimization."
-image: /blogs-img/seo.png
+image: /blogs-img/seo/thumbnail.png
 alt: SEO
 published: true
 ---
@@ -16,7 +16,7 @@ Is Google still the king of searches, or are we turning more to platforms like T
 
 ### Bol.com's Clever Use of Synonyms
 And let's talk about an interesting phenomenon: the clever use of synonyms and context. Ever noticed how Bol.com subtly and ingeniously uses 'garden furniture' with various contexts in their product description? If you look closely, it seems like they randomly use different terms, but who reads the text under the title, right? They've placed it purely for SEO. 📚💡
-<img src="/blogs-img/bol.png" alt="bol example" width="600"/>
+<img src="/blogs-img/seo/bol.png" alt="bol example" width="600"/>
 
 
 ### The Three Pillars of SEO

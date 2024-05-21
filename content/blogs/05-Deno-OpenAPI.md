@@ -2,7 +2,7 @@
 title: Guest Lecture OpenAI & Deno
 date: 19/12/23
 description: "Unleashing the Power of Deno and OpenApi: A Journey with Dimitri Casier"
-image: /blogs-img/deno.png
+image: /blogs-img/deno/thumbnail.png
 alt: Deno and OpenApi
 published: true
 ---
