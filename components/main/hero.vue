@@ -40,9 +40,8 @@ onMounted(() => {
         mb-10"
       />
 
-      <button
+      <NuxtLink
         v-motion-slide-visible-once-left
-
         class="
         text-black
         dark:text-zinc-300
@@ -51,18 +50,18 @@ onMounted(() => {
         py-2
         px-4
         rounded-md
-        dark:hover:text-black
-        "
+        dark:hover:text-black"
+        to="/blogs"
       >
-        <NuxtLink
-          to="/blogs"
-        >
-          Check my blog!
-        </NuxtLink>
-      </button>
+        Check my blog!
+      </NuxtLink>
     </section>
-    <img
+    <NuxtImg
       v-motion-pop-visible-once
+      :placeholder="[50, 25, 75, 5]"
+      format="webp"
+      quality="85"
+      loading="lazy"
       class="
         absolute
         bottom-40
@@ -73,11 +72,15 @@ onMounted(() => {
         sm:hidden
         xl:block
         "
-      src="/assets/images/pattern4.webp"
+      src="/patterns/pattern4.webp"
       alt="swiggle"
-    >
-    <img
+    />
+    <NuxtImg
       v-motion-pop-visible-once
+      :placeholder="[50, 25, 75, 5]"
+      format="webp"
+      quality="85"
+      loading="lazy"
       class="
         absolute
         bottom-40
@@ -89,10 +92,10 @@ onMounted(() => {
         sm:hidden
         md:block
         "
-      src="~/assets/images/pattern5.webp"
+      src="/patterns/pattern5.webp"
       alt="pattern"
-    >
-    <a
+    />
+    <NuxtLink
       aria-label="Scroll down to about me"
       class="absolute bottom-10 w-full flex justify-center text-black dark:text-white "
       href="#about-me"
@@ -101,7 +104,7 @@ onMounted(() => {
         id="down-arrow"
         class="fa fa-chevron-down text-4xl" aria-hidden="true"
       />
-    </a>
+    </NuxtLink>
   </div>
 </template>
 

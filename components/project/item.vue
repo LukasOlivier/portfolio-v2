@@ -39,14 +39,15 @@ function toggleShowFullDescription() {
             v-if="project.github"
             :href="project.github" class="text-indigo-500 dark:text-zinc-300"
             target="_blank"
+            aria-label="visit github repository"
           >
             <i class="fab fa-github " />
           </a>
-          <a v-if="project.website" :href="project.website" class="text-indigo-500 dark:text-zinc-300" target="_blank">
+          <a v-if="project.website" :href="project.website" class="text-indigo-500 dark:text-zinc-300" target="_blank" aria-label="visit external link">
             <i class="fas fa-external-link-alt " />
 
           </a>
-          <a v-if="project.linkedin" :href="project.linkedin" class="text-indigo-500 dark:text-zinc-300" target="_blank">
+          <a v-if="project.linkedin" :href="project.linkedin" class="text-indigo-500 dark:text-zinc-300" target="_blank" aria-label="visit linkedin post">
             <i class="fab fa-linkedin " />
           </a>
         </nav>
