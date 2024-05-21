@@ -14,7 +14,7 @@ withDefaults(defineProps<Props>(), {
   title: 'no-title',
   date: 'no-date',
   description: 'no-description',
-  image: '/blogs-img/blog.jpg',
+  image: '/blogs-img/blog.webp',
   alt: 'no-alt',
   published: false,
 })

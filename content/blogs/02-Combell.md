@@ -2,7 +2,7 @@
 title: Guest Lecture Combell
 date: 07/11/23
 description: "Combell Unveiled: Premium Hosting for the Technological Tomorrow by Simon Verdonck "
-image: /blogs-img/combell/thumbnail.jpg
+image: /blogs-img/combell/thumbnail.webp
 alt: "Combell Unveiled: Premium Hosting for the Technological Tomorrow by Simon Verdonck"
 published: true
 ---

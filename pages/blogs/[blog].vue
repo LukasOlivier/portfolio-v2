@@ -26,7 +26,7 @@ const data = computed<BlogPost>(() => {
   return {
     title: articles.value?.title || 'no-title available',
     description: articles.value?.description || 'no-description available',
-    image: articles.value?.image || '/not-found.jpg',
+    image: articles.value?.image || '/not-found.webp',
     alt: articles.value?.alt || 'no alter data available',
     date: articles.value?.date || 'not-date-available',
     published: articles.value?.published || false,

@@ -2,7 +2,7 @@
 title: Hack The Future Antwerp
 date: 09/11/23
 description: "Code, Challenges, and Connections: HackTheFuture, a hackathon organized by the Cronos Group"
-image: /blogs-img/htf/htf.jpg
+image: /blogs-img/htf/htf.webp
 alt: Hack The Future Antwerp
 published: true
 ---
@@ -23,6 +23,6 @@ In retrospect, HackTheFuture was more than a competition; it was a journey of le
 
 Sincere appreciation for the organizers who managed to put together such a fantastic event, where creativity and learning were dynamically encouraged.
 
-<img src="/blogs-img/htf/htf2.jpeg"  />
-<img src="/blogs-img/htf/htf3.jpeg"  />
+<img src="/blogs-img/htf/htf2.webp"  />
+<img src="/blogs-img/htf/htf3.webp"  />
 

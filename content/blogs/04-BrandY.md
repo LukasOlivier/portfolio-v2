@@ -2,7 +2,7 @@
 title: BrandY 2.0
 date: 03/12/23
 description: "Transformative Week, Inspiring Insights, Global Connections!"
-image: /blogs-img/brandy/brandy.png
+image: /blogs-img/brandy/brandy.webp
 alt: BrandY 2.0
 published: true
 ---
@@ -19,7 +19,7 @@ A sincere thanks to the entire BrandY team for this unforgettable experience. ðŸ
 ## BrandY: A Glimpse into the Future of Education ðŸŽ“
 For additional details about the BrandY project, please visit the official website: [https://brandygame.eu/](https://brandygame.eu/). Further insights and updates are also available in the corresponding LinkedIn post [here](https://www.linkedin.com/posts/lieven-theys-73167216_howestinternational-howestbedrijfsmanagement-activity-7136776958054428674-11XH?utm_source=share&utm_medium=member_desktop).
 
-<img src="/img/brandy3.jpeg"/>
-<img src="/img/brandy4.jpg"/>
-<img src="/img/brandy2.jpeg"/>
-<img src="/img/brandy5.png"/>
+<img src="/img/brandy3.webp"/>
+<img src="/img/brandy4.webp"/>
+<img src="/img/brandy2.webp"/>
+<img src="/img/brandy5.webp"/>

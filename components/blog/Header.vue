@@ -40,7 +40,7 @@ withDefaults(defineProps<Props>(), {
     </div>
     <NuxtLink to="/blogs" class="text-center text-xl">
       <i
-        class="fa-solid fa-arrow-left mr-1"
+        class="fa fa-arrow-left mr-1"
       />
       Go Back
     </NuxtLink>

@@ -2,7 +2,7 @@
 title: INCASO 2023
 date: 12/02/23-19/02/23
 description: "Our experiences during our international project. Visiting Rijeka, Croatia during the carnival week."
-image: /blogs-img/incaso/eb5b81_2200ba9d322f4302b67e8661eb54af50~mv2.jpg
+image: /blogs-img/incaso/eb5b81_2200ba9d322f4302b67e8661eb54af50~mv2.webp
 alt: Hwo to fix tailwind intellisense in nuxt3 project
 
 published: true
@@ -149,7 +149,7 @@ For dinner that evening, we decided to go to a fancy restaurant called Bistro Mo
 
 After dinner, we all headed towards the Youth Club once again to enjoy the night together one last time. We had a great time and talked the night away until closing time. It was a bittersweet moment as we knew that the next day would be our last day in Croatia, and we would have to say goodbye to all the friends we had made during this trip. However, we were all excited about the upcoming Rijeka International Carnival Parade, which was going to be a highlight of our trip.
 
-<img src="/blogs-img/incaso/eb5b81_f1483a9a34ce4b9795258f9597e0df86~mv2.jpg"  />
+<img src="/blogs-img/incaso/eb5b81_f1483a9a34ce4b9795258f9597e0df86~mv2.webp"  />
 <img src="/blogs-img/incaso/eb5b81_2b3acc4878a043b7ac4b52f05b098b37~mv2.webp"  />
 
 
@@ -168,6 +168,6 @@ After a whole afternoon of partying, we decided to get some food and end the nig
 You can watch our performance here: [https://youtu.be/bQrAtlvipWs?t=4674](https://youtu.be/bQrAtlvipWs?t=4674)
 
 
-<img src="/blogs-img/incaso/eb5b81_2200ba9d322f4302b67e8661eb54af50~mv2.jpg"  />
+<img src="/blogs-img/incaso/eb5b81_2200ba9d322f4302b67e8661eb54af50~mv2.webp"  />
 <img src="/blogs-img/incaso/eb5b81_9201ae72d3ae4fdd8c3d2219664f80a6~mv2.webp"  />
-<img src="/blogs-img/incaso/eb5b81_722887da62e5408eb6255de2d3f317f6~mv2.jpg"  />
+<img src="/blogs-img/incaso/eb5b81_722887da62e5408eb6255de2d3f317f6~mv2.webp"  />

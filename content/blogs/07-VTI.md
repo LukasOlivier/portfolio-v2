@@ -2,7 +2,7 @@
 title: Workstop VTI Izegem
 date: 30/01/24
 description: "A Workshop by Howest Bruges Students"
-image: /blogs-img/vti/3.jpg
+image: /blogs-img/vti/3.webp
 alt: Workshop VTI Izegem
 published: true
 ---
@@ -49,8 +49,8 @@ A heartfelt thank you to the Howest Bruges team and all the Applied Computer Sci
 You can download our workshop [here](https://drive.google.com/drive/folders/1YFTZ3GLQilWwrtiMukJCJgMazEaH1Dec?usp=sharing)
 
 <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: space-between">
- <img src="/blogs-img/vti/1.jpg" style="object-fit: cover; height: 18rem;" />
-  <img src="/blogs-img/vti/4.jpg" style="object-fit: cover; height: 18rem;" />
-  <img src="/blogs-img/vti/2.jpg" style="object-fit: cover; height: 18rem;" />
+ <img src="/blogs-img/vti/1.webp" style="object-fit: cover; height: 18rem;" />
+  <img src="/blogs-img/vti/4.webp" style="object-fit: cover; height: 18rem;" />
+  <img src="/blogs-img/vti/2.webp" style="object-fit: cover; height: 18rem;" />
 </div>
-<img src="/blogs-img/vti/3.jpg" style="object-fit: cover; height: 20rem; width: 100%" />
+<img src="/blogs-img/vti/3.webp" style="object-fit: cover; height: 20rem; width: 100%" />

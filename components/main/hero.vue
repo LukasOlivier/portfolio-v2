@@ -73,7 +73,7 @@ onMounted(() => {
         sm:hidden
         xl:block
         "
-      src="/assets/images/pattern4.png"
+      src="/assets/images/pattern4.webp"
       alt="swiggle"
     >
     <img
@@ -89,7 +89,7 @@ onMounted(() => {
         sm:hidden
         md:block
         "
-      src="~/assets/images/pattern5.png"
+      src="~/assets/images/pattern5.webp"
       alt="pattern"
     >
     <a

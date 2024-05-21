@@ -34,18 +34,10 @@ function onClick(val: string) {
         <li>
           <ClientOnly>
             <button
-              v-if="colorMode.value === 'light'"
-              name="light-mode"
-              title="Light"
-              class="hover:scale-110 transition-all ease-out hover:cursor-pointer fa-solid fa-sun"
-              @click="onClick('dark')"
-            />
-            <button
-              v-if="colorMode.value === 'dark'"
-              name="dark-mode"
-              title="Dark"
-              class="hover:scale-110 transition-all ease-out hover:cursor-pointer fa-solid fa-moon"
-              @click="onClick('light')"
+              name="color-mode-toggle"
+              :title="colorMode.value === 'light' ? 'Light' : 'Dark'"
+              class="hover:scale-110 transition-all ease-out hover:cursor-pointer fa" :class="[colorMode.value === 'light' ? 'fa-sun' : 'fa-moon']"
+              @click="onClick(colorMode.value === 'light' ? 'dark' : 'light')"
             />
           </ClientOnly>
         </li>
