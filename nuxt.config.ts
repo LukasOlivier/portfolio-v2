@@ -27,6 +27,11 @@ export default defineNuxtConfig({
     classSuffix: '',
   },
 
+  image: {
+    format: ['webp'],
+    quality: 80,
+  },
+
   modules: [
     '@nuxt/image',
     '@vueuse/nuxt',

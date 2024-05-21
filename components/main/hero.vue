@@ -93,6 +93,7 @@ onMounted(() => {
       alt="pattern"
     >
     <a
+      aria-label="Scroll down to about me"
       class="absolute bottom-10 w-full flex justify-center text-black dark:text-white "
       href="#about-me"
     >

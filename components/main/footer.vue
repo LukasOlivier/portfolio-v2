@@ -5,9 +5,9 @@
     <div class="w-9/12 mx-auto flex justify-between items-center gap-4 ">
       <ul class="flex flex-col gap-1 ">
         <li>
-          <h4 class="text-4xl font-bold mb-2">
+          <p class="text-4xl font-bold mb-2">
             Thank you!
-          </h4>
+          </p>
         </li>
         <li>
           <p>

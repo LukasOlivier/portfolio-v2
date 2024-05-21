@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
 import { ref } from 'vue'
 
 defineProps({
@@ -19,11 +19,15 @@ function toggleShowFullDescription() {
   <div
     class="card bg-white dark:bg-slate-700 shadow-lg rounded-lg overflow-hidden"
   >
-    <img
+    <NuxtImg
       class="w-full h-56 object-cover object-center"
+      :placeholder="[50, 25, 75, 5]"
+      format="webp"
+      quality="85"
+      loading="lazy"
       :src="project.image"
       :alt="project.title"
-    >
+    />
 
     <div class="p-6">
       <div class="flex items-center justify-between">
