@@ -15,6 +15,10 @@ export default defineNuxtConfig({
     },
   },
 
+  nitro: {
+    static: true,
+  },
+
   typescript: {
     strict: true,
   },

@@ -3,8 +3,12 @@ import { onMounted, ref } from 'vue'
 import Typewriter from 'typewriter-effect/dist/core'
 
 const typeWriterElement = ref(null)
+const isMobile = ref(false)
 
 onMounted(() => {
+  isMobile.value = window.innerWidth < 640
+
+  document.querySelector('.typeWriter').innerText = ''
   const typewriter = new Typewriter(typeWriterElement.value, {
     loop: true,
     delay: 25,
@@ -29,19 +33,24 @@ onMounted(() => {
     <section
       id="home" class="xl:w-1/3 mx-auto mt-52 sm:w-9/12 "
     >
-      <h1 v-motion-slide-visible-once-top class=" text-black dark:text-white font-semibold leading-tight text-6xl md:text-7xl ">
+      <h1
+        class=" text-black dark:text-white font-semibold leading-tight text-6xl md:text-7xl "
+      >
         Lukas Olivier
       </h1>
+
       <p
         ref="typeWriterElement"
-        v-motion-slide-visible-once-top class="
+        class="
+        typeWriter
         text-black
         dark:text-white
         mb-10"
-      />
+      >
+        Student applied computer science
+      </p>
 
       <NuxtLink
-        v-motion-slide-visible-once-left
         class="
         text-black
         dark:text-zinc-300
