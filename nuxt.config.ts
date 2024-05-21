@@ -7,7 +7,11 @@ export default defineNuxtConfig({
       title: 'Lukas Olivier',
       titleTemplate: '%s - Lukas Olivier',
       meta: [{ name: 'description', content: 'The e-portfolio of Lukas Olivier' }],
-      link: [{ rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css' }],
+      link: [
+        { rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css' },
+        { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;700&display=swap' },
+        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' }, // Replace the href with the appropriate Font Awesome URL
+      ],
     },
   },
 
