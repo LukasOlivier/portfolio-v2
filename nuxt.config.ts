@@ -19,6 +19,14 @@ export default defineNuxtConfig({
     static: true,
   },
 
+  target: 'static',
+
+  build: {
+    analyze: true,
+  },
+
+  ssr: true,
+
   typescript: {
     strict: true,
   },
@@ -50,6 +58,20 @@ export default defineNuxtConfig({
     '@vueuse/motion/nuxt',
     '@nuxtjs/seo',
   ],
+
+  generate: {
+    routes: [
+      '/blogs/00-incaso',
+      '/blogs/01-seo',
+      '/blogs/02-combell',
+      '/blogs/03-hackthefuture',
+      '/blogs/04-brandy',
+      '/blogs/05-deno-openapi',
+      '/blogs/06-lieven-ai',
+      '/blogs/07-vti',
+      '/blogs/08-flutter',
+    ],
+  },
 
   content: {
     highlight: {

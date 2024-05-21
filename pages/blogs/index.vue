@@ -80,33 +80,25 @@ useHead({
       >
     </div>
 
-    <ClientOnly>
-      <div v-motion-slide-visible-once-top class="space-y-5 my-5 ">
-        <template v-for="post in paginatedData" :key="post.title">
-          <ArchiveCard
-            :path="post.path"
-            :title="post.title"
-            :date="post.date"
-            :description="post.description"
-            :image="post.image"
-            :alt="post.alt"
-            :published="post.published"
-          />
-        </template>
-
+    <div v-motion-slide-visible-once-top class="space-y-5 my-5 ">
+      <template v-for="post in paginatedData" :key="post.title">
         <ArchiveCard
-          v-if="paginatedData.length <= 0"
-          title="No Post Found"
-          image="/not-found.webp"
+          :path="post.path"
+          :title="post.title"
+          :date="post.date"
+          :description="post.description"
+          :image="post.image"
+          :alt="post.alt"
+          :published="post.published"
         />
-      </div>
-
-      <template #fallback>
-        <!-- this will be rendered on server side -->
-        <BlogLoader />
-        <BlogLoader />
       </template>
-    </ClientOnly>
+
+      <ArchiveCard
+        v-if="paginatedData.length <= 0"
+        title="No Post Found"
+        image="/not-found.webp"
+      />
+    </div>
 
     <div class="flex justify-center items-center space-x-6 ">
       <button
