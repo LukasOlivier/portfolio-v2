@@ -49,6 +49,7 @@ export default defineNuxtConfig({
   },
 
   modules: [
+    'nuxt-purgecss',
     '@nuxt/image',
     '@vueuse/nuxt',
     '@nuxtjs/fontaine',

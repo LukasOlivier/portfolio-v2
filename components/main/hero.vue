@@ -3,11 +3,8 @@ import { onMounted, ref } from 'vue'
 import Typewriter from 'typewriter-effect/dist/core'
 
 const typeWriterElement = ref(null)
-const isMobile = ref(false)
 
 onMounted(() => {
-  isMobile.value = window.innerWidth < 640
-
   document.querySelector('.typeWriter').innerText = ''
   const typewriter = new Typewriter(typeWriterElement.value, {
     loop: true,
