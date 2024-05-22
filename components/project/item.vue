@@ -23,7 +23,7 @@ function toggleShowFullDescription() {
       class="w-full h-56 object-cover object-center"
       :placeholder="[50, 25, 75, 5]"
       format="webp"
-      quality="85"
+      quality="100"
       loading="lazy"
       :src="project.image"
       :alt="project.title"
@@ -75,7 +75,7 @@ function toggleShowFullDescription() {
         :key="tag"
         class="text-gray-600 dark:text-zinc-400 "
       >
-        <i :class="`devicon-${tag.toLowerCase()} text-lg`" />
+        <i :class="`devicon-${tag.toLowerCase()} text-xl`" />
       </li>
     </ul>
   </div>

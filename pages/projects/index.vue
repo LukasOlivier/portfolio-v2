@@ -5,18 +5,47 @@ const categories = ref([
   'All projects',
   'Personal',
   'School',
-  'Work',
+  'Professional',
 ])
 
 const pickedCategory = ref(categories.value[0])
 
 const projects = ref([
   {
+    id: 12,
+    title: 'Bachelor Thesis - REST API Frameworks',
+    description: 'My bachelor thesis investigates REST APIs, focusing on the performance and optimization of four frameworks: Express.js, Django, ASP.NET Core, and Bun. By developing a Student Management API for each framework, I analyzed their efficiency data access. Key findings indicate that Bun and ASP.NET Core had the lowest response times. This research provides valuable insights into selecting the right framework based on project needs and developer preferences. Read the full thesis on my GitHub.',
+    category: 'School',
+    image: '/projects-img/bap.png',
+    tags: ['nodejs-plain', 'django-plain', 'dotnetcore-plain', 'bun-plain', 'postman-plain'],
+    github: 'https://github.com/LukasOlivier/bap',
+    website: 'https://lukasolivier.be/blogs/10-bachelor-thesis-rest-api',
+  },
+  {
+    id: 11,
+    title: 'Integreat Dashboard',
+    description: 'During my internship, I developed the Integreat Dashboard, a tool designed to enhance client services by providing customizable dashboards for data visualization and analysis. Utilizing Blazor as base and DevExpress for its rich UI components, the dashboard integrates seamlessly with SQL Server for data management. Key features include customizable widgets, multi-language support, data export options, user preferences, and data filtering. This project significantly boosted my skills in Blazor, SQL Server, and DevExpress.',
+    category: 'Professional',
+    image: '/projects-img/integreat.jpg',
+    tags: ['Blazor-original', 'microsoftsqlserver-plain'],
+    website: 'https://integreat.be',
+  },
+  {
+    id: 10,
+    title: 'Portfolio v2',
+    description: 'This is the second version of my portfolio, now seamlessly integrating both my blog and portfolio into a single, cohesive website. I have utilized the Nuxt framework and Tailwind CSS for styling, moving away from vanilla HTML, JavaScript, and SASS. The blog posts are generated from markdown files using the @nuxt/content module. I\'m extremely pleased with the outcome and hope you find it equally impressive!',
+    category: 'Personal',
+    image: '/projects-img/portfolio2.webp',
+    tags: ['Nuxtjs-plain', 'Tailwindcss-plain'],
+    github: 'https://github.com/LukasOlivier/portfolio-v2',
+    website: 'https://lukasolivier.be',
+  },
+  {
     id: 9,
     title: 'Izegem Klinkt',
     description: 'I made this website for Izegem Klinkt, a captivating musical tour in the heart of the "Pekkersstad" Izegem. With over 30 editions, they have been celebrating music, camaraderie, and togetherness, all thanks to the dedicated efforts of passionate volunteers. This website, built using Nuxt 3, serves as the digital hub for Izegem Klinkt, providing essential information about the event, including dates, locations, and line-ups.',
     image: '/projects-img/izegemklinkt.webp',
-    category: 'Work',
+    category: 'Professional',
     tags: ['Nuxtjs-plain', 'Tailwindcss-plain'],
     website: 'https://izegemklinkt.be',
   },

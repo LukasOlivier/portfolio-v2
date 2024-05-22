@@ -10,16 +10,14 @@ export default defineNuxtConfig({
       link: [
         { rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css' },
         { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;700&display=swap' },
-        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' }, // Replace the href with the appropriate Font Awesome URL
+        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' },
       ],
     },
   },
 
   nitro: {
-    static: true,
+    preset: 'static',
   },
-
-  target: 'static',
 
   build: {
     analyze: true,
@@ -45,7 +43,7 @@ export default defineNuxtConfig({
 
   image: {
     format: ['webp'],
-    quality: 80,
+    quality: 100,
   },
 
   modules: [
