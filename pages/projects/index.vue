@@ -16,7 +16,7 @@ const projects = ref([
     title: 'Bachelor Thesis - REST API Frameworks',
     description: 'My bachelor thesis investigates REST APIs, focusing on the performance and optimization of four frameworks: Express.js, Django, ASP.NET Core, and Bun. By developing a Student Management API for each framework, I analyzed their efficiency data access. Key findings indicate that Bun and ASP.NET Core had the lowest response times. This research provides valuable insights into selecting the right framework based on project needs and developer preferences. Read the full thesis on my GitHub.',
     category: 'School',
-    image: '/projects-img/bap.png',
+    image: '/projects-img/bap.webp',
     tags: ['nodejs-plain', 'django-plain', 'dotnetcore-plain', 'bun-plain', 'postman-plain'],
     github: 'https://github.com/LukasOlivier/bap',
     website: 'https://lukasolivier.be/blogs/10-bachelor-thesis-rest-api',

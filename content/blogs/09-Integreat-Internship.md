@@ -2,7 +2,7 @@
 title: Integreat Internship Project
 date: 24/05/24
 description: "An internship during the last year of my bachelor's degree."
-image: /blogs-img/integreat/thumbnail.png
+image: /blogs-img/integreat/thumbnail.webp
 alt: "Integreat Internship"
 published: false # Still need to take pictures
 ---
@@ -17,7 +17,7 @@ Starting in February 2024, I embarked on a 13-week internship with Integreat, an
 Unlike most other companies, Integreat operates out of a converted villa, lending it a uniquely cozy atmosphere. During our midday breaks, I played darts with my colleagues, adding a competitive touch to our routine.
 
 One of the most exciting perks of working at Integreat was the meeting room, located on the top floor. It wasn't your typical corporate space; instead, it secretly housed a PlayStation,complete with a VR headset. But of course, this room was primarily used for meetings and brainstorming sessions.
-<img src="/blogs-img/integreat/villa.png" style="object-fit: cover; height: 20rem; width: 100%" />
+<img src="/blogs-img/integreat/villa.webp" style="object-fit: cover; height: 20rem; width: 100%" />
 
 ## Project Overview
 

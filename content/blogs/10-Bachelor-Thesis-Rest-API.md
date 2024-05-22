@@ -2,7 +2,7 @@
 title: Bachelor Thesis - REST API Frameworks
 date: 24/05/24
 description: "What are REST APIs, and what should you consider when choosing a framework?"
-image: /blogs-img/bap/thumbnail.png
+image: /blogs-img/bap/thumbnail.webp
 alt: REST API Frameworks
 published: true 
 ---
@@ -51,7 +51,7 @@ I focused my research on comparing four popular REST API frameworks: Express.js,
 
 ### Experimental Setup
 Using Postman, I simulated 100 virtual users testing the API for five minutes. The results were impressive: each framework performed strongly with minimal errors and acceptable response times. **Bun and ASP.NET Core excelled with the lowest average response times**, while Express also delivered solid performances. 📊
-<img src="/blogs-img/bap/benchmark.png" style="object-fit: contain; height: 16rem; width: 100%" />
+<img src="/blogs-img/bap/benchmark.webp" style="object-fit: contain; height: 16rem; width: 100%" />
 
 
 ### Results and Findings
