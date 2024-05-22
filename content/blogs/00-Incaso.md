@@ -66,8 +66,10 @@ After dinner, we met up and headed towards a bar that we quickly dubbed the "stu
 Eventually, we decided it was time to head back to our hostel and get some rest for the next day. We took a taxi and arrived back at the hostel around 2 am. Overall, it was another fantastic day filled with exploration, learning, and good times with great people.
 
 
-<img src="/blogs-img/incaso/eb5b81_c38d826235334a1fb101a1ff75f41455~mv2.webp"  />
-<img src="/blogs-img/incaso/eb5b81_b727f001df4848e29cbdf08082f49439~mv2.webp"  />
+<img src="/blogs-img/incaso/eb5b81_c38d826235334a1fb101a1ff75f41455~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
+<img src="/blogs-img/incaso/eb5b81_b727f001df4848e29cbdf08082f49439~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
 
 
 ### Wednesday - Tourism in Rijeka 
@@ -84,8 +86,10 @@ Around 6 pm, the lecture day came to an end, and the group went for a drink befo
 
 After both groups finished eating, we reunited at our regular pub to finish the day around 2-3 am. Overall, it was another fantastic day filled with new experiences and knowledge-sharing.
 
-<img src="/blogs-img/incaso/eb5b81_7fb7789746cf4decb9b549903126ce66~mv2.webp"  />
-<img src="/blogs-img/incaso/eb5b81_77f6583cfbaf417e91763d22cf6e88a5~mv2.webp"  />
+<img src="/blogs-img/incaso/eb5b81_7fb7789746cf4decb9b549903126ce66~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
+<img src="/blogs-img/incaso/eb5b81_77f6583cfbaf417e91763d22cf6e88a5~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
 
 
 ### Thursday - Guest speaker 
@@ -107,8 +111,10 @@ We tasted all sorts of things, and it all tasted very good. It was a great way t
 Our group was a bit larger than usual, as we were joined by some of our fellow Belgians and Koreans.
 
 
-<img src="/blogs-img/incaso/eb5b81_6a73aba4b50b4b098cf6e9987a05adcc~mv2.webp"  />
-<img src="/blogs-img/incaso/eb5b81_4734248db4b444868b2d1828b869a6d1~mv2.webp"  />
+<img src="/blogs-img/incaso/eb5b81_6a73aba4b50b4b098cf6e9987a05adcc~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
+<img src="/blogs-img/incaso/eb5b81_4734248db4b444868b2d1828b869a6d1~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
 
 
 ### Friday - Presentations 
@@ -127,8 +133,10 @@ After the announcement, we split up to grab some lunch. Some of us went to the p
 
 As the night drew on, a group of us decided to explore some of the more seedy neighborhoods of the city. It was an adventure, and we had a lot of fun exploring the backstreets and hidden alleyways. Eventually, we ended up back at the Youth Club, where we spent the rest of the night reminiscing about the week and the experiences we had shared.
 
-<img src="/blogs-img/incaso/eb5b81_d24e8c772d87454e9eb9ca418c3eb3b5~mv2.webp"  />
-<img src="/blogs-img/incaso/eb5b81_75d5bce662bd4f6a97306af6a65c2ad9~mv2.webp"  />
+<img src="/blogs-img/incaso/eb5b81_d24e8c772d87454e9eb9ca418c3eb3b5~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
+<img src="/blogs-img/incaso/eb5b81_75d5bce662bd4f6a97306af6a65c2ad9~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
 
 
 ### Saturday - Trip to Učka
@@ -149,8 +157,10 @@ For dinner that evening, we decided to go to a fancy restaurant called Bistro Mo
 
 After dinner, we all headed towards the Youth Club once again to enjoy the night together one last time. We had a great time and talked the night away until closing time. It was a bittersweet moment as we knew that the next day would be our last day in Croatia, and we would have to say goodbye to all the friends we had made during this trip. However, we were all excited about the upcoming Rijeka International Carnival Parade, which was going to be a highlight of our trip.
 
-<img src="/blogs-img/incaso/eb5b81_f1483a9a34ce4b9795258f9597e0df86~mv2.webp"  />
-<img src="/blogs-img/incaso/eb5b81_2b3acc4878a043b7ac4b52f05b098b37~mv2.webp"  />
+<img src="/blogs-img/incaso/eb5b81_f1483a9a34ce4b9795258f9597e0df86~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
+<img src="/blogs-img/incaso/eb5b81_2b3acc4878a043b7ac4b52f05b098b37~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
 
 
 ### Sunday - The Carnival
@@ -168,6 +178,9 @@ After a whole afternoon of partying, we decided to get some food and end the nig
 You can watch our performance here: [https://youtu.be/bQrAtlvipWs?t=4674](https://youtu.be/bQrAtlvipWs?t=4674)
 
 
-<img src="/blogs-img/incaso/eb5b81_2200ba9d322f4302b67e8661eb54af50~mv2.webp"  />
-<img src="/blogs-img/incaso/eb5b81_9201ae72d3ae4fdd8c3d2219664f80a6~mv2.webp"  />
-<img src="/blogs-img/incaso/eb5b81_722887da62e5408eb6255de2d3f317f6~mv2.webp"  />
+<img src="/blogs-img/incaso/eb5b81_2200ba9d322f4302b67e8661eb54af50~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
+<img src="/blogs-img/incaso/eb5b81_9201ae72d3ae4fdd8c3d2219664f80a6~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+
+<img src="/blogs-img/incaso/eb5b81_722887da62e5408eb6255de2d3f317f6~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
+

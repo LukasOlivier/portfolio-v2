@@ -51,7 +51,8 @@ I focused my research on comparing four popular REST API frameworks: Express.js,
 
 ### Experimental Setup
 Using Postman, I simulated 100 virtual users testing the API for five minutes. The results were impressive: each framework performed strongly with minimal errors and acceptable response times. **Bun and ASP.NET Core excelled with the lowest average response times**, while Express also delivered solid performances. 📊
-<img src="/blogs-img/bap/benchmark.png" style="height: 15rem; width: 100%" />
+<img src="/blogs-img/bap/benchmark.png" style="object-fit: contain; height: 16rem; width: 100%" />
+
 
 ### Results and Findings
 The test results indicated that all frameworks performed reliably with minimal errors.  These findings emphasize that the **choice of a framework depends on the specific project requirements and the preferences of the development team.** 🧠
