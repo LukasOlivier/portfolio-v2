@@ -17,7 +17,7 @@ withDefaults(defineProps<Props>(), {
 </script>
 
 <template>
-  <header class="mb-10">
+  <header class="mb-10 flex flex-col items-center">
     <h1 class="text-xl dark:text-zinc-300 md:text-3xl lg:text-4xl m-7 font-bold text-center">
       {{ title || '' }}
     </h1>
@@ -38,7 +38,7 @@ withDefaults(defineProps<Props>(), {
         </div>
       </div>
     </div>
-    <NuxtLink to="/blogs" class="text-center text-xl">
+    <NuxtLink to="/blogs" class="text-center text-xl self-start">
       <i
         class="fa fa-arrow-left mr-1"
       />
