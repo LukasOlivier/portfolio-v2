@@ -83,6 +83,7 @@ useHead({
     <div v-motion-slide-visible-once-top class="space-y-5 my-5 ">
       <template v-for="post in paginatedData" :key="post.title">
         <ArchiveCard
+          v-if="post.published"
           :path="post.path"
           :title="post.title"
           :date="post.date"
