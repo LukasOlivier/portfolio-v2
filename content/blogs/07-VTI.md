@@ -46,7 +46,7 @@ A heartfelt thank you to the Howest Bruges team and all the Applied Computer Sci
 
 ### Try It Yourself
 
-You can download our workshop [here](https://drive.google.com/drive/folders/1YFTZ3GLQilWwrtiMukJCJgMazEaH1Dec?usp=sharing)
+You can download our workshop [using this Google Drive link](https://drive.google.com/drive/folders/1YFTZ3GLQilWwrtiMukJCJgMazEaH1Dec?usp=sharing)
 
 <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: space-between">
  <img src="/blogs-img/vti/1.webp" style="object-fit: cover; height: 18rem;" />

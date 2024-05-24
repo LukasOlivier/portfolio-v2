@@ -19,7 +19,7 @@ const projects = ref([
     image: '/projects-img/bap.webp',
     tags: ['nodejs-plain', 'django-plain', 'dotnetcore-plain', 'bun-plain', 'postman-plain'],
     github: 'https://github.com/LukasOlivier/bap',
-    website: 'https://lukasolivier.be/blogs/10-bachelor-thesis-rest-api',
+    website: '/blogs/10-bachelor-thesis-rest-api',
   },
   {
     id: 11,
@@ -38,7 +38,7 @@ const projects = ref([
     image: '/projects-img/portfolio2.webp',
     tags: ['Nuxtjs-plain', 'Tailwindcss-plain'],
     github: 'https://github.com/LukasOlivier/portfolio-v2',
-    website: 'https://lukasolivier.be',
+    website: '/',
   },
   {
     id: 9,

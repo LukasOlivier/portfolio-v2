@@ -17,7 +17,7 @@ What made this week truly special was the direct interaction with users. We list
 A sincere thanks to the entire BrandY team for this unforgettable experience. 🙏🌟
 
 ## BrandY: A Glimpse into the Future of Education 🎓
-For additional details about the BrandY project, please visit the official website: [https://brandygame.eu/](https://brandygame.eu/). Further insights and updates are also available in the corresponding LinkedIn post [here](https://www.linkedin.com/posts/lieven-theys-73167216_howestinternational-howestbedrijfsmanagement-activity-7136776958054428674-11XH?utm_source=share&utm_medium=member_desktop).
+For additional details about the BrandY project, please visit the official website: [https://brandygame.eu/](https://brandygame.eu/). Further insights also available in the corresponding [LinkedIn post](https://www.linkedin.com/posts/lieven-theys-73167216_howestinternational-howestbedrijfsmanagement-activity-7136776958054428674-11XH?utm_source=share&utm_medium=member_desktop).
 
 <img src="/img/brandy3.webp"/>
 <img src="/img/brandy4.webp"/>

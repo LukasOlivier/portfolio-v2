@@ -23,7 +23,6 @@ function toggleShowFullDescription() {
       class="w-full h-56 object-cover object-center"
       :placeholder="[50, 25, 75, 5]"
       format="webp"
-      quality="100"
       loading="lazy"
       :src="project.image"
       :alt="project.title"

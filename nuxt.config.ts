@@ -6,11 +6,12 @@ export default defineNuxtConfig({
       viewport: 'width=device-width,initial-scale=1',
       title: 'Lukas Olivier',
       titleTemplate: '%s - Lukas Olivier',
+      lang: 'en',
       meta: [{ name: 'description', content: 'The e-portfolio of Lukas Olivier' }],
       link: [
-        { rel: 'stylesheet', type: 'text/css', href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css' },
-        { rel: 'stylesheet', type: 'text/css', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;700&display=swap' },
-        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css' },
+        { rel: 'preload', href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css', as: 'style', onload: 'this.onload=null;this.rel=\'stylesheet\'' },
+        { rel: 'preload', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;700&display=swap', as: 'style', onload: 'this.onload=null;this.rel=\'stylesheet\'' },
+        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css', media: 'print', onload: 'this.media=\'all\'' },
       ],
     },
   },
@@ -29,13 +30,6 @@ export default defineNuxtConfig({
     strict: true,
   },
 
-  site: {
-    url: 'https://lukasolivier.be',
-    name: 'Lukas Olivier',
-    description: 'The e-portfolio of Lukas Olivier',
-    defaultLocale: 'en',
-  },
-
   colorMode: {
     preference: 'system', // default value of $colorMode.preference
     classSuffix: '',
@@ -47,7 +41,6 @@ export default defineNuxtConfig({
   },
 
   modules: [
-    'nuxt-purgecss',
     '@nuxt/image',
     '@vueuse/nuxt',
     '@nuxtjs/fontaine',
@@ -56,6 +49,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@vueuse/motion/nuxt',
     '@nuxtjs/seo',
+    'nuxt-booster',
   ],
 
   generate: {
@@ -70,6 +64,10 @@ export default defineNuxtConfig({
       '/blogs/07-vti',
       '/blogs/08-flutter',
     ],
+  },
+
+  site: {
+    url: 'https://lukasolivier.be', // Needed for og-image
   },
 
   content: {
