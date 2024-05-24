@@ -61,6 +61,7 @@ i:hover {
   opacity: 0;
   transition: opacity 0.3s;
   font-family: 'Poppins', sans-serif;
+  font-weight: bold;
   top: 100%;
   margin-top: 0.5rem;
 }

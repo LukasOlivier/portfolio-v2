@@ -9,22 +9,12 @@ export default defineNuxtConfig({
       lang: 'en',
       meta: [{ name: 'description', content: 'The e-portfolio of Lukas Olivier' }],
       link: [
-        { rel: 'preload', href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css', as: 'style', onload: 'this.onload=null;this.rel=\'stylesheet\'' },
-        { rel: 'preload', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;700&display=swap', as: 'style', onload: 'this.onload=null;this.rel=\'stylesheet\'' },
-        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css', media: 'print', onload: 'this.media=\'all\'' },
+        { rel: 'stylesheet', href: 'https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css', defer: true },
+        { rel: 'preload', href: 'https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;700&display=swap' },
+        { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css', defer: true },
       ],
     },
   },
-
-  nitro: {
-    preset: 'static',
-  },
-
-  build: {
-    analyze: true,
-  },
-
-  ssr: true,
 
   typescript: {
     strict: true,
