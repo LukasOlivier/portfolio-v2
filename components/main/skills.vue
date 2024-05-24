@@ -29,10 +29,44 @@ const skills = [
 </script>
 
 <template>
-  <ul id="skills" class="flex flex-wrap gap-8 mt-8">
-    <li v-for="skill in skills" :key="skill.name" class="relative flex flex-col items-center">
-      <i class="text-4xl transition-transform transform hover:translate-y-[-0.5rem]" :class="[skill.icon]" :title="skill.name" />
-      <span class="absolute mt-16 text-sm font-medium text-center text-transparent transition-opacity duration-300 hover:text-black">{{ skill.name }}</span>
+  <ul id="skills" class="flex flex-wrap gap-x-6 gap-y-8 mt-6 text-4xl">
+    <li v-for="skill in skills" :key="skill.name">
+      <i :class="skill.icon" :title="skill.name">
+        <span class="icon-title">{{ skill.name }}</span>
+      </i>
     </li>
   </ul>
 </template>
+
+<style scoped>
+i {
+  font-size: 2.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease-in-out;
+  position: relative;
+}
+
+i:hover {
+  transform: translateY(-0.5rem);
+}
+
+.icon-title {
+  visibility: hidden;
+  text-align: center;
+  font-size: 1rem;
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.3s;
+  font-family: 'Poppins', sans-serif;
+  top: 100%;
+  margin-top: 0.5rem;
+}
+
+ i:hover .icon-title {
+  visibility: visible;
+  opacity: 1;
+}
+</style>
