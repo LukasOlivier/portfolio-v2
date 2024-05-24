@@ -66,7 +66,6 @@ onMounted(() => {
       v-motion-pop-visible-once
       :placeholder="[50, 25, 75, 5]"
       format="webp"
-      loading="lazy"
       class="
         absolute
         bottom-40
@@ -84,7 +83,6 @@ onMounted(() => {
       v-motion-pop-visible-once
       :placeholder="[50, 25, 75, 5]"
       format="webp"
-      loading="lazy"
       class="
         absolute
         bottom-40
