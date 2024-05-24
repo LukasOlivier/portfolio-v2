@@ -20,11 +20,16 @@
 
         I'm a fast learner, always eager to acquire new knowledge. While I thrive in team environments and am ready to assist others, I am equally capable of working independently. As a perfectionist, I strive to deliver the best possible results.<br><br>
 
-        I am currently learning <a class="underline" aria-label="Nuxt 3" target="_blank" href="https://nuxt.com/">Nuxt 3</a>  and <a class="underline" target="_blank" aria-label="Tailwind CSS" href="https://tailwindcss.com/">Tailwind CSS</a> to create websites like this one. Find all my projects on <NuxtLink aria-label="Projects Page" class="underline" href="/projects">
-          my projects page
-        </NuxtLink>. Or read about my experiences as a software engineering student on <NuxtLink aria-label="Blogs Page" class="underline" href="/blogs">
-          my blog
-        </NuxtLink>. <br><br>
+        I am currently learning <a class="underline" aria-label="Nuxt 3" target="_blank" href="https://nuxt.com/">Nuxt 3</a>  and <a class="underline" target="_blank" aria-label="Tailwind CSS" href="https://tailwindcss.com/">Tailwind CSS</a> to create websites like this one.
+        Find all my projects on
+        <NuxtLink aria-label="Projects Page" class="underline" href="/projects">
+          my projects page.
+        </NuxtLink>
+        Or read about my experiences as a software engineering student on
+        <NuxtLink aria-label="Blogs Page" class="underline" href="/blogs">
+          my blog.
+        </NuxtLink>
+        <br><br>
       </p>
       <h2
         class="
