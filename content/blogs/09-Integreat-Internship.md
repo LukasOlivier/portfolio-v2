@@ -4,20 +4,21 @@ date: 24/05/24
 description: "An internship during the last year of my bachelor's degree."
 image: /blogs-img/integreat/thumbnail.webp
 alt: "Integreat Internship"
-published: false # Still need to take pictures
+published: true
 ---
 
 
 ## Introduction
 
 I was introduced to [Integreat](https://www.integreat.be/) at the Internship Fair in Kortrijk on September 14, 2023. The discussion about their projects and company values immediately captured my interest, making it my top choice for an internship.
+<img src="/blogs-img/integreat/villa.webp" style="object-fit: cover; height: 20rem; width: 100%" />
 
 Starting in February 2024, I embarked on a 13-week internship with Integreat, an IT service provider based in Waregem, Flanders. Integreat specializes in assisting educational institutions, professional associations, and local governments in optimizing their procurement, sales, and financial processes through tailored software solutions and IT services.
 
 Unlike most other companies, Integreat operates out of a converted villa, lending it a uniquely cozy atmosphere. During our midday breaks, I played darts with my colleagues, adding a competitive touch to our routine.
 
 One of the most exciting perks of working at Integreat was the meeting room, located on the top floor. It wasn't your typical corporate space; instead, it secretly housed a PlayStation,complete with a VR headset. But of course, this room was primarily used for meetings and brainstorming sessions.
-<img src="/blogs-img/integreat/villa.webp" style="object-fit: cover; height: 20rem; width: 100%" />
+<img src="/blogs-img/integreat/zaal.webp" style="object-fit: cover; height: 20rem; width: 100%" />
 
 ## Project Overview
 
