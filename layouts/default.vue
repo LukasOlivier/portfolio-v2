@@ -1,26 +1,28 @@
 <script setup>
-import { SpeedInsights } from '@vercel/speed-insights/nuxt'
+import { SpeedInsights } from "@vercel/speed-insights/nuxt";
 </script>
 
 <template>
-  <SpeedInsights />
-  <div class="gd-container font-spacegrotesk">
-    <header class="fixed w-full bg-[#F1F2F4] dark:bg-slate-950 z-10">
-      <MainHeader />
-    </header>
-    <main class="pt-20 pb-10">
-      <slot />
-    </main>
-    <footer>
-      <MainFooter />
-    </footer>
-  </div>
+   <div>
+      <SpeedInsights />
+      <div class="gd-container font-spacegrotesk">
+         <header class="fixed z-10 w-full bg-[#F1F2F4] dark:bg-slate-950">
+            <MainHeader />
+         </header>
+         <main class="pb-10 pt-20">
+            <slot />
+         </main>
+         <footer>
+            <MainFooter />
+         </footer>
+      </div>
+   </div>
 </template>
 
 <style scoped>
 .gd-container {
-  display: grid;
-  grid-template-rows: 1fr auto;
-  min-height: 100vh;
+   display: grid;
+   grid-template-rows: 1fr auto;
+   min-height: 100vh;
 }
 </style>

@@ -1,22 +1,28 @@
 <script setup lang="ts">
-const { path } = useRoute()
-const articles = await queryContent(path).findOne()
+const { path } = useRoute();
+const articles = await queryContent(path).findOne();
 
-const links = articles?.body?.toc?.links || []
+const links = articles?.body?.toc?.links || [];
 </script>
 
 <template>
-  <div class="lg:col-span-3 sticky top-28 h-96  hidden lg:block  justify-self-end">
-    <div class="border dark:border-gray-800 p-3 rounded-md min-w-[200px] dark:bg-slate-900">
-      <h1 class="text-sm font-bold mb-3 border-b dark:border-gray-800 pb-2">
-        Table Of Content
-      </h1>
-      <NuxtLink
-        v-for="link in links" :key="link.id" :to="`#${link.id}`"
-        class="block text-xs mb-3 hover:underline"
+   <div
+      class="sticky top-28 hidden h-96 justify-self-end lg:col-span-3 lg:block"
+   >
+      <div
+         class="min-w-[200px] rounded-md border p-3 dark:border-gray-800 dark:bg-slate-900"
       >
-        {{ link.text }}
-      </NuxtLink>
-    </div>
-  </div>
+         <h1 class="mb-3 border-b pb-2 text-sm font-bold dark:border-gray-800">
+            Table Of Content
+         </h1>
+         <NuxtLink
+            v-for="link in links"
+            :key="link.id"
+            :to="`#${link.id}`"
+            class="mb-3 block text-xs hover:underline"
+         >
+            {{ link.text }}
+         </NuxtLink>
+      </div>
+   </div>
 </template>
