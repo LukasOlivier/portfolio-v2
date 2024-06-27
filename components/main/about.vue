@@ -1,7 +1,7 @@
 <template>
   <section id="about-me" class="w-9/12 mx-auto py-20 flex justify-between">
     <div class="sm:w-full md:w-3/5 flex flex-col">
-      <h1
+      <h2
         class="
         text-black
         dark:text-white
@@ -12,7 +12,7 @@
         mb-5"
       >
         About me
-      </h1>
+      </h2>
       <p>
         As a {{ new Date().getFullYear() - 2003 }}-year-old software engineering student, I have a deep passion for programming and technology. Besides my studies, I actively contribute to a youth movement, and I find creative expression through drumming in my free time. <br><br>
 

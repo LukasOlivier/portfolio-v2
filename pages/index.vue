@@ -15,5 +15,6 @@ useHead({
   <main>
     <MainHero />
     <MainAbout />
+    <MainServices />
   </main>
 </template>
