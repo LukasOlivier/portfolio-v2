@@ -25,7 +25,7 @@ const services = ref([
 
 <template>
    <section
-      id="#services"
+      id="services"
       class="mx-auto flex w-9/12 flex-col justify-between py-20"
    >
       <h2

@@ -18,10 +18,13 @@ function onClick(val: string) {
             </li>
          </ul>
          <ul
-            class="flex items-center space-x-3 text-sm sm:space-x-6 sm:text-lg"
+            class="flex items-center space-x-3 text-sm sm:space-x-4 sm:text-lg"
          >
             <li>
                <NuxtLink to="/"> Home </NuxtLink>
+            </li>
+            <li>
+               <NuxtLink to="/#services"> Services </NuxtLink>
             </li>
             <li>
                <NuxtLink to="/blogs"> Blog </NuxtLink>
