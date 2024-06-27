@@ -7,6 +7,15 @@ const pickedCategory = ref(categories.value[0]);
 
 const projects = ref([
    {
+      id: 13,
+      title: "Spel Zonder Grenzen",
+      description: "Spel Zonder Grenzen is a team building activity where participants compete in teams against each other in various trials. This for both young and old. Their old website was outdated and difficult to manage. I got the opportunity to make a new website for them. The website is made using Nuxt.js and Tailwind CSS.",
+      category: "Professional",
+      image: "/projects-img/szg.webp",
+      tags: ["Nuxtjs-plain", "Tailwindcss-plain"],
+      website: "https://new.szg.be",
+   },
+   {
       id: 12,
       title: "Bachelor Thesis - REST API Frameworks",
       description:
@@ -29,7 +38,7 @@ const projects = ref([
       description:
          "During my internship, I developed the Integreat Dashboard, a tool designed to enhance client services by providing customizable dashboards for data visualization and analysis. Utilizing Blazor as base and DevExpress for its rich UI components, the dashboard integrates seamlessly with SQL Server for data management. Key features include customizable widgets, multi-language support, data export options, user preferences, and data filtering. This project significantly boosted my skills in Blazor, SQL Server, and DevExpress.",
       category: "Professional",
-      image: "/projects-img/integreat.jpg",
+      image: "/projects-img/integreat.webp",
       tags: ["Blazor-original", "microsoftsqlserver-plain"],
       website: "https://integreat.be",
    },
