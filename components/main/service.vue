@@ -21,7 +21,6 @@ defineProps({
 
 <template>
    <div
-      v-motion-slide-visible-once-left
       class="flex items-center justify-between gap-20 sm:flex-col"
       :class="imageLeft ? 'md:flex-row-reverse' : 'md:flex-row'"
    >
