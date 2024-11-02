@@ -197,13 +197,6 @@ useHead({
       },
    ],
    titleTemplate: "Lukas Olivier - %s",
-   link: [
-      {
-         rel: "stylesheet",
-         href: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css",
-         defer: true,
-      },
-   ],
 });
 </script>
 
@@ -215,7 +208,7 @@ useHead({
       >
          My Projects
       </h1>
-      <p class="mb-10 dark:text-zinc-300" v-motion-slide-visible-once-left>
+      <p v-motion-slide-visible-once-left class="mb-10 dark:text-zinc-300">
          Here you will find all the projects I have worked on during my career.
       </p>
       <section class="flex flex-col">

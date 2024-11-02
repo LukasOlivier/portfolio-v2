@@ -49,8 +49,25 @@ export default defineNuxtConfig({
 
    fonts: {
       families: [
-         { name: "Space Grotesk", provider: "none" },
-         { name: "Poppins", provider: "none" },
+         {
+            name: "Space Grotesk",
+            provider: "none",
+            preload: true,
+            display: "swap",
+         },
+         {
+            name: "Poppins",
+            provider: "none",
+            preload: true,
+            display: "swap",
+         },
+
+         {
+            name: "Devicons",
+            provider: "none",
+            preload: true,
+            display: "swap",
+         },
       ],
       providers: {
          google: false,
@@ -66,6 +83,26 @@ export default defineNuxtConfig({
          theme: "dracula",
       },
       documentDriven: true,
+   },
+
+   postcss: {
+      plugins: {
+         "postcss-import": {},
+         "tailwindcss/nesting": {},
+         "tailwindcss": {},
+         "autoprefixer": {},
+      },
+   },
+
+   nitro: {
+      minify: true,
+      compressPublicAssets: true,
+   },
+
+   experimental: {
+      payloadExtraction: true,
+      viewTransition: true,
+      renderJsonPayloads: true,
    },
 
    css: ["~/assets/css/tailwind.css"],

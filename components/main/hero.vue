@@ -30,6 +30,7 @@ onMounted(() => {
       <section id="home" class="mx-auto mt-52 sm:w-9/12 xl:w-1/3">
          <h1
             class="text-6xl font-semibold leading-tight text-black dark:text-white md:text-7xl"
+            style="font-display: swap"
          >
             Lukas Olivier
          </h1>
@@ -74,7 +75,7 @@ onMounted(() => {
          class="absolute bottom-10 flex w-full justify-center text-black dark:text-white"
          href="#about-me"
       >
-         <PhCaretDown :size="48" weight="bold" id="down-arrow" />
+         <PhCaretDown id="down-arrow" :size="48" weight="bold" />
       </NuxtLink>
    </div>
 </template>
