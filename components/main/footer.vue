@@ -1,5 +1,5 @@
 <script setup>
-import { PhEnvelope, PhCertificate } from "@phosphor-icons/vue";
+import { PhEnvelope, PhCertificate } from "@phosphor-icons/vue/compact";
 
 // Extract data to make component more maintainable
 const techStack = [

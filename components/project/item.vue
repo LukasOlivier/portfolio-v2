@@ -1,6 +1,10 @@
 <script setup>
 import { ref } from "vue";
-import { PhGithubLogo, PhLinkedinLogo, PhLink } from "@phosphor-icons/vue";
+import {
+   PhGithubLogo,
+   PhLinkedinLogo,
+   PhLink,
+} from "@phosphor-icons/vue/compact";
 
 defineProps({
    project: {

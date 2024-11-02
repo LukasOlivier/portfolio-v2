@@ -1,5 +1,5 @@
 <script setup>
-import { PhCaretDown } from "@phosphor-icons/vue";
+import { PhCaretDown } from "@phosphor-icons/vue/compact";
 import Typewriter from "typewriter-effect/dist/core";
 
 const typeWriterElement = ref(null);

@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-import { PhArrowLeft, PhArrowRight } from "@phosphor-icons/vue";
+import { PhArrowLeft, PhArrowRight } from "@phosphor-icons/vue/compact";
 
 const { data } = await useAsyncData("home", () =>
    queryContent("/blogs").sort({ _id: -1 }).find(),

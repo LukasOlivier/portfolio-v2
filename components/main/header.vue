@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PhSun, PhMoon } from "@phosphor-icons/vue";
+import { PhSun, PhMoon } from "@phosphor-icons/vue/compact";
 const colorMode = useColorMode();
 function onClick(val: string) {
    colorMode.preference = val;

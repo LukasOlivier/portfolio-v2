@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { PhCaretLeft, PhCalendar } from "@phosphor-icons/vue";
+import { PhCaretLeft, PhCalendar } from "@phosphor-icons/vue/compact";
 interface Props {
    title: string;
    image: string;

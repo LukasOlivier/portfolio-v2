@@ -1,5 +1,5 @@
 <script setup>
-import { PhArrowLeft } from "@phosphor-icons/vue";
+import { PhArrowLeft } from "@phosphor-icons/vue/compact";
 </script>
 <template>
    <header class="mb-10">
