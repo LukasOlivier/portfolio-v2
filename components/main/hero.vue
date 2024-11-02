@@ -1,5 +1,5 @@
 <script setup>
-import { onMounted, ref } from "vue";
+import { PhCaretDown } from "@phosphor-icons/vue";
 import Typewriter from "typewriter-effect/dist/core";
 
 const typeWriterElement = ref(null);
@@ -42,38 +42,39 @@ onMounted(() => {
          </p>
 
          <NuxtLink
-            class="rounded-md border-2 px-4 py-2 font-semibold text-black dark:text-zinc-300 dark:hover:text-black"
-            to="/blogs"
+            class="rounded-md border-2 px-4 py-2 font-semibold text-black hover:bg-black hover:text-white dark:text-zinc-300 dark:hover:bg-white dark:hover:text-black"
+            to="/projects"
          >
-            Check my blog!
+            Check my projects!
          </NuxtLink>
       </section>
       <NuxtImg
-         v-motion-pop-visible-once
-         :placeholder="[50, 25, 75, 5]"
          format="webp"
-         class="absolute bottom-40 w-1/5 opacity-50 invert dark:invert-0 sm:hidden xl:block"
+         class="absolute bottom-40 left-10 w-60 opacity-50 invert dark:invert-0 sm:hidden xl:block"
          src="/patterns/pattern4.webp"
          alt="swiggle"
+         quality="80"
+         preload
+         width="800"
+         height="800"
       />
       <NuxtImg
-         v-motion-pop-visible-once
-         :placeholder="[50, 25, 75, 5]"
          format="webp"
          class="absolute bottom-40 right-0 w-1/5 opacity-50 invert dark:invert-0 sm:hidden md:block"
          src="/patterns/pattern5.webp"
          alt="pattern"
+         quality="80"
+         preload
+         width="300"
+         height="600"
+         title="pattern"
       />
       <NuxtLink
          aria-label="Scroll down to about me"
          class="absolute bottom-10 flex w-full justify-center text-black dark:text-white"
          href="#about-me"
       >
-         <i
-            id="down-arrow"
-            class="fa fa-chevron-down text-4xl"
-            aria-hidden="true"
-         />
+         <PhCaretDown :size="48" weight="bold" id="down-arrow" />
       </NuxtLink>
    </div>
 </template>

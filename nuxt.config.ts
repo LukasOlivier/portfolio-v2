@@ -44,22 +44,8 @@ export default defineNuxtConfig({
       "nuxt-booster",
       "@nuxt/eslint",
       "@nuxt/fonts",
+      "nuxt-phosphor-icons",
    ],
-   /*
-   generate: {
-      routes: [
-         "/blogs/00-incaso",
-         "/blogs/01-seo",
-         "/blogs/02-combell",
-         "/blogs/03-hackthefuture",
-         "/blogs/04-brandy",
-         "/blogs/05-deno-openapi",
-         "/blogs/06-lieven-ai",
-         "/blogs/07-vti",
-         "/blogs/08-flutter",
-      ],
-   },
-*/
 
    fonts: {
       families: [

@@ -1,4 +1,6 @@
 <script lang="ts" setup>
+import { PhArrowLeft, PhArrowRight } from "@phosphor-icons/vue";
+
 const { data } = await useAsyncData("home", () =>
    queryContent("/blogs").sort({ _id: -1 }).find(),
 );
@@ -107,17 +109,13 @@ useHead({
       </div>
 
       <div class="flex items-center justify-center space-x-6">
-         <button
-            :disabled="pageNumber <= 1"
-            class="fa fa-arrow-left"
-            @click="onPreviousPageClick"
-         />
+         <button :disabled="pageNumber <= 1" @click="onPreviousPageClick">
+            <PhArrowLeft />
+         </button>
          <p>{{ pageNumber }} / {{ totalPage }}</p>
-         <button
-            :disabled="pageNumber >= totalPage"
-            class="fa fa-arrow-right"
-            @click="onNextPageClick"
-         />
+         <button :disabled="pageNumber >= totalPage" @click="onNextPageClick">
+            <PhArrowRight />
+         </button>
       </div>
    </main>
 </template>

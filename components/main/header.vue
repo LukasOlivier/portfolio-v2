@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { PhSun, PhMoon } from "@phosphor-icons/vue";
 const colorMode = useColorMode();
 function onClick(val: string) {
    colorMode.preference = val;
@@ -37,14 +38,18 @@ function onClick(val: string) {
                   <button
                      name="color-mode-toggle"
                      :title="colorMode.value === 'light' ? 'Light' : 'Dark'"
-                     class="fa transition-all ease-out hover:scale-110 hover:cursor-pointer"
-                     :class="[
-                        colorMode.value === 'light' ? 'fa-sun' : 'fa-moon',
-                     ]"
+                     class="flex items-center transition-all ease-out hover:scale-105 hover:cursor-pointer"
                      @click="
                         onClick(colorMode.value === 'light' ? 'dark' : 'light')
                      "
-                  />
+                  >
+                     <PhSun
+                        v-if="colorMode.value === 'light'"
+                        :size="24"
+                        weight="fill"
+                     />
+                     <PhMoon v-else :size="24" weight="fill" />
+                  </button>
                </ClientOnly>
             </li>
          </ul>

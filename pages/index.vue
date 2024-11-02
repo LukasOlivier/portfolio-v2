@@ -15,7 +15,7 @@ useHead({
 <template>
    <main>
       <MainHero />
-      <MainAbout />
-      <MainServices />
+      <LazyMainAbout />
+      <LazyMainServices />
    </main>
 </template>

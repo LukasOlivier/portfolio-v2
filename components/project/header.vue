@@ -1,3 +1,6 @@
+<script setup>
+import { PhArrowLeft } from "@phosphor-icons/vue";
+</script>
 <template>
    <header class="mb-10">
       <h1
@@ -26,7 +29,7 @@
          </div>
       </div>
       <NuxtLink to="/blogs" class="text-center text-xl">
-         <i class="fa-solid fa-arrow-left mr-1" />
+         <PhArrowLeft class="mr-1" />
          Go Back
       </NuxtLink>
    </header>

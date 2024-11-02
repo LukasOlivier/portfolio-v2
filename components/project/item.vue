@@ -1,5 +1,6 @@
 <script setup>
 import { ref } from "vue";
+import { PhGithubLogo, PhLinkedinLogo, PhLink } from "@phosphor-icons/vue";
 
 defineProps({
    project: {
@@ -21,11 +22,15 @@ function toggleShowFullDescription() {
    >
       <NuxtImg
          class="h-56 w-full object-cover object-center"
-         :placeholder="[50, 25, 75, 5]"
          format="webp"
          loading="lazy"
          :src="project.image"
          :alt="project.title"
+         quality="80"
+         preload
+         width="500"
+         height="300"
+         title="project image"
       />
 
       <div class="p-6">
@@ -39,29 +44,38 @@ function toggleShowFullDescription() {
                <a
                   v-if="project.github"
                   :href="project.github"
-                  class="text-indigo-500 dark:text-zinc-300"
                   target="_blank"
                   aria-label="visit github repository"
                >
-                  <i class="fab fa-github" />
+                  <PhGithubLogo
+                     :size="20"
+                     weight="fill"
+                     class="hover:text-sky-700 dark:hover:text-sky-400"
+                  />
                </a>
                <a
                   v-if="project.website"
                   :href="project.website"
-                  class="text-indigo-500 dark:text-zinc-300"
                   target="_blank"
                   aria-label="visit external link"
                >
-                  <i class="fas fa-external-link-alt" />
+                  <PhLink
+                     :size="20"
+                     weight="bold"
+                     class="hover:text-sky-700 dark:hover:text-sky-400"
+                  />
                </a>
                <a
                   v-if="project.linkedin"
                   :href="project.linkedin"
-                  class="text-indigo-500 dark:text-zinc-300"
                   target="_blank"
                   aria-label="visit linkedin post"
                >
-                  <i class="fab fa-linkedin" />
+                  <PhLinkedinLogo
+                     :size="20"
+                     weight="fill"
+                     class="hover:text-sky-700 dark:hover:text-sky-400"
+                  />
                </a>
             </nav>
          </div>

@@ -1,4 +1,14 @@
 <script setup>
+useHead({
+   link: [
+      {
+         rel: "stylesheet",
+         href: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css",
+         defer: true,
+      },
+   ],
+});
+
 const skills = [
    { name: "PowerShell", icon: "devicon-windows8-original" },
    { name: "Linux", icon: "devicon-linux-plain" },

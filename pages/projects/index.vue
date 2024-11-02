@@ -9,7 +9,8 @@ const projects = ref([
    {
       id: 13,
       title: "Spel Zonder Grenzen",
-      description: "Spel Zonder Grenzen is a team building activity where participants compete in teams against each other in various trials. This for both young and old. Their old website was outdated and difficult to manage. I got the opportunity to make a new website for them. The website is made using Nuxt.js and Tailwind CSS.",
+      description:
+         "Spel Zonder Grenzen is a team building activity where participants compete in teams against each other in various trials. This for both young and old. Their old website was outdated and difficult to manage. I got the opportunity to make a new website for them. The website is made using Nuxt.js and Tailwind CSS.",
       category: "Professional",
       image: "/projects-img/szg.webp",
       tags: ["Nuxtjs-plain", "Tailwindcss-plain"],
@@ -196,17 +197,25 @@ useHead({
       },
    ],
    titleTemplate: "Lukas Olivier - %s",
+   link: [
+      {
+         rel: "stylesheet",
+         href: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css",
+         defer: true,
+      },
+   ],
 });
 </script>
 
 <template>
    <div class="mx-auto mb-5 mt-20 w-9/12">
       <h1
+         v-motion-slide-visible-once-left
          class="my-5 text-4xl font-semibold leading-tight text-black dark:text-zinc-300 md:text-5xl"
       >
-         Thanks for visiting my projects!
+         My Projects
       </h1>
-      <p class="mb-10 dark:text-zinc-300">
+      <p class="mb-10 dark:text-zinc-300" v-motion-slide-visible-once-left>
          Here you will find all the projects I have worked on during my career.
       </p>
       <section class="flex flex-col">
@@ -231,7 +240,6 @@ useHead({
             </ul>
          </div>
          <ul
-            v-motion-slide-visible-once-top
             class="grid grid-cols-4 gap-5 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4"
          >
             <project-item

@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import { PhCaretLeft, PhCalendar } from "@phosphor-icons/vue";
 interface Props {
    title: string;
    image: string;
@@ -38,14 +39,17 @@ withDefaults(defineProps<Props>(), {
             class="content-center gap-8 text-xs text-black dark:text-zinc-300 sm:text-sm md:flex"
          >
             <div class="flex items-center font-semibold">
-               <LogoDate />
+               <PhCalendar :size="20" class="mr-2" />
                <p>{{ date || "" }}</p>
             </div>
          </div>
       </div>
-      <NuxtLink to="/blogs" class="self-start text-center text-xl">
-         <i class="fa fa-arrow-left mr-1" />
-         Go Back
+      <NuxtLink
+         to="/blogs"
+         class="flex items-center gap-2 self-start text-center text-xl"
+      >
+         <PhCaretLeft :size="22" weight="bold" />
+         <p class="text-base">Go Back</p>
       </NuxtLink>
    </header>
 </template>
