@@ -5,6 +5,11 @@ description: "Code, Challenges, and Connections: HackTheFuture, a hackathon orga
 image: /blogs-img/htf/htf.webp
 alt: Hack The Future Antwerp
 published: true
+sitemap:
+   loc: /blogs/03-HackTheFuture
+   lastmod: 2024-11-02
+   changefreq: monthly
+   priority: 0.8
 ---
 
 I had the privilege of being a guest at HackTheFuture in Antwerp, an event organized by [Cronos Group](https://cronos-groep.be/) that took our passion for technology to new heights. 🚀 The day commenced with a car journey from Izegem due to an NMBS strike, marking the start of a remarkable day.

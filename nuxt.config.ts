@@ -3,30 +3,16 @@ export default defineNuxtConfig({
    app: {
       head: {
          charset: "utf-16",
+         htmlAttrs: {
+            lang: "en",
+         },
          viewport: "width=device-width,initial-scale=1",
          title: "Lukas Olivier",
          titleTemplate: "%s - Lukas Olivier",
-         lang: "en",
          meta: [
             {
                name: "description",
                content: "The e-portfolio of Lukas Olivier",
-            },
-         ],
-         link: [
-            {
-               rel: "stylesheet",
-               href: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css",
-               defer: true,
-            },
-            {
-               rel: "preload",
-               href: "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;700&display=swap",
-            },
-            {
-               rel: "stylesheet",
-               href: "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css",
-               defer: true,
             },
          ],
       },
@@ -57,8 +43,9 @@ export default defineNuxtConfig({
       "@nuxtjs/seo",
       "nuxt-booster",
       "@nuxt/eslint",
+      "@nuxt/fonts",
    ],
-
+   /*
    generate: {
       routes: [
          "/blogs/00-incaso",
@@ -72,16 +59,29 @@ export default defineNuxtConfig({
          "/blogs/08-flutter",
       ],
    },
+*/
+
+   fonts: {
+      families: [
+         { name: "Space Grotesk", provider: "none" },
+         { name: "Poppins", provider: "none" },
+      ],
+      providers: {
+         google: false,
+      },
+   },
 
    site: {
-      url: "https://lukasolivier.be", // Needed for og-image
+      url: "https://www.lukasolivier.be", // Needed for og-image
    },
 
    content: {
       highlight: {
          theme: "dracula",
       },
+      documentDriven: true,
    },
 
    css: ["~/assets/css/tailwind.css"],
+   compatibilityDate: "2024-11-02",
 });

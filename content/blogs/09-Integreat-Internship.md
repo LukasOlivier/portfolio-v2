@@ -5,6 +5,11 @@ description: "An internship during the last year of my bachelor's degree."
 image: /blogs-img/integreat/thumbnail.webp
 alt: "Integreat Internship"
 published: true
+sitemap:
+   loc: /blogs/09-Integreat-Internship
+   lastmod: 2024-11-02
+   changefreq: monthly
+   priority: 0.8
 ---
 
 

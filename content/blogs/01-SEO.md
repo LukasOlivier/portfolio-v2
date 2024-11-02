@@ -5,6 +5,11 @@ description: "Discovering SEO: Frederik Vermeire's Dive into Website Optimizatio
 image: /blogs-img/seo/thumbnail.webp
 alt: SEO
 published: true
+sitemap:
+   loc: /blogs/01-SEO
+   lastmod: 2024-11-02
+changefreq: monthly
+priority: 0.8
 ---
 
 # Guest Lecture SEO

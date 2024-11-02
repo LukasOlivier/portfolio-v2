@@ -5,6 +5,11 @@ description: "An Event Full of Innovation and Insights on Accessibility"
 image: /blogs-img/flutter/thumbnail.webp
 alt: Flutter Belgium
 published: true
+sitemap:
+   loc: /blogs/08-Flutter
+   lastmod: 2024-11-02
+   changefreq: monthly
+   priority: 0.8
 ---
 
 # Flutter Belgium Meetup: An Event Full of Innovation

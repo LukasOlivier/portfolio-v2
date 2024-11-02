@@ -5,6 +5,11 @@ description: "Lieven Scheire Unveils the Intricacies of AI From Clippy to ChatGP
 image: /blogs-img/lieven/lieven.webp
 alt: Lieven Scheire
 published: true
+sitemap:
+   loc: /blogs/06-Lieven-AI
+   lastmod: 2024-11-02
+   changefreq: monthly
+   priority: 0.8
 ---
 
 In an enlightening session, [Lieven Scheire](https://www.lievenscheire.be/) took us on a captivating journey through the evolution and current state of Artificial Intelligence. From the humble beginnings of AI, hindered by insufficient computing power, to today's powerful machines enabling revolutionary applications like DALL-E, Lieven covered it all.

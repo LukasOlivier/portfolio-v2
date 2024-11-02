@@ -4,7 +4,12 @@ date: 24/05/24
 description: "What are REST APIs, and what should you consider when choosing a framework?"
 image: /blogs-img/bap/thumbnail.webp
 alt: REST API Frameworks
-published: true 
+published: true
+sitemap:
+   loc: /blogs/10-Bachelor-Thesis-Rest-API
+   lastmod: 2024-11-02
+   changefreq: monthly
+   priority: 0.8    
 ---
 
 ### Introduction

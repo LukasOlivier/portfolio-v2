@@ -5,6 +5,11 @@ description: "Unleashing the Power of Deno and OpenApi: A Journey with Dimitri C
 image: /blogs-img/deno/thumbnail.webp
 alt: Deno and OpenApi
 published: true
+sitemap:
+   loc: /blogs/05-Deno-OpenAPI
+   lastmod: 2024-11-02
+   changefreq: monthly
+   priority: 0.8
 ---
 In a recent and captivating presentation, [Dimitri Casier](https://www.linkedin.com/in/dimitri-casier-b1b55356/?originalSubdomain=be) took us on a thrilling journey into the world of two groundbreaking technologies: [Deno](https://deno.com/) and [OpenApi API](https://openai.com/blog/openai-api). The session wasn't just a showcase of tools; it was an exploration of the future of AI and programming.
 

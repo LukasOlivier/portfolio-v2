@@ -5,6 +5,11 @@ description: "Transformative Week, Inspiring Insights, Global Connections!"
 image: /blogs-img/brandy/brandy.webp
 alt: BrandY 2.0
 published: true
+sitemap:
+   loc: /blogs/04-BrandY
+   lastmod: 2024-11-02
+   changefreq: monthly
+   priority: 0.8
 ---
 
 ## BrandY 2.0: Transformative Week, Inspiring Insights, Global Connections! 🚀🎮

@@ -5,6 +5,11 @@ description: "Combell Unveiled: Premium Hosting for the Technological Tomorrow b
 image: /blogs-img/combell/thumbnail.webp
 alt: "Combell Unveiled: Premium Hosting for the Technological Tomorrow by Simon Verdonck"
 published: true
+sitemap:
+   loc: /blogs/02-Combell
+   lastmod: 2024-11-02
+   changefreq: monthly
+   priority: 0.8
 ---
 Combell: Premium Hosting - A Dive into the Technological Future
 
