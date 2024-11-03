@@ -1,7 +1,6 @@
 <script setup>
 import { PhEnvelope, PhCertificate } from "@phosphor-icons/vue/compact";
 
-// Extract data to make component more maintainable
 const techStack = [
    { name: "Nuxt 3", url: "https://nuxt.com/" },
    { name: "Tailwind CSS", url: "https://tailwindcss.com/" },
@@ -13,6 +12,9 @@ const tools = [
       url: "https://code.visualstudio.com/",
       ariaLabel: "Visit Visual Studio Code website",
    },
+];
+
+const deployment = [
    {
       name: "Vercel",
       url: "https://vercel.com/",
@@ -84,12 +86,22 @@ const socialLinks = [
                      {{ tool.name }}
                   </a>
                </p>
+               <p v-for="deploy in deployment" :key="deploy.url">
+                  Deployed on
+                  <a
+                     :href="deploy.url"
+                     :aria-label="deploy.ariaLabel"
+                     class="hover:text-primary underline transition-colors"
+                  >
+                     {{ deploy.name }}
+                  </a>
+               </p>
             </div>
          </div>
 
          <!-- Social Links -->
          <div
-            class="grid grid-cols-1 gap-4 text-base sm:grid-cols-4 sm:grid-rows-1 sm:gap-x-10 sm:gap-y-4 sm:text-lg md:grid-cols-2 md:grid-rows-2"
+            class="grid grid-cols-1 gap-4 text-base sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-10 sm:gap-y-4 sm:text-lg md:grid-cols-2 md:grid-rows-2"
          >
             <div
                v-for="link in socialLinks"
@@ -105,22 +117,22 @@ const socialLinks = [
                      class="hover:text-primary flex items-center gap-2 transition-colors"
                   >
                      <component
-                        v-if="typeof link.icon === 'object'"
                         :is="link.icon"
+                        v-if="typeof link.icon === 'object'"
                         v-bind="link.iconProps"
                      />
                      <i v-else :class="[link.icon]" />
-                     <span class="hidden md:inline">{{ link.name }}</span>
+                     <span class="md:inline">{{ link.name }}</span>
                   </a>
                </template>
                <template v-else>
                   <component
-                     v-if="typeof link.icon === 'object'"
                      :is="link.icon"
+                     v-if="typeof link.icon === 'object'"
                      v-bind="link.iconProps"
                   />
                   <i v-else :class="[link.icon]" />
-                  <span class="hidden md:inline">{{ link.name }}</span>
+                  <span class="md:inline">{{ link.name }}</span>
                </template>
             </div>
          </div>
