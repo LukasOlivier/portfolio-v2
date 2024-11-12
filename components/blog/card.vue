@@ -29,6 +29,7 @@ withDefaults(defineProps<Props>(), {
             class="w-full rounded-t-2xl object-cover object-center shadow-lg transition-all duration-500 group-hover:scale-[1.02] md:h-36 lg:h-48"
             :src="image"
             :alt="alt"
+            :title="title"
          />
          <div class="pb-4">
             <div class="pb-2 pt-3 text-black dark:text-zinc-300">

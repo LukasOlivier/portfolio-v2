@@ -34,6 +34,13 @@ useHead({
          name: "description",
          content: description,
       },
+      {
+         name: "keywords",
+         content:
+            "lukas olivier, software engineering, student, programming, technology, nuxt3, vue3, tailwindcss, javascript, typescript, html, css, scss, sass, nodejs, expressjs, github, git",
+      },
+      { name: "author", content: "Lukas Olivier" },
+      { name: "publisher", content: "Lukas Olivier" },
       { property: "og:site_name", content: mySite },
       { property: "og:type", content: "website" },
       { property: "og:url", content: mySite },

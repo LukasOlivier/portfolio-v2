@@ -32,6 +32,11 @@ defineProps({
             {{ description }}
          </p>
       </div>
-      <NuxtImg class="sm:w-3/4 md:w-1/4" :src="image" :alt="title + ' image'" />
+      <NuxtImg
+         class="sm:w-3/4 md:w-1/4"
+         :src="image"
+         :alt="title + ' image'"
+         :title="title"
+      />
    </div>
 </template>

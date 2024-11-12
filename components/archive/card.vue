@@ -30,6 +30,7 @@ withDefaults(defineProps<Props>(), {
                class="h-full w-full rounded-t-2xl object-cover object-center shadow-lg transition-all duration-500 group-hover:scale-[1.02] sm:rounded-l-2xl sm:rounded-t-none"
                :src="image"
                :alt="alt"
+               :title="title"
             />
          </div>
          <div class="p-5 sm:col-span-7">

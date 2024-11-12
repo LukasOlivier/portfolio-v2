@@ -58,6 +58,7 @@ onMounted(() => {
          preload
          width="800"
          height="800"
+         title="swiggle"
       />
       <NuxtImg
          format="webp"
