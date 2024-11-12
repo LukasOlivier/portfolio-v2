@@ -47,7 +47,7 @@ useHead({
       { hid: "og:type", property: "og:type", content: "website" },
       {
          property: "og:url",
-         content: `https://lukasolivier.be/${path}`,
+         content: `https://www.lukasolivier.be/${path}`,
       },
       {
          property: "og:title",
@@ -66,7 +66,7 @@ useHead({
       { name: "twitter:card", content: "summary_large_image" },
       {
          name: "twitter:url",
-         content: `https://lukasolivier.be/${path}`,
+         content: `https://www.lukasolivier.be/${path}`,
       },
       {
          name: "twitter:title",
@@ -84,7 +84,7 @@ useHead({
    link: [
       {
          rel: "canonical",
-         href: `https://lukasolivier.be/${path}`,
+         href: `https://www.lukasolivier.be/${path}`,
       },
    ],
 });

@@ -5,14 +5,14 @@ const ogTitle = "Lukas Olivier - Software Engineering Student";
 const twitterDescription = `Lukas Olivier: I am a ${age}-year-old software engineering student, deeply passionate about programming and technology.`;
 const image =
    "https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp";
-const mySite = "https://lukasolivier.be";
+const mySite = "www.https://lukasolivier.be";
 
 useHead({
    htmlAttrs: {
       lang: "en",
    },
    link: [
-      { rel: "canonical", href: "https://lukasolivier.be" },
+      { rel: "canonical", href: "www.https://lukasolivier.be" },
       {
          rel: "preconnect",
          href: "https://cdn.jsdelivr.net",
