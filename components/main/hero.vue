@@ -8,11 +8,14 @@ onMounted(() => {
    document.querySelector(".typeWriter").innerText = "";
    const typewriter = new Typewriter(typeWriterElement.value, {
       loop: true,
-      delay: 25,
+      delay: 15,
    });
 
    typewriter
-      .typeString("Student applied computer science")
+      .typeString("Founder of IzyBit")
+      .pauseFor(2000)
+      .deleteAll()
+      .typeString("Industrial Engineer computer science")
       .pauseFor(1000)
       .deleteAll()
       .typeString("Musician")
@@ -37,9 +40,9 @@ onMounted(() => {
 
          <p
             ref="typeWriterElement"
-            class="typeWriter mb-10 text-black dark:text-white"
+            class="typeWriter mb-10 text-lg text-black dark:text-white"
          >
-            Student applied computer science
+            Founder of IzyBit
          </p>
 
          <NuxtLink
