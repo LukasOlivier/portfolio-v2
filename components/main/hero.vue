@@ -15,7 +15,7 @@ onMounted(() => {
       .typeString("Founder of IzyBit")
       .pauseFor(2000)
       .deleteAll()
-      .typeString("Industrial Engineer computer science")
+      .typeString("Student Industrial Engineering Computer Science")
       .pauseFor(1000)
       .deleteAll()
       .typeString("Musician")
