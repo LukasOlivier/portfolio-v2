@@ -58,11 +58,9 @@ useHead({
 </script>
 
 <template>
-   <div class="bg-[#F1F2F4] dark:bg-slate-950 dark:text-zinc-300">
-      <NuxtLayout>
-         <NuxtPage />
-      </NuxtLayout>
-   </div>
+   <NuxtLayout>
+      <NuxtPage />
+   </NuxtLayout>
 </template>
 
 <style>

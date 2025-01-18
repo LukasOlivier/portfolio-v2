@@ -16,6 +16,6 @@ useHead({
    <main>
       <MainHero />
       <LazyMainAbout />
-      <LazyMainServices />
+      <!-- <LazyMainServices /> Temporary removal until I rewrite the paragraphs -->
    </main>
 </template>

@@ -1,10 +1,5 @@
-<script setup>
-import { SpeedInsights } from "@vercel/speed-insights/nuxt";
-</script>
-
 <template>
-   <div>
-      <SpeedInsights />
+   <div class="bg-[#F1F2F4] dark:bg-slate-950 dark:text-zinc-300">
       <div class="gd-container font-spacegrotesk">
          <header class="fixed z-10 w-full bg-[#F1F2F4] dark:bg-slate-950">
             <MainHeader />
