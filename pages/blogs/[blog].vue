@@ -54,6 +54,7 @@ useHead({
          property: "og:image",
          content: data.value.image,
       },
+      { rel: "canonical", href: "https://www.lukasolivier.be" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:title", content: data.value.title },
       { name: "twitter:description", content: data.value.description },
