@@ -1,10 +1,6 @@
 <script setup>
-import { ref } from "vue";
-
 const categories = ref(["All projects", "Personal", "School", "Professional"]);
-
 const pickedCategory = ref(categories.value[0]);
-
 const projects = ref([
    {
       id: 13,
@@ -196,7 +192,6 @@ useHead({
             "Here you will find all the projects I have worked on during my career.",
       },
    ],
-   titleTemplate: "Lukas Olivier - %s",
 });
 </script>
 

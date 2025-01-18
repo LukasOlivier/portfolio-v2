@@ -47,7 +47,6 @@ useHead({
       { property: "og:title", content: ogTitle },
       { property: "og:description", content: description },
       { property: "og:image", content: image },
-      { name: "twitter:site", content: "@qdnvubp" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "twitter:url", content: mySite },
       { name: "twitter:title", content: ogTitle },

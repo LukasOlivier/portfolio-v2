@@ -8,7 +8,6 @@ useHead({
             "Welcome to my personal website. Here you will find information about me, my projects and my blog.",
       },
    ],
-   titleTemplate: "Lukas Olivier - %s",
 });
 </script>
 

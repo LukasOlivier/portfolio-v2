@@ -3,7 +3,7 @@ title: INCASO 2023
 date: 12/02/23-19/02/23
 description: "Our experiences during our international project. Visiting Rijeka, Croatia during the carnival week."
 image: /blogs-img/incaso/eb5b81_2200ba9d322f4302b67e8661eb54af50~mv2.webp
-alt: Hwo to fix tailwind intellisense in nuxt3 project
+alt: INCASO
 published: true
 sitemap:
    loc: /blogs/00-Incaso
