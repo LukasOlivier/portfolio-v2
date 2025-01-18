@@ -45,7 +45,19 @@ export default defineNuxtConfig({
       "@nuxt/eslint",
       "@nuxt/fonts",
       "nuxt-phosphor-icons",
+      "@nuxtjs/critters",
    ],
+
+   critters: {
+      // Options passed directly to beasties: https://github.com/danielroe/beasties#beasties-
+      config: {
+         // Default: 'media'
+         preload: "swap",
+      },
+   },
+   build: {
+      extractCSS: true, // Ensure CSS extraction is enabled
+   },
 
    fonts: {
       families: [
