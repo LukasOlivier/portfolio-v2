@@ -22,12 +22,12 @@ withDefaults(defineProps<Props>(), {
 
 <template>
    <article
-      class="group m-2 overflow-hidden rounded-2xl border text-zinc-700 shadow-sm dark:border-gray-800 dark:text-zinc-300"
+      class="group overflow-hidden rounded-2xl border text-zinc-700 shadow-sm dark:border-gray-800 dark:text-zinc-300"
    >
       <NuxtLink :to="path" class="grid grid-cols-1 gap-1 sm:grid-cols-10">
-         <div class="sm:col-span-3">
+         <div class="hidden sm:col-span-3 md:block">
             <NuxtImg
-               class="h-full w-full rounded-t-2xl object-cover object-center shadow-lg transition-all duration-500 group-hover:scale-[1.02] sm:rounded-l-2xl sm:rounded-t-none"
+               class="h-full w-full rounded-t-2xl object-cover object-center shadow-lg transition-all duration-500 group-hover:scale-[1.02] sm:rounded-l-2xl sm:rounded-t-none lg:block"
                :src="image"
                :alt="alt"
                :title="title"
