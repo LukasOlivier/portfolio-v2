@@ -1,45 +1,53 @@
 <script setup>
 const skills = [
-   { name: "PowerShell", icon: "devicon-windows8-original" },
-   { name: "Linux", icon: "devicon-linux-plain" },
-   { name: "HTML5", icon: "devicon-html5-plain" },
-   { name: "CSS3", icon: "devicon-css3-plain" },
-   { name: "SASS", icon: "devicon-sass-original" },
-   { name: "JavaScript", icon: "devicon-javascript-plain" },
-   { name: "Java", icon: "devicon-java-plain" },
-   { name: "Kotlin", icon: "devicon-kotlin-plain" },
-   { name: "Docker", icon: "devicon-docker-plain" },
-   { name: "Arduino", icon: "devicon-arduino-plain" },
-   { name: "Laravel", icon: "devicon-laravel-plain" },
-   { name: "Vue.js", icon: "devicon-vuejs-plain" },
-   { name: "Svelte", icon: "devicon-svelte-plain" },
-   { name: "Nuxt", icon: "devicon-nuxtjs-plain" },
-   { name: "Blazor", icon: "devicon-blazor-original" },
-   { name: "MySQL", icon: "devicon-mysql-plain" },
-   { name: "Neo4j", icon: "devicon-neo4j-plain" },
-   { name: "Microsoft SQL Server", icon: "devicon-microsoftsqlserver-plain" },
-   { name: "MongoDB", icon: "devicon-mongodb-plain" },
-   { name: "Android", icon: "devicon-androidstudio-plain" },
-   { name: ".Net", icon: "devicon-dotnetcore-plain" },
-   { name: "Prometheus", icon: "devicon-prometheus-original" },
-   { name: "Grafana", icon: "devicon-grafana-plain" },
-   { name: "Python", icon: "devicon-python-plain" },
-   { name: "Markdown", icon: "devicon-markdown-original" },
+   // Operating Systems
+   { name: "PowerShell", icon: "mdi:microsoft-windows" },
+   { name: "Linux", icon: "devicon-plain:linux" },
+
+   // Web Development
+   { name: "HTML5", icon: "devicon-plain:html5" },
+   { name: "CSS3", icon: "devicon-plain:css3" },
+   { name: "SASS", icon: "simple-icons:sass" },
+   { name: "Tailwind", icon: "simple-icons:tailwindcss" },
+   { name: "JavaScript", icon: "devicon-plain:javascript" },
+   { name: "Vue.js", icon: "devicon-plain:vuejs" },
+   { name: "Svelte", icon: "devicon-plain:svelte" },
+   { name: "Nuxt", icon: "devicon-plain:nuxtjs" },
+   { name: "Laravel", icon: "devicon-plain:laravel" },
+   { name: "Blazor", icon: "simple-icons:blazor" },
+
+   // Programming Languages
+   { name: "Java", icon: "devicon-plain:java" },
+   { name: "Kotlin", icon: "devicon-plain:kotlin" },
+   { name: "Python", icon: "devicon-plain:python" },
+   { name: ".Net", icon: "devicon-plain:dotnetcore" },
+
+   // Databases
+   { name: "MySQL", icon: "devicon-plain:mysql" },
+   { name: "SQL Server", icon: "devicon-plain:microsoftsqlserver" },
+   { name: "MongoDB", icon: "devicon-plain:mongodb" },
+
+   // Tools
+   { name: "Docker", icon: "devicon-plain:docker" },
+   { name: "Arduino", icon: "devicon-plain:arduino" },
+   { name: "Android", icon: "devicon-plain:androidstudio" },
+   { name: "Markdown", icon: "devicon-plain:markdown-original" },
 ];
 </script>
 
 <template>
    <ul id="skills" class="mt-6 flex flex-wrap gap-x-6 gap-y-8 text-4xl">
       <li v-for="skill in skills" :key="skill.name">
-         <i :class="skill.icon" :title="skill.name">
-            <span class="icon-title">{{ skill.name }}</span>
-         </i>
+         <div class="icon">
+            <Icon :name="skill.icon" :title="skill.name" />
+            <span class="icon-title text-center">{{ skill.name }}</span>
+         </div>
       </li>
    </ul>
 </template>
 
 <style scoped>
-i {
+.icon {
    font-size: 2.5rem;
    display: flex;
    flex-direction: column;
@@ -49,7 +57,7 @@ i {
    position: relative;
 }
 
-i:hover {
+.icon:hover {
    transform: translateY(-0.5rem);
 }
 
@@ -59,14 +67,17 @@ i:hover {
    font-size: 1rem;
    position: absolute;
    opacity: 0;
-   transition: opacity 0.3s;
+   transition:
+      opacity 0.3s,
+      visibility 0.3s;
    font-family: "Poppins", sans-serif;
    font-weight: bold;
    top: 100%;
-   margin-top: 0.5rem;
+   margin-top: 0.2rem;
+   line-height: 1.2;
 }
 
-i:hover .icon-title {
+.icon:hover .icon-title {
    visibility: visible;
    opacity: 1;
 }

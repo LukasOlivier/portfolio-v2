@@ -99,7 +99,7 @@ function toggleShowFullDescription() {
             :key="tag"
             class="text-gray-600 dark:text-zinc-400"
          >
-            <i :class="`devicon-${tag.toLowerCase()} text-xl`" />
+            <Icon :name="tag" class="text-xl" />
          </li>
       </ul>
    </div>

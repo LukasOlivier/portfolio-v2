@@ -89,7 +89,7 @@ useHead({
             v-model="searchQuery"
             type="text"
             placeholder="Search posts..."
-            class="block w-full rounded-md border-gray-300 bg-[#F1F2F4] text-zinc-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 dark:border-gray-800 dark:bg-slate-900 dark:placeholder-zinc-500"
+            class="block w-full rounded-md border-gray-300 bg-[#F1F2F4] text-zinc-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50 dark:border-gray-800 dark:bg-slate-900 dark:text-white dark:placeholder-zinc-500"
          />
       </div>
 
