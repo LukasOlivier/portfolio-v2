@@ -1,22 +1,40 @@
 <script setup>
+	const router = useRouter();
 	const slug = useRoute().params.slug;
 
 	const { data: post } = await useAsyncData(`${slug}`, () => {
 		return queryCollection('blog').path(`/blog/${slug}`).first();
 	});
 
-	function handleBrowserBack() {
-		router.push('/blog');
+	// Track if we're handling internal anchor navigation
+	let isInternalNavigation = false;
+
+	function handleBrowserBack(event) {
+		// Only handle back navigation if it's not an internal anchor change
+		if (!isInternalNavigation) {
+			// Prevent default navigation
+			event.preventDefault();
+			router.push('/blog');
+		}
+		// Reset the flag
+		isInternalNavigation = false;
+	}
+
+	function handleAnchorClick(e) {
+		if (e.target.tagName === 'A' && e.target.hash) {
+			isInternalNavigation = true;
+		}
 	}
 
 	onMounted(() => {
+		document.addEventListener('click', handleAnchorClick);
 		window.addEventListener('popstate', handleBrowserBack);
 	});
 
 	onUnmounted(() => {
 		window.removeEventListener('popstate', handleBrowserBack);
+		document.removeEventListener('click', handleAnchorClick);
 	});
-
 	useHead({
 		title: post.value.title || '',
 		meta: [

@@ -49,7 +49,7 @@
 			to="/blog"
 			class="flex items-center gap-2 self-start text-center text-xl"
 		>
-			<Icon name="mdi:chevron-down" size="24" />
+			<Icon name="mdi:chevron-left" size="24" />
 			<p class="text-base">Go Back</p>
 		</NuxtLink>
 	</header>
