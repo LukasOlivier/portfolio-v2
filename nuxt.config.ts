@@ -33,7 +33,18 @@ export default defineNuxtConfig({
 		'@nuxtjs/sitemap',
 		'@nuxtjs/robots',
 		'@nuxt/eslint',
+		'@nuxthub/core',
 	],
+
+	content: {
+		database: {
+			type: 'd1',
+			binding: 'DB',
+		},
+	},
+	hub: {
+		database: true,
+	},
 
 	typescript: {
 		strict: true,
