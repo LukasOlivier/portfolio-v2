@@ -69,24 +69,10 @@ export default defineNuxtConfig({
 	},
 
 	// Performance
-	nitro: {
-		minify: true,
-		compressPublicAssets: true,
-	},
-
-	experimental: {
-		payloadExtraction: true,
-		viewTransition: true,
-		renderJsonPayloads: true,
-	},
 
 	image: {
 		format: ['webp'],
 		quality: 100,
-	},
-
-	build: {
-		extractCSS: true, // Ensure CSS extraction is enabled
 	},
 
 	critters: {
