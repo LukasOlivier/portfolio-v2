@@ -11,7 +11,7 @@
 			id: 15,
 			title: 'Resin - Open-Source Real Estate Platform',
 			description:
-				'Resin is een open-source vastgoedplatform dat gebruikers helpt huizen te kopen zonder afhankelijk te zijn van traditionele bankleningen. Met een kaartgebaseerde interface kunnen gebruikers eenvoudig woningen ontdekken, gedetailleerde lijsten bekijken en alternatieve financieringsopties verkennen. Het platform maakt gebruik van moderne technologieën zoals Nuxt 3, Nostr, en Typescript om een schaalbare, intuïtieve en veilige ervaring te bieden.',
+				'Resin is an open-source real estate platform that helps users purchase homes without relying on traditional bank loans. With a map-based interface, users can easily discover properties, view detailed listings, and explore alternative financing options. The platform leverages modern technologies such as Nuxt 3, Nostr, and TypeScript to deliver a scalable, intuitive, and secure experience.',
 			category: 'Professional',
 			image: '/projects-img/resin.webp',
 			tags: [
@@ -24,9 +24,9 @@
 		},
 		{
 			id: 14,
-			title: 'Project Nekton - Slimme Verlichtingsapp',
+			title: 'Project Nekton - Smart Lighting App',
 			description:
-				'Samen met Sibren Eeckhout en Project Nekton ontwikkelde ik een innovatieve verlichtingsapplicatie speciaal ontworpen voor sport- en recreatiecentra. Deze applicatie stelt gebruikers in staat om via hun smartphone de lichtsterkte aan te passen, specifieke delen van een veld te verlichten, en de verlichting eenvoudig in te plannen via een ingebouwde agenda. Met een focus op energie-efficiëntie en gebruiksgemak, maakt de app het beheer van verlichting volledig automatisch en intuïtief.',
+				'In collaboration with Sibren Eeckhout and Project Nekton, I developed an innovative lighting application specifically designed for sports and recreation centers. This application enables users to adjust light intensity via their smartphone, illuminate specific areas of a field, and easily schedule lighting with an integrated calendar. With a focus on energy efficiency and ease of use, the app makes lighting management fully automatic and intuitive.',
 			category: 'Professional',
 			image: '/projects-img/project-nekton.webp',
 			tags: [
