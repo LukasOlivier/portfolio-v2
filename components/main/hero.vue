@@ -56,10 +56,9 @@ onMounted(() => {
          class="absolute bottom-40 left-10 w-60 opacity-50 invert dark:invert-0 sm:hidden xl:block"
          src="/patterns/pattern4.webp"
          alt="swiggle"
-         quality="80"
-         preload
-         width="800"
-         height="800"
+         quality="30" 
+         width="400"  
+         height="400"
          title="swiggle"
       />
       <NuxtImg
@@ -67,10 +66,9 @@ onMounted(() => {
          class="absolute bottom-40 right-0 w-1/5 opacity-50 invert dark:invert-0 sm:hidden md:block"
          src="/patterns/pattern5.webp"
          alt="pattern"
-         quality="80"
-         preload
-         width="300"
-         height="600"
+         quality="30" 
+         width="200"  
+         height="350"
          title="pattern"
       />
       <NuxtLink

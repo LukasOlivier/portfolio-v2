@@ -53,4 +53,17 @@ html.dark {
    background-color: #6c91c2;
    color: #fff;
 }
+
+a:hover {
+   color: var(--link-hover-color);
+}
+
+html.dark a:hover {
+   --link-hover-color: white;
+}
+
+html a:hover {
+   --link-hover-color: black;
+}
+
 </style>
