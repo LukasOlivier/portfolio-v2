@@ -18,6 +18,23 @@ export default defineNuxtConfig({
       },
    },
 
+   modules: [
+      "@nuxt/content",
+      "@nuxt/image",
+      "@vueuse/nuxt",
+      "@nuxtjs/fontaine",
+      "@nuxtjs/color-mode",
+      "@nuxtjs/tailwindcss",
+      "@vueuse/motion/nuxt",
+      "@nuxt/fonts",
+      "@nuxtjs/critters",
+      "@nuxt/icon",
+      "nuxt-booster",
+      "@nuxtjs/sitemap",
+      "@nuxtjs/robots",
+    ],
+ 
+
    typescript: {
       strict: true,
    },
@@ -32,21 +49,6 @@ export default defineNuxtConfig({
       quality: 100,
    },
 
-   modules: [
-     "@nuxt/content",
-     "@nuxt/image",
-     "@vueuse/nuxt",
-     "@nuxtjs/fontaine",
-     "@nuxtjs/color-mode",
-     "@nuxtjs/tailwindcss",
-     "@vueuse/motion/nuxt",
-     "@nuxt/fonts",
-     "@nuxtjs/critters",
-     "@nuxt/icon",
-     "nuxt-booster",
-     "@nuxtjs/sitemap",
-     "@nuxtjs/robots",
-   ],
 
    critters: {
       config: {
