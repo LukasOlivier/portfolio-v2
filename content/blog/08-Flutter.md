@@ -1,15 +1,15 @@
 ---
 title: Flutter Belgium Meetup
 date: 15/05/24
-description: "An Event Full of Innovation and Insights on Accessibility"
+description: 'An Event Full of Innovation and Insights on Accessibility'
 image: /blog-img/flutter/thumbnail.webp
 alt: Flutter Belgium
 published: true
 sitemap:
-   loc: /blog/08-Flutter
-   lastmod: 2024-11-02
-   changefreq: monthly
-   priority: 0.8
+  loc: /blog/08-Flutter
+  lastmod: 2024-11-02
+  changefreq: monthly
+  priority: 0.8
 ---
 
 # Flutter Belgium Meetup: An Event Full of Innovation
@@ -42,19 +42,19 @@ A major theme of the event was **accessibility**:
 
 ### **Solutions for Accessibility**:
 
-**Sensory**: 
+**Sensory**:
 Larger fonts and components, use semantics for buttons and actions for blind users.
 <img src="/blog-img/flutter/amazon.webp" style="object-fit: cover; height: 20rem; width: 100%" />
 
-**Cognitive Accessibility**: 
+**Cognitive Accessibility**:
 Dyslexic fonts, short texts for ADHD.
 <img src="/blog-img/flutter/dyslectic.webp" style="object-fit: cover; height: 20rem; width: 100%" />
 
-**Mobility**: 
+**Mobility**:
 Heatmaps for one-handed use. Place buttons where they are easy to reach.
 <img src="/blog-img/flutter/onehanded.webp" style="object-fit: cover; height: 23rem; width: 100%" />
 
-**Territorial Accessibility**: 
+**Territorial Accessibility**:
 Consider countries with expensive data plans or older phones. Apps such as Facebook Lite are designed for these users. They are lightweight and use less data.
 <img src="/blog-img/flutter/fblite.webp" style="object-fit: cover; height: 20rem; width: 100%" />
 

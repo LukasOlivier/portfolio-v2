@@ -1,15 +1,15 @@
 ---
 title: Lieven Scheire about AI
 date: 01/02/24
-description: "Lieven Scheire Unveils the Intricacies of AI From Clippy to ChatGPT"
+description: 'Lieven Scheire Unveils the Intricacies of AI From Clippy to ChatGPT'
 image: /blog-img/lieven/lieven.webp
 alt: Lieven Scheire
 published: true
 sitemap:
-   loc: /blog/06-Lieven-AI
-   lastmod: 2024-11-02
-   changefreq: monthly
-   priority: 0.8
+  loc: /blog/06-Lieven-AI
+  lastmod: 2024-11-02
+  changefreq: monthly
+  priority: 0.8
 ---
 
 In an enlightening session, [Lieven Scheire](https://www.lievenscheire.be/) took us on a captivating journey through the evolution and current state of Artificial Intelligence. From the humble beginnings of AI, hindered by insufficient computing power, to today's powerful machines enabling revolutionary applications like DALL-E, Lieven covered it all.
@@ -28,7 +28,6 @@ Drawing attention to the incredible advancements, Lieven highlighted that today'
 Diving into AI Use Cases: From [Photomath](https://photomath.com/) to Multilingual Video Translation using [Google Translate](https://translate.google.com/) 🌐
 
 Lieven presented various AI use cases, from solving math problems with apps like Photomath to using Google Translate for real-time translation of traffic signs or menus using your smartphone's camera. He even showcased the futuristic ability to translate videos of oneself into different languages with corresponding mouth movements and voices.
-
 
 ## The Enigma of Neural Networks: Explained with a Dice 🎲
 
@@ -57,7 +56,6 @@ Surprising the audience, Lieven highlighted that Captcha serves not only as a te
 In a powerful demonstration, Lieven showcased the capabilities of ChatGPT, emphasizing its strength in natural language processing and interaction. The audience witnessed firsthand the potential of AI in generating human-like text.
 
 <img src="/blog-img/lieven/lieven5.webp" style="height: 20rem; width: 100%; object-fit: cover;"/>
-
 
 ## Wrapping Up: Thank You, Lieven! 👏
 

@@ -1,20 +1,19 @@
 ---
 title: INCASO 2023
 date: 12/02/23-19/02/23
-description: "Our experiences during our international project. Visiting Rijeka, Croatia during the carnival week."
+description: 'Our experiences during our international project. Visiting Rijeka, Croatia during the carnival week.'
 image: /blog-img/incaso/eb5b81_2200ba9d322f4302b67e8661eb54af50~mv2.webp
 alt: INCASO
 published: true
 sitemap:
-   loc: /blog/00-Incaso
-   lastmod: 2024-11-02
-   changefreq: monthly
-   priority: 0.8
-   published: true
+  loc: /blog/00-Incaso
+  lastmod: 2024-11-02
+  changefreq: monthly
+  priority: 0.8
+  published: true
 ---
 
 # Introduction to INCASO
-
 
 Welcome to our blog about our international project in Rijeka during the carnival week! Last month, we had the opportunity to participate in an exciting project in this beautiful city on the Adriatic Sea, together with a group of students from different parts of Europe. Throughout the entire week, we worked together on a project that brought us in contact with the local community and immersed us in the rich culture and traditions of Rijeka, especially during the carnival period.
 
@@ -70,16 +69,13 @@ After dinner, we met up and headed towards a bar that we quickly dubbed the "stu
 
 Eventually, we decided it was time to head back to our hostel and get some rest for the next day. We took a taxi and arrived back at the hostel around 2 am. Overall, it was another fantastic day filled with exploration, learning, and good times with great people.
 
-
 <img src="/blog-img/incaso/eb5b81_c38d826235334a1fb101a1ff75f41455~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
 
 <img src="/blog-img/incaso/eb5b81_b727f001df4848e29cbdf08082f49439~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
 
+### Wednesday - Tourism in Rijeka
 
-
-### Wednesday - Tourism in Rijeka 
-
-On Wednesday morning, we gathered at the school building around 10 am to head towards the Children's House and the Sugar Refinery Palace. The Children’s House is a building dedicated to children located within the new Culture Block in Rijeka, Croatia. Designed as an entrance to the world of culture for children up to the age of 12, the Children's House is more than just a place for kids to learn. 
+On Wednesday morning, we gathered at the school building around 10 am to head towards the Children's House and the Sugar Refinery Palace. The Children’s House is a building dedicated to children located within the new Culture Block in Rijeka, Croatia. Designed as an entrance to the world of culture for children up to the age of 12, the Children's House is more than just a place for kids to learn.
 
 It's a place where they can be performers and producers, not just spectators. The building is organized as a box inserted within the original brick walls, with the existing walls reinforced with concrete and the new concrete box supported by steel beams and existing cast iron columns. The space between the two walls is used for staircases, which encircle the box in a clockwise direction. Each room has its own unique feel and use and is accessed from this architectural promenade. In the building, we saw a library, cinema, playroom and more…
 
@@ -95,9 +91,7 @@ After both groups finished eating, we reunited at our regular pub to finish the 
 
 <img src="/blog-img/incaso/eb5b81_77f6583cfbaf417e91763d22cf6e88a5~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
 
-
-
-### Thursday - Guest speaker 
+### Thursday - Guest speaker
 
 Thursday was our last day of the trip, and we had a lot to do. We had to gather at 10am and had three hours to work on our project. Although we were grateful for the extra time, we knew there was still a lot to be done, and we wanted to make the most of it.
 
@@ -115,14 +109,11 @@ We tasted all sorts of things, and it all tasted very good. It was a great way t
 
 Our group was a bit larger than usual, as we were joined by some of our fellow Belgians and Koreans.
 
-
 <img src="/blog-img/incaso/eb5b81_6a73aba4b50b4b098cf6e9987a05adcc~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
 
 <img src="/blog-img/incaso/eb5b81_4734248db4b444868b2d1828b869a6d1~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
 
-
-
-### Friday - Presentations 
+### Friday - Presentations
 
 Friday was a day full of anticipation and excitement. It was the day that we have been working towards all week, the day where we had to present our projects to the judges. The energy was high and there was a sense of nervousness in the air.
 
@@ -141,8 +132,6 @@ As the night drew on, a group of us decided to explore some of the more seedy ne
 <img src="/blog-img/incaso/eb5b81_d24e8c772d87454e9eb9ca418c3eb3b5~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
 
 <img src="/blog-img/incaso/eb5b81_75d5bce662bd4f6a97306af6a65c2ad9~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
-
-
 
 ### Saturday - Trip to Učka
 
@@ -166,8 +155,6 @@ After dinner, we all headed towards the Youth Club once again to enjoy the night
 
 <img src="/blog-img/incaso/eb5b81_2b3acc4878a043b7ac4b52f05b098b37~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
 
-
-
 ### Sunday - The Carnival
 
 Sunday marked the final day of our Croatian adventure, and it was undoubtedly the highlight of our trip. The day was dedicated to Carnival, a holiday of great significance in Rijeka. We were all eagerly waiting for this day to come and were nervous about our costumes for a whole week. As we gathered at 11 am, everyone was in their elaborate and well-thought-out costumes, ready to participate in the lively parade.
@@ -178,14 +165,12 @@ As we started walking, the crowd around us was already growing, and we were all 
 
 To our surprise, our dances were even broadcasted on National Croatian Television, which made the experience even more memorable. After an hour of walking among the people in the parade and occasionally taking photos with people, the parade was done for us. We were free to do what we wanted next, either watch the rest of the parade or join the festivities at the tent, and most of us chose the latter option.
 
-After a whole afternoon of partying, we decided to get some food and end the night with a drink at another bar. We reminisced about the trip, and how fantastic it had been to participate in the Rijeka Carnival. The atmosphere, the music, and the crowd all contributed to making this a truly unforgettable experience. 
+After a whole afternoon of partying, we decided to get some food and end the night with a drink at another bar. We reminisced about the trip, and how fantastic it had been to participate in the Rijeka Carnival. The atmosphere, the music, and the crowd all contributed to making this a truly unforgettable experience.
 
 You can watch our performance here: [https://youtu.be/bQrAtlvipWs?t=4674](https://youtu.be/bQrAtlvipWs?t=4674)
-
 
 <img src="/blog-img/incaso/eb5b81_2200ba9d322f4302b67e8661eb54af50~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
 
 <img src="/blog-img/incaso/eb5b81_9201ae72d3ae4fdd8c3d2219664f80a6~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
 
 <img src="/blog-img/incaso/eb5b81_722887da62e5408eb6255de2d3f317f6~mv2.webp"   style="object-fit: cover; height: 20rem; width: 100%" />
-

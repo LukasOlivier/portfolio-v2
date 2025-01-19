@@ -1,15 +1,15 @@
 ---
 title: Workstop VTI Izegem
 date: 30/01/24
-description: "A Workshop by Howest Bruges Students"
+description: 'A Workshop by Howest Bruges Students'
 image: /blog-img/vti/3.webp
 alt: Workshop VTI Izegem
 published: true
 sitemap:
-   loc: /blog/07-VTI
-   lastmod: 2024-11-02
-   changefreq: monthly
-   priority: 0.8
+  loc: /blog/07-VTI
+  lastmod: 2024-11-02
+  changefreq: monthly
+  priority: 0.8
 ---
 
 Embarking on an educational adventure, a team of Applied Computer Science students from [Howest Bruges](https://www.howest.be/nl) organized an engaging workshop for the 6th-grade students at [VTI in Izegem](https://www.izegem.be/adressen/prizma-campus-vti). This immersive session unfolded into two exciting segments: Flask API development and the art of Pentesting. Let's delve into the details of this captivating journey!

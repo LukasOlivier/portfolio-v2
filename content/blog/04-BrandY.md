@@ -1,19 +1,20 @@
 ---
 title: BrandY 2.0
 date: 03/12/23
-description: "Transformative Week, Inspiring Insights, Global Connections!"
+description: 'Transformative Week, Inspiring Insights, Global Connections!'
 image: /blog-img/brandy/brandy.webp
 alt: BrandY 2.0
 published: true
 sitemap:
-   loc: /blog/04-BrandY
-   lastmod: 2024-11-02
-   changefreq: monthly
-   priority: 0.8
+  loc: /blog/04-BrandY
+  lastmod: 2024-11-02
+  changefreq: monthly
+  priority: 0.8
 ---
 
 ## BrandY 2.0: Transformative Week, Inspiring Insights, Global Connections! 🚀🎮
-In my fifth semester, I got the opportunity of a lifetime: participating in the BrandY project with my talented team members [Bilal Ben Mohammadi](https://www.linkedin.com/in/bilal-ben-mohammadi/), [Quiandro](https://www.linkedin.com/in/quiandro-steenbeke-6896b8294/), and  [Lucas Guillemyn](https://www.linkedin.com/in/lucas-guillemyn-280103g/). Together, we were determined to create an amazing update for the BrandY game.🚀🎮
+
+In my fifth semester, I got the opportunity of a lifetime: participating in the BrandY project with my talented team members [Bilal Ben Mohammadi](https://www.linkedin.com/in/bilal-ben-mohammadi/), [Quiandro](https://www.linkedin.com/in/quiandro-steenbeke-6896b8294/), and [Lucas Guillemyn](https://www.linkedin.com/in/lucas-guillemyn-280103g/). Together, we were determined to create an amazing update for the BrandY game.🚀🎮
 
 The project week connected us with international students and teachers who use the game. It wasn't just any week but an adventurous journey filled with wonderfull activities. From exploring the [Historium museum](https://www.historium.be/nl/ontdek-historium) to tasting craft brews during a visit to a local brewery [Bourbogne des Flandres](https://www.bourgognedesflandres.be/). The icing on the cake was the 'taste your country' evening on Monday, where the diversity of flavors and traditions truly connected us with the world.🌍🍻
 
@@ -22,6 +23,7 @@ What made this week truly special was the direct interaction with users. We list
 A sincere thanks to the entire BrandY team for this unforgettable experience. 🙏🌟
 
 ## BrandY: A Glimpse into the Future of Education 🎓
+
 For additional details about the BrandY project, please visit the official website: [https://brandygame.eu/](https://brandygame.eu/). Further insights also available in the corresponding [LinkedIn post](https://www.linkedin.com/posts/lieven-theys-73167216_howestinternational-howestbedrijfsmanagement-activity-7136776958054428674-11XH?utm_source=share&utm_medium=member_desktop).
 
 <img src="/img/brandy3.webp"/>

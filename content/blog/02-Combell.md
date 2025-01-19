@@ -1,20 +1,20 @@
 ---
 title: Guest Lecture Combell
 date: 07/11/23
-description: "Combell Unveiled: Premium Hosting for the Technological Tomorrow by Simon Verdonck "
+description: 'Combell Unveiled: Premium Hosting for the Technological Tomorrow by Simon Verdonck '
 image: /blog-img/combell/thumbnail.webp
-alt: "Combell Unveiled: Premium Hosting for the Technological Tomorrow by Simon Verdonck"
+alt: 'Combell Unveiled: Premium Hosting for the Technological Tomorrow by Simon Verdonck'
 published: true
 sitemap:
-   loc: /blog/02-Combell
-   lastmod: 2024-11-02
-   changefreq: monthly
-   priority: 0.8
+  loc: /blog/02-Combell
+  lastmod: 2024-11-02
+  changefreq: monthly
+  priority: 0.8
 ---
+
 Combell: Premium Hosting - A Dive into the Technological Future
 
-During a guest lecture organized by  [Alexander Vandepitte](https://www.linkedin.com/in/alexander-vandepitte/), [Simon Verdonck](https://www.linkedin.com/in/simonverdonck) opened the door to the intriguing world of Combell, a hosting pioneer going beyond conventional services. Let me take you on a journey through their technological landscape and discover why they deserve the title 'premium hosting.' 🌐
-
+During a guest lecture organized by [Alexander Vandepitte](https://www.linkedin.com/in/alexander-vandepitte/), [Simon Verdonck](https://www.linkedin.com/in/simonverdonck) opened the door to the intriguing world of Combell, a hosting pioneer going beyond conventional services. Let me take you on a journey through their technological landscape and discover why they deserve the title 'premium hosting.' 🌐
 
 Simon shared the fascinating story of how Combell originated and evolved into an indispensable player in the hosting industry. But what sets them apart from the rest? <ins>Technological Mastery</ins>.💡
 

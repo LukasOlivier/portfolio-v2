@@ -3,15 +3,14 @@ title: Integreat Internship Project
 date: 24/05/24
 description: "An internship during the last year of my bachelor's degree."
 image: /blog-img/integreat/thumbnail.webp
-alt: "Integreat Internship"
+alt: 'Integreat Internship'
 published: true
 sitemap:
-   loc: /blog/09-Integreat-Internship
-   lastmod: 2024-11-02
-   changefreq: monthly
-   priority: 0.8
+  loc: /blog/09-Integreat-Internship
+  lastmod: 2024-11-02
+  changefreq: monthly
+  priority: 0.8
 ---
-
 
 ## Introduction
 
@@ -37,8 +36,8 @@ My main task during the internship was developing the Integreat Dashboard. This 
 
 **[SQL Server](https://www.microsoft.com/en-us/sql-server/sql-server-downloads)**: Managed data integration seamlessly through DevExpress Data Model Wizard.
 
-
 ### Key Features
+
 - Customizable Dashboards: Users can select and arrange widgets and place them on the dashboard.
 - Multi-Language Support: Supports French, Dutch, and English.
 - Data Export: Charts and data exportable to Excel or PDF.
