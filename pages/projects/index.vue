@@ -8,6 +8,38 @@
 	const pickedCategory = ref(categories.value[0]);
 	const projects = ref([
 		{
+			id: 15,
+			title: 'Resin - Open-Source Real Estate Platform',
+			description:
+				'Resin is een open-source vastgoedplatform dat gebruikers helpt huizen te kopen zonder afhankelijk te zijn van traditionele bankleningen. Met een kaartgebaseerde interface kunnen gebruikers eenvoudig woningen ontdekken, gedetailleerde lijsten bekijken en alternatieve financieringsopties verkennen. Het platform maakt gebruik van moderne technologieën zoals Nuxt 3, Nostr, en Typescript om een schaalbare, intuïtieve en veilige ervaring te bieden.',
+			category: 'Professional',
+			image: '/projects-img/resin.webp',
+			tags: [
+				'devicon-plain:nuxtjs',
+				'simple-icons:tailwindcss',
+				'devicon-plain:typescript',
+			],
+			website: 'https://resin.estate',
+			github: 'https://github.com/DaedalusLabs/RESIN',
+		},
+		{
+			id: 14,
+			title: 'Project Nekton - Slimme Verlichtingsapp',
+			description:
+				'Samen met Sibren Eeckhout en Project Nekton ontwikkelde ik een innovatieve verlichtingsapplicatie speciaal ontworpen voor sport- en recreatiecentra. Deze applicatie stelt gebruikers in staat om via hun smartphone de lichtsterkte aan te passen, specifieke delen van een veld te verlichten, en de verlichting eenvoudig in te plannen via een ingebouwde agenda. Met een focus op energie-efficiëntie en gebruiksgemak, maakt de app het beheer van verlichting volledig automatisch en intuïtief.',
+			category: 'Professional',
+			image: '/projects-img/project-nekton.webp',
+			tags: [
+				'devicon-plain:amazonwebservices-wordmark',
+				'devicon-plain:nodejs',
+				'devicon-plain:nuxtjs',
+				'simple-icons:tailwindcss',
+			],
+			website: 'https://www.projectnekton.com/',
+			linkedin:
+				'https://www.linkedin.com/posts/lukas-olivier_softwaredevelopment-innovatie-itoplossingen-activity-7264602992761303040-znGZ?utm_source=share&utm_medium=member_desktop',
+		},
+		{
 			id: 13,
 			title: 'Spel Zonder Grenzen',
 			description:
