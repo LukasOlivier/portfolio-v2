@@ -1,11 +1,4 @@
 <script setup>
-import { ref } from "vue";
-import {
-   PhGithubLogo,
-   PhLinkedinLogo,
-   PhLink,
-} from "@phosphor-icons/vue/compact";
-
 defineProps({
    project: {
       type: Object,
@@ -51,9 +44,9 @@ function toggleShowFullDescription() {
                   target="_blank"
                   aria-label="visit github repository"
                >
-                  <PhGithubLogo
-                     :size="20"
-                     weight="fill"
+                  <Icon
+                     name="mdi:github"
+                     size="20"
                      class="hover:text-sky-700 dark:hover:text-sky-400"
                   />
                </a>
@@ -63,9 +56,9 @@ function toggleShowFullDescription() {
                   target="_blank"
                   aria-label="visit external link"
                >
-                  <PhLink
-                     :size="20"
-                     weight="bold"
+                  <Icon
+                     name="mdi:link-variant"
+                     size="20"
                      class="hover:text-sky-700 dark:hover:text-sky-400"
                   />
                </a>
@@ -75,9 +68,9 @@ function toggleShowFullDescription() {
                   target="_blank"
                   aria-label="visit linkedin post"
                >
-                  <PhLinkedinLogo
-                     :size="20"
-                     weight="fill"
+                  <Icon
+                     name="mdi:linkedin"
+                     size="20"
                      class="hover:text-sky-700 dark:hover:text-sky-400"
                   />
                </a>

@@ -1,7 +1,7 @@
-<script setup lang="ts">
-import { PhSun, PhMoon } from "@phosphor-icons/vue/compact";
+<script setup>
 const colorMode = useColorMode();
-function onClick(val: string) {
+
+function onClick(val) {
    colorMode.preference = val;
 }
 </script>
@@ -24,11 +24,6 @@ function onClick(val: string) {
             <li>
                <NuxtLink to="/"> Home </NuxtLink>
             </li>
-            <!--
-            <li>
-               <NuxtLink to="/#services"> Services </NuxtLink>
-            </li> 
-             -->
             <li>
                <NuxtLink to="/blog"> Blog </NuxtLink>
             </li>
@@ -45,12 +40,12 @@ function onClick(val: string) {
                         onClick(colorMode.value === 'light' ? 'dark' : 'light')
                      "
                   >
-                     <PhSun
+                     <Icon
                         v-if="colorMode.value === 'light'"
-                        :size="24"
-                        weight="fill"
+                        name="mdi:moon-waning-crescent"
+                        size="24"
                      />
-                     <PhMoon v-else :size="24" weight="fill" />
+                     <Icon v-else name="mdi:white-balance-sunny" size="24" />
                   </button>
                </ClientOnly>
             </li>
@@ -58,3 +53,27 @@ function onClick(val: string) {
       </div>
    </div>
 </template>
+
+<style scoped>
+a {
+   position: relative;
+   display: inline-block;
+}
+
+a::before {
+   content: "";
+   position: absolute;
+   width: 0;
+   height: 2px;
+   bottom: 0;
+   left: 0;
+   background-color: currentColor; /* Matches the text color */
+   visibility: hidden;
+   transition: all 0.2s ease-in-out;
+}
+
+a:hover::before {
+   visibility: visible;
+   width: 100%;
+}
+</style>

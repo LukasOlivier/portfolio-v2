@@ -1,5 +1,4 @@
 <script lang="ts" setup>
-import { PhArrowLeft, PhArrowRight } from "@phosphor-icons/vue/compact";
 import type { Post } from "~/types/blog";
 
 // Constants
@@ -96,7 +95,7 @@ useHead({
 
       <!-- Posts Grid -->
       <div v-motion-slide-visible-once-top class="my-5 space-y-5">
-         <template v-for="post in allPosts" :key="post.title">
+         <template v-for="post in paginatedPosts" :key="post.title">
             <ArchiveCard
                v-if="post.published"
                :path="post.path"
@@ -125,7 +124,7 @@ useHead({
             class="disabled:opacity-50"
             @click="navigation.previousPage"
          >
-            <PhArrowLeft />
+            <Icon name="mdi:arrow-left" size="24" />
          </button>
          <p>{{ currentPage }} / {{ totalPages }}</p>
          <button
@@ -133,7 +132,7 @@ useHead({
             class="disabled:opacity-50"
             @click="navigation.nextPage"
          >
-            <PhArrowRight />
+            <Icon name="mdi:arrow-right" size="24" />
          </button>
       </div>
    </main>

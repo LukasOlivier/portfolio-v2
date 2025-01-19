@@ -37,15 +37,15 @@ export default defineNuxtConfig({
       "@nuxt/image",
       "@vueuse/nuxt",
       "@nuxtjs/fontaine",
-      //"@nuxtjs/color-mode",
+      "@nuxtjs/color-mode",
       "@nuxtjs/tailwindcss",
       "@vueuse/motion/nuxt",
-     // "@nuxtjs/seo",
-     // "nuxt-booster",
+      // "@nuxtjs/seo",
+      // "nuxt-booster",
       //"@nuxt/eslint",
       "@nuxt/fonts",
-      "nuxt-phosphor-icons",
-      //"@nuxtjs/critters",
+      "@nuxtjs/critters",
+      "@nuxt/icon",
    ],
 
    critters: {
@@ -53,7 +53,6 @@ export default defineNuxtConfig({
          preload: "swap",
       },
    },
-
 
    fonts: {
       families: [
@@ -94,7 +93,6 @@ export default defineNuxtConfig({
          "autoprefixer": {},
       },
    },
-
 
    css: ["~/assets/css/tailwind.css"],
    compatibilityDate: "2024-11-02",

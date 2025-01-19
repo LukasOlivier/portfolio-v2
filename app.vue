@@ -70,9 +70,4 @@ html.dark {
    background-color: #6c91c2;
    color: #fff;
 }
-a:hover {
-   color: white;
-   transition: 0.3s;
-   text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
-}
 </style>

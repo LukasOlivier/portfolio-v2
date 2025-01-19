@@ -8,10 +8,10 @@
          </h2>
          <p>
             Hi there! 👋 I'm a {{ new Date().getFullYear() - 2003 }}-year-old
-            <strong>civil engineering student at UGent</strong> with a passion
-            for technology . Alongside my studies, I've started my journey as a
-            <strong>student freelancer</strong>, specializing in software
-            development.
+            <strong>industrial engineering student at UGent</strong> with a
+            passion for technology . Alongside my studies, I've started my
+            journey as a <strong>student freelancer</strong>, specializing in
+            software development.
          </p>
          <br />
          <p>

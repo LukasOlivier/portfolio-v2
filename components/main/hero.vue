@@ -1,5 +1,4 @@
 <script setup>
-import { PhCaretDown } from "@phosphor-icons/vue/compact";
 import Typewriter from "typewriter-effect/dist/core";
 
 const typeWriterElement = ref(null);
@@ -46,7 +45,7 @@ onMounted(() => {
          </p>
 
          <NuxtLink
-            class="rounded-md border-2 px-4 py-2 font-semibold text-black hover:bg-black hover:text-white dark:text-zinc-300 dark:hover:bg-white dark:hover:text-black"
+            class="rounded-md border-2 px-4 py-2 font-semibold text-black transition-all duration-200 ease-in-out hover:bg-black hover:text-white dark:text-zinc-300 dark:hover:bg-white dark:hover:text-black"
             to="/projects"
          >
             Check my projects!
@@ -79,7 +78,7 @@ onMounted(() => {
          class="absolute bottom-10 flex w-full justify-center text-black dark:text-white"
          href="#about-me"
       >
-         <PhCaretDown id="down-arrow" :size="48" weight="bold" />
+         <Icon id="down-arrow" name="mdi:chevron-down" size="48" />
       </NuxtLink>
    </div>
 </template>

@@ -1,12 +1,9 @@
 <script setup>
 const slug = useRoute().params.slug;
-console.log("sluggy", slug);
 
 const { data: post } = await useAsyncData(`${slug}`, () => {
    return queryCollection("blog").path(`/blog/${slug}`).first();
 });
-
-console.log("post", post.value);
 
 function handleBrowserBack() {
    router.push("/blog");

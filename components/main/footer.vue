@@ -1,6 +1,4 @@
 <script setup>
-import { PhEnvelope, PhCertificate } from "@phosphor-icons/vue/compact";
-
 const techStack = [
    { name: "Nuxt 3", url: "https://nuxt.com/" },
    { name: "Tailwind CSS", url: "https://tailwindcss.com/" },
@@ -38,13 +36,13 @@ const socialLinks = [
    {
       name: "mail@lukasolivier.be",
       url: "mailto:mail@lukasolivier.be",
-      icon: PhEnvelope,
+      icon: "EnvelopeOpen",
       ariaLabel: "mail",
       iconProps: { size: 22, weight: "bold" },
    },
    {
       name: "BE1010398025",
-      icon: PhCertificate,
+      icon: "Certificate",
       iconProps: { size: 22, weight: "bold" },
    },
 ];
@@ -58,7 +56,6 @@ const socialLinks = [
          <!-- Info Section -->
          <div class="space-y-4">
             <h2 class="text-3xl font-bold md:text-4xl">Thank you!</h2>
-
             <div class="space-y-2">
                <p>
                   This website is made with
@@ -75,7 +72,6 @@ const socialLinks = [
                      </template>
                   </span>
                </p>
-
                <p v-for="tool in tools" :key="tool.url">
                   Made using
                   <a
@@ -98,7 +94,6 @@ const socialLinks = [
                </p>
             </div>
          </div>
-
          <!-- Social Links -->
          <div
             class="grid grid-cols-1 gap-4 text-base sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-10 sm:gap-y-4 sm:text-lg md:grid-cols-2 md:grid-rows-2"
@@ -107,34 +102,7 @@ const socialLinks = [
                v-for="link in socialLinks"
                :key="link.name"
                class="flex items-center gap-2"
-            >
-               <template v-if="link.url">
-                  <a
-                     :href="link.url"
-                     :aria-label="link.ariaLabel"
-                     target="_blank"
-                     rel="noopener noreferrer"
-                     class="hover:text-primary flex items-center gap-2 transition-colors"
-                  >
-                     <component
-                        :is="link.icon"
-                        v-if="typeof link.icon === 'object'"
-                        v-bind="link.iconProps"
-                     />
-                     <i v-else :class="[link.icon]" />
-                     <span class="md:inline">{{ link.name }}</span>
-                  </a>
-               </template>
-               <template v-else>
-                  <component
-                     :is="link.icon"
-                     v-if="typeof link.icon === 'object'"
-                     v-bind="link.iconProps"
-                  />
-                  <i v-else :class="[link.icon]" />
-                  <span class="md:inline">{{ link.name }}</span>
-               </template>
-            </div>
+            />
          </div>
       </div>
    </footer>
