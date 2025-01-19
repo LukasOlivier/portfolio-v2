@@ -10,16 +10,20 @@
 	const currentPage = ref(1);
 
 	// Fetch posts
-	const { data: allPosts } = await useAsyncData('posts', () =>
+	const { data: allPosts, error } = await useAsyncData('posts', () =>
 		queryCollection('blog').order('id', 'DESC').all()
 	);
+
+	if (error.value) {
+		console.error('Error fetching posts:', error.value);
+	}
 
 	// Format posts with default values
 	const formattedPosts = computed<Post[]>(() => {
 		if (!allPosts.value) return [];
 
 		return allPosts.value.map((post) => ({
-			path: post.path,
+			path: post.path || '/404',
 			title: post.title || 'Untitled Post',
 			description: post.description || 'No description available',
 			image: post.image || DEFAULT_IMAGE,
