@@ -56,22 +56,23 @@ onMounted(() => {
          class="absolute bottom-40 left-10 w-60 opacity-50 invert dark:invert-0 sm:hidden xl:block"
          src="/patterns/pattern4.webp"
          alt="swiggle"
-         quality="30" 
-         width="400"  
-         height="400"
+         quality="50"
+         width="400"   
+         height="262"o
          title="swiggle"
-      />
-      <NuxtImg
+         />
+
+         <NuxtImg
          format="webp"
          class="absolute bottom-40 right-0 w-1/5 opacity-50 invert dark:invert-0 sm:hidden md:block"
          src="/patterns/pattern5.webp"
          alt="pattern"
-         quality="30" 
-         width="200"  
-         height="350"
+         quality="50"
+         width="200"    
+         height="364"   
          title="pattern"
-      />
-      <NuxtLink
+         />
+         <NuxtLink
          aria-label="Scroll down to about me"
          class="absolute bottom-10 flex w-full justify-center text-black dark:text-white"
          href="#about-me"
@@ -88,13 +89,17 @@ button {
    background-position: right bottom;
    transition: all 0.5s ease;
 }
+
 button:hover {
    background-position: left bottom;
 }
+
 #down-arrow {
    animation: bounce 2s infinite;
 }
+
 @keyframes bounce {
+
    0%,
    20%,
    50%,
@@ -102,9 +107,11 @@ button:hover {
    100% {
       transform: translateY(0);
    }
+
    40% {
       transform: translateY(-15px);
    }
+
    60% {
       transform: translateY(-5px);
    }

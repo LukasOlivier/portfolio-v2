@@ -32,8 +32,7 @@ export default defineNuxtConfig({
       "nuxt-booster",
       "@nuxtjs/sitemap",
       "@nuxtjs/robots",
-    ],
- 
+   ],
 
    typescript: {
       strict: true,
@@ -42,18 +41,6 @@ export default defineNuxtConfig({
    colorMode: {
       preference: "system",
       classSuffix: "",
-   },
-
-   image: {
-      format: ["webp"],
-      quality: 100,
-   },
-
-
-   critters: {
-      config: {
-         preload: "swap",
-      },
    },
 
    fonts: {
@@ -80,6 +67,34 @@ export default defineNuxtConfig({
       url: "https://www.lukasolivier.be", // Needed for og-image
    },
 
+   // Performance
+   nitro: {
+      minify: true,
+      compressPublicAssets: true,
+   },
+
+   experimental: {
+      payloadExtraction: true,
+      viewTransition: true,
+      renderJsonPayloads: true,
+   },
+
+   image: {
+      format: ["webp"],
+      quality: 100,
+   },
+
+   build: {
+      extractCSS: true, // Ensure CSS extraction is enabled
+   },
+
+   critters: {
+      config: {
+         preload: "swap",
+      },
+   },
+
+   // TailwindCSS
    postcss: {
       plugins: {
          "postcss-import": {},
