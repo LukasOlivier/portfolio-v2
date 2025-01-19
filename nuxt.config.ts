@@ -23,7 +23,7 @@ export default defineNuxtConfig({
    },
 
    colorMode: {
-      preference: "system", // default value of $colorMode.preference
+      preference: "system",
       classSuffix: "",
    },
 
@@ -33,31 +33,27 @@ export default defineNuxtConfig({
    },
 
    modules: [
+      "@nuxt/content",
       "@nuxt/image",
       "@vueuse/nuxt",
       "@nuxtjs/fontaine",
-      "@nuxtjs/color-mode",
+      //"@nuxtjs/color-mode",
       "@nuxtjs/tailwindcss",
-      "@nuxt/content",
       "@vueuse/motion/nuxt",
-      "@nuxtjs/seo",
-      "nuxt-booster",
-      "@nuxt/eslint",
+     // "@nuxtjs/seo",
+     // "nuxt-booster",
+      //"@nuxt/eslint",
       "@nuxt/fonts",
       "nuxt-phosphor-icons",
-      "@nuxtjs/critters",
+      //"@nuxtjs/critters",
    ],
 
    critters: {
-      // Options passed directly to beasties: https://github.com/danielroe/beasties#beasties-
       config: {
-         // Default: 'media'
          preload: "swap",
       },
    },
-   build: {
-      extractCSS: true, // Ensure CSS extraction is enabled
-   },
+
 
    fonts: {
       families: [
@@ -90,13 +86,6 @@ export default defineNuxtConfig({
       url: "https://www.lukasolivier.be", // Needed for og-image
    },
 
-   content: {
-      highlight: {
-         theme: "dracula",
-      },
-      documentDriven: true,
-   },
-
    postcss: {
       plugins: {
          "postcss-import": {},
@@ -106,16 +95,6 @@ export default defineNuxtConfig({
       },
    },
 
-   nitro: {
-      minify: true,
-      compressPublicAssets: true,
-   },
-
-   experimental: {
-      payloadExtraction: true,
-      viewTransition: true,
-      renderJsonPayloads: true,
-   },
 
    css: ["~/assets/css/tailwind.css"],
    compatibilityDate: "2024-11-02",

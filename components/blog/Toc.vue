@@ -1,6 +1,6 @@
 <script setup lang="ts">
 const { path } = useRoute();
-const articles = await queryContent(path).findOne();
+const articles = await queryCollection("blog").path("/blog/00-incaso").first();
 
 const links = articles?.body?.toc?.links || [];
 </script>

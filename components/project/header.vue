@@ -29,7 +29,7 @@ import { PhArrowLeft } from "@phosphor-icons/vue/compact";
             </div>
          </div>
       </div>
-      <NuxtLink to="/blogs" class="text-center text-xl">
+      <NuxtLink to="/blog" class="text-center text-xl">
          <PhArrowLeft class="mr-1" />
          Go Back
       </NuxtLink>

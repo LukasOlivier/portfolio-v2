@@ -1,8 +1,9 @@
-export interface BlogPost {
+export interface Post {
+   path: string;
    title: string;
-   date: string;
    description: string;
    image: string;
    alt: string;
+   date: string;
    published: boolean;
-}
+ }

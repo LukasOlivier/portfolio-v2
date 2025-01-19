@@ -30,7 +30,7 @@ function onClick(val: string) {
             </li> 
              -->
             <li>
-               <NuxtLink to="/blogs"> Blog </NuxtLink>
+               <NuxtLink to="/blog"> Blog </NuxtLink>
             </li>
             <li>
                <NuxtLink to="/projects"> Projects </NuxtLink>

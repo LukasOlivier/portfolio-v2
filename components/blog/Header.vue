@@ -46,7 +46,7 @@ withDefaults(defineProps<Props>(), {
          </div>
       </div>
       <NuxtLink
-         to="/blogs"
+         to="/blog"
          class="flex items-center gap-2 self-start text-center text-xl"
       >
          <PhCaretLeft :size="22" weight="bold" />

@@ -2,11 +2,11 @@
 title: Workstop VTI Izegem
 date: 30/01/24
 description: "A Workshop by Howest Bruges Students"
-image: /blogs-img/vti/3.webp
+image: /blog-img/vti/3.webp
 alt: Workshop VTI Izegem
 published: true
 sitemap:
-   loc: /blogs/07-VTI
+   loc: /blog/07-VTI
    lastmod: 2024-11-02
    changefreq: monthly
    priority: 0.8
@@ -54,8 +54,8 @@ A heartfelt thank you to the Howest Bruges team and all the Applied Computer Sci
 You can download our workshop [using this Google Drive link](https://drive.google.com/drive/folders/1YFTZ3GLQilWwrtiMukJCJgMazEaH1Dec?usp=sharing)
 
 <div style="display: flex; gap: 0.5rem; flex-wrap: wrap; justify-content: space-between">
- <img src="/blogs-img/vti/1.webp" style="object-fit: cover; height: 18rem;" />
-  <img src="/blogs-img/vti/4.webp" style="object-fit: cover; height: 18rem;" />
-  <img src="/blogs-img/vti/2.webp" style="object-fit: cover; height: 18rem;" />
+ <img src="/blog-img/vti/1.webp" style="object-fit: cover; height: 18rem;" />
+  <img src="/blog-img/vti/4.webp" style="object-fit: cover; height: 18rem;" />
+  <img src="/blog-img/vti/2.webp" style="object-fit: cover; height: 18rem;" />
 </div>
-<img src="/blogs-img/vti/3.webp" style="object-fit: cover; height: 20rem; width: 100%" />
+<img src="/blog-img/vti/3.webp" style="object-fit: cover; height: 20rem; width: 100%" />

@@ -27,7 +27,7 @@ const projects = ref([
          "postman-plain",
       ],
       github: "https://github.com/LukasOlivier/bap",
-      website: "/blogs/10-bachelor-thesis-rest-api",
+      website: "/blog/10-bachelor-thesis-rest-api",
    },
    {
       id: 11,
