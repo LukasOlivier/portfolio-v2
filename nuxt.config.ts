@@ -35,11 +35,6 @@ export default defineNuxtConfig({
 		'@nuxt/eslint',
 	],
 
-	// Nuxt Content
-	content: {
-		documentDriven: true,
-	},
-
 	typescript: {
 		strict: true,
 	},
