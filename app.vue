@@ -11,24 +11,7 @@ useHead({
    htmlAttrs: {
       lang: "en",
    },
-   link: [
-      { rel: "canonical", href: "https://www.lukasolivier.be" },
-      {
-         rel: "preconnect",
-         href: "https://cdn.jsdelivr.net",
-         crossorigin: "anonymous",
-      },
-      {
-         rel: "dns-prefetch",
-         href: "https://cdn.jsdelivr.net",
-      },
-      {
-         rel: "stylesheet",
-         href: "https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css",
-         media: "print",
-         onload: "this.media='all'",
-      },
-   ],
+   link: [{ rel: "canonical", href: "https://www.lukasolivier.be" }],
    meta: [
       {
          name: "description",

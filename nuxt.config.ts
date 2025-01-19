@@ -33,19 +33,18 @@ export default defineNuxtConfig({
    },
 
    modules: [
-      "@nuxt/content",
-      "@nuxt/image",
-      "@vueuse/nuxt",
-      "@nuxtjs/fontaine",
-      "@nuxtjs/color-mode",
-      "@nuxtjs/tailwindcss",
-      "@vueuse/motion/nuxt",
-      // "@nuxtjs/seo",
-      // "nuxt-booster",
-      //"@nuxt/eslint",
-      "@nuxt/fonts",
-      "@nuxtjs/critters",
-      "@nuxt/icon",
+     "@nuxt/content",
+     "@nuxt/image",
+     "@vueuse/nuxt",
+     "@nuxtjs/fontaine",
+     "@nuxtjs/color-mode",
+     "@nuxtjs/tailwindcss",
+     "@vueuse/motion/nuxt",
+     "nuxt-booster",
+     "@nuxt/fonts",
+     "@nuxtjs/critters",
+     "@nuxt/icon",
+     "@nuxtjs/seo",
    ],
 
    critters: {
@@ -64,13 +63,6 @@ export default defineNuxtConfig({
          },
          {
             name: "Poppins",
-            provider: "none",
-            preload: true,
-            display: "swap",
-         },
-
-         {
-            name: "Devicons",
             provider: "none",
             preload: true,
             display: "swap",
