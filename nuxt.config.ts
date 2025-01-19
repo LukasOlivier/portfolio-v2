@@ -40,11 +40,12 @@ export default defineNuxtConfig({
      "@nuxtjs/color-mode",
      "@nuxtjs/tailwindcss",
      "@vueuse/motion/nuxt",
-     "nuxt-booster",
      "@nuxt/fonts",
      "@nuxtjs/critters",
      "@nuxt/icon",
-     "@nuxtjs/seo",
+     "nuxt-booster",
+     "@nuxtjs/sitemap",
+     "@nuxtjs/robots",
    ],
 
    critters: {

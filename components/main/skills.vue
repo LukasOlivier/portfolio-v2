@@ -31,7 +31,7 @@ const skills = [
    { name: "Docker", icon: "devicon-plain:docker" },
    { name: "Arduino", icon: "devicon-plain:arduino" },
    { name: "Android", icon: "devicon-plain:androidstudio" },
-   { name: "Markdown", icon: "devicon-plain:markdown-original" },
+   { name: "Markdown", icon: "simple-icons:markdown" },
 ];
 </script>
 
