@@ -17,10 +17,9 @@
 	<div
 		class="card overflow-hidden rounded-lg bg-white shadow-lg dark:bg-slate-700"
 	>
-		<NuxtImg
+		<NuxtPicture
 			class="h-56 w-full object-cover object-center"
 			format="webp"
-			loading="lazy"
 			:src="project.image"
 			:alt="project.title"
 			quality="80"
