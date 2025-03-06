@@ -5,3 +5,8 @@
 html {
 	scroll-behavior: smooth;
 }
+
+html,
+body {
+	overscroll-behavior: none; /* Disable rubber-band effect */
+}

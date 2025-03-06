@@ -24,25 +24,25 @@
 		{
 			name: 'LukasOlivier',
 			url: 'https://www.linkedin.com/in/lukas-olivier-a19862231/',
-			icon: 'devicon-linkedin-plain',
+			icon: 'mdi:linkedin',
 			ariaLabel: 'linkedin',
 		},
 		{
 			name: 'LukasOlivier',
 			url: 'https://github.com/LukasOlivier',
-			icon: 'devicon-github-original',
+			icon: 'mdi:github',
 			ariaLabel: 'github',
 		},
 		{
 			name: 'mail@lukasolivier.be',
 			url: 'mailto:mail@lukasolivier.be',
-			icon: 'EnvelopeOpen',
+			icon: 'mdi:email',
 			ariaLabel: 'mail',
 			iconProps: { size: 22, weight: 'bold' },
 		},
 		{
 			name: 'BE1010398025',
-			icon: 'Certificate',
+			icon: 'mdi:bank',
 			iconProps: { size: 22, weight: 'bold' },
 		},
 	];
@@ -67,7 +67,9 @@
 							>
 								{{ tech.name }}
 							</a>
-							<template v-if="index < techStack.length - 1">and</template>
+							<template v-if="index < techStack.length - 1">
+								<span class="mx-1">and</span>
+							</template>
 						</span>
 					</p>
 					<p v-for="tool in tools" :key="tool.url">
@@ -96,11 +98,22 @@
 			<div
 				class="grid grid-cols-1 gap-4 text-base sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-10 sm:gap-y-4 sm:text-lg md:grid-cols-2 md:grid-rows-2"
 			>
-				<div
+				<a
 					v-for="link in socialLinks"
 					:key="link.name"
-					class="flex items-center gap-2"
-				/>
+					:href="link.url"
+					:aria-label="link.ariaLabel"
+					class="hover:text-primary flex items-center gap-2 transition-colors"
+					target="_blank"
+					rel="noopener noreferrer"
+				>
+					<Icon
+						:name="link.icon"
+						:size="link.iconProps?.size || 20"
+						:weight="link.iconProps?.weight"
+					/>
+					{{ link.name }}
+				</a>
 			</div>
 		</div>
 	</footer>
