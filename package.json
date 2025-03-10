@@ -43,7 +43,7 @@
 	"dependencies": {
 		"@nuxt/content": "^3.3.0",
 		"@nuxtjs/critters": "^0.8.0",
-		"@types/node": "^22.13.9",
+		"@types/node": "^22.13.10",
 		"@vueuse/motion": "^2.2.6",
 		"nuxt-booster": "^3.1.11",
 		"typewriter-effect": "^2.21.0",
