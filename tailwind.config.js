@@ -24,5 +24,5 @@ export default {
 			// => @media (min-width: 1536px) { ... }
 		},
 	},
-	plugins: [require('@tailwindcss/typography')],
+	plugins: [require('@tailwindcss/typography'), require('@tailwindcss/forms')],
 };
