@@ -75,7 +75,7 @@
 				:description="post.description"
 			/>
 			<div
-				class="prose prose-sm prose-zinc dark:prose-invert sm:prose-base md:prose-lg prose-h1:no-underline prose-ul:hidden prose-img:rounded-lg mx-auto max-w-5xl"
+				class="prose prose-sm prose-zinc mx-auto max-w-5xl dark:prose-invert sm:prose-base md:prose-lg prose-h1:no-underline prose-img:rounded-lg"
 			>
 				<ContentRenderer v-if="post" :value="post">
 					<template #empty>

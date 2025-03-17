@@ -19,6 +19,8 @@ export default defineNuxtConfig({
 	},
 
 	modules: [
+		'@nuxtjs/sitemap',
+		'@nuxtjs/robots',
 		'@nuxt/content',
 		'@nuxt/image',
 		'@vueuse/nuxt',
@@ -30,8 +32,6 @@ export default defineNuxtConfig({
 		'@nuxtjs/critters',
 		'@nuxt/icon',
 		'nuxt-booster',
-		'@nuxtjs/sitemap',
-		'@nuxtjs/robots',
 		'@nuxt/eslint',
 		'@nuxthub/core',
 	],
@@ -42,6 +42,7 @@ export default defineNuxtConfig({
 			binding: 'DB',
 		},
 	},
+
 	hub: {
 		database: true,
 	},
