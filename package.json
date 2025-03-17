@@ -38,7 +38,7 @@
 		"prettier-plugin-organize-imports": "^4.1.0",
 		"prettier-plugin-tailwindcss": "^0.6.11",
 		"typescript": "^5.8.2",
-		"wrangler": "^3.113.0"
+		"wrangler": "^4.0.0"
 	},
 	"dependencies": {
 		"@nuxt/content": "^3.3.0",
