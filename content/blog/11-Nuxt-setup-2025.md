@@ -14,7 +14,7 @@ sitemap:
 
 # Setting Up a Nuxt 3 Starter Project
 
-Nuxt 3 is a powerful framework for building modern web applications with Vue.js. In this guide, we’ll go through setting up a Nuxt 3 project, installing essential modules, and following best practices to ensure a clean and efficient development process.
+Nuxt 3 is a robust framework designed for building modern web applications using Vue.js. This guide will walk you through the process of setting up a Nuxt 3 project, installing essential modules, and adhering to best practices to maintain a clean and efficient development workflow. You can view the completed project on [GitHub](https://github.com/LukasOlivier/nuxt-starter).
 
 ## Prerequisites
 
@@ -57,7 +57,13 @@ Add them to your _nuxt.config.ts_:
 ```ts
 export default defineNuxtConfig({
 	devtools: { enabled: true },
-	modules: ['@nuxt/fonts', '@nuxt/icon', '@nuxtjs/seo', '@nuxt/image'],
+	modules: [
+		'@nuxtjs/seo',
+		'@nuxt/fonts',
+		'@nuxt/icon',
+		'@nuxt/image',
+		'@nuxt/eslint',
+	],
 });
 ```
 
@@ -67,13 +73,15 @@ To maintain a clean project structure, create these folders:
 
 - **`pages/`** - Holds all your application pages
 - **`components/`** - Reusable Vue components
-- **`layouts/`** - Defines page layouts (e.g., headers, footers)
+- **`layouts/`** - Defines page layouts (e.g. default, mobile, etc.)
 
 **Naming Conventions:**
 
 - Use **kebab-case** for files and folders (e.g., _public/blog-images_)
 - Use **CamelCase** for component names (e.g., _MyComponent.vue_)
 - Components should have **multi-word names** to avoid conflicts
+
+These are just recommendations, but following them will help keep your project organized and maintainable. If you have a different preference, feel free to adjust as needed. As long as you're consistent!
 
 ## Creating Our First Page
 
@@ -184,7 +192,7 @@ hello-world.jpg is an image in the _public_ folder.
 			<h1>Hello world!</h1>
 			<Icon name="uil:globe" style="color: black" />
 		</div>
-		<NuxtImage src="hello-world.jpg" alt="Image description" />
+		<NuxtImg src="/images/hello-world.png" alt="Nuxt Logo" />
 	</div>
 </template>
 ```
@@ -197,10 +205,13 @@ I'm a big fan of Tailwind for styling. The official documentation explains it be
 
 ```vue
 <template>
-	<div class="flex items-center justify-center text-2xl">
-		<Icon name="uil:globe" style="color: black" />
-		<h1 class="text-blue-500">Hello world!</h1>
-		<Icon name="uil:globe" style="color: black" />
+	<div class="flex h-screen flex-col items-center justify-center">
+		<div class="flex items-center justify-center p-4 text-2xl">
+			<Icon name="uil:globe" style="color: black" />
+			<h1 class="text-blue-500">Hello world!</h1>
+			<Icon name="uil:globe" style="color: black" />
+		</div>
+		<NuxtImg src="/images/hello-world.png" alt="Nuxt Logo" />
 	</div>
 </template>
 ```
@@ -209,7 +220,31 @@ I'm a big fan of Tailwind for styling. The official documentation explains it be
 
 ESLint and Prettier help maintain a clean and consistent codebase. Trust me, you need them!
 
-There is already an excellent guide to set this up: [Adding ESLint and Prettier to Nuxt 3](https://dev.to/tao/adding-eslint-and-prettier-to-nuxt-3-2023-5bg).
+There is already an excellent guide to set this up: [Adding ESLint and Prettier to Nuxt 3](https://dev.to/tao/adding-eslint-and-prettier-to-nuxt-3-2023-5bg). However, the article didn't mention this but you need to install _@nuxtjs/eslint-config-typescript_ as well.
+
+There are many prettier configurations available, but I like to use the following:
+
+```json
+// .prettierrc
+{
+	"semi": true,
+	"singleQuote": true,
+	"useTabs": true,
+	"tabWidth": 2,
+	"trailingComma": "es5",
+	"printWidth": 80,
+	"endOfLine": "lf",
+	"arrowParens": "always",
+	"bracketSpacing": true,
+	"embeddedLanguageFormatting": "auto",
+	"plugins": [
+		"prettier-plugin-organize-imports",
+		"prettier-plugin-tailwindcss"
+	],
+	"htmlWhitespaceSensitivity": "ignore",
+	"vueIndentScriptAndStyle": true
+}
+```
 
 ## SEO Configuration
 
@@ -278,7 +313,8 @@ Example for _page.vue_
 
 _@nuxt/seo_ is an essential module for any production Nuxt application. It automatically generates a sitemap and robots.txt file, making your site more discoverable by search engines.
 
-**#### Configuration**
+#### Configuration
+
 Add the following to your _nuxt.config.ts_:
 
 ```ts
