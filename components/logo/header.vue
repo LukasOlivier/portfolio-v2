@@ -1,5 +1,5 @@
 <template>
-	<div aria-label="Logo" class="h-6 w-6 fill-white dark:fill-black">
+	<NuxtLink to="/" aria-label="Logo" class="h-6 w-6 fill-white dark:fill-black">
 		<svg viewBox="0 0 177 198" fill="none" xmlns="http://www.w3.org/2000/svg">
 			<path
 				d="M168.5 108L168.5 61.7099C168.5 58.7271 167.168 55.9 164.869 54.0003L157.618 48.0105C157.207 47.6707 156.769 47.3644 156.309 47.0944L105 17L94.5302 10.2453C91.433 8.24708 87.4877 8.11463 84.2635 9.9006L71.4468 17L13.0134 50.6158C9.91186 52.4001 8 55.7056 8 59.2838L8 108"
@@ -24,5 +24,5 @@
 				stroke-linecap="round"
 			/>
 		</svg>
-	</div>
+	</NuxtLink>
 </template>
