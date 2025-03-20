@@ -35,6 +35,8 @@
 		window.removeEventListener('popstate', handleBrowserBack);
 		document.removeEventListener('click', handleAnchorClick);
 	});
+
+	console.log(post);
 	useHead({
 		title: post.value.title || '',
 		meta: [
@@ -53,13 +55,16 @@
 			},
 			{
 				property: 'og:image',
-				content: post.value.image,
+				content: 'https://www.lukasolivier.be/' + post.value.image,
 			},
 			{ rel: 'canonical', href: 'https://www.lukasolivier.be' },
 			{ name: 'twitter:card', content: 'summary_large_image' },
 			{ name: 'twitter:title', content: post.value.title },
 			{ name: 'twitter:description', content: post.value.description },
-			{ name: 'twitter:image', content: post.value.image },
+			{
+				name: 'twitter:image',
+				content: 'https://www.lukasolivier.be/' + post.value.image,
+			},
 		],
 	});
 </script>

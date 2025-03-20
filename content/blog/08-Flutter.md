@@ -8,7 +8,7 @@ published: true
 sitemap:
   loc: /blog/08-Flutter
   lastmod: 2024-11-02
-  changefreq: monthly
+  changefreq: never
   priority: 0.8
 ---
 

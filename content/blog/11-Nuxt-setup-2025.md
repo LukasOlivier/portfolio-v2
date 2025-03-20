@@ -8,7 +8,7 @@ published: true
 sitemap:
   loc: /blog/11-Nuxt-setup-2025
   lastmod: 2025-03-17
-  changefreq: monthly
+  changefreq: never
   priority: 0.8
 ---
 

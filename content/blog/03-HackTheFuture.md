@@ -8,7 +8,7 @@ published: true
 sitemap:
   loc: /blog/03-HackTheFuture
   lastmod: 2024-11-02
-  changefreq: monthly
+  changefreq: never
   priority: 0.8
 ---
 
