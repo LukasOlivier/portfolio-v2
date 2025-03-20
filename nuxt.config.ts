@@ -25,25 +25,13 @@ export default defineNuxtConfig({
 		'@nuxtjs/robots',
 		'@nuxt/content',
 		'@nuxt/image',
-		'@vueuse/nuxt',
-		'@nuxtjs/fontaine',
 		'@nuxtjs/color-mode',
 		'@nuxtjs/tailwindcss',
-		'@vueuse/motion/nuxt',
 		'@nuxt/fonts',
-		'@nuxtjs/critters',
 		'@nuxt/icon',
-		'nuxt-booster',
 		'@nuxt/eslint',
 		'@nuxthub/core',
 	],
-
-	content: {
-		database: {
-			type: 'd1',
-			binding: 'DB',
-		},
-	},
 
 	hub: {
 		database: true,
@@ -102,6 +90,23 @@ export default defineNuxtConfig({
 			'tailwindcss/nesting': {},
 			tailwindcss: {},
 			autoprefixer: {},
+		},
+	},
+
+	// Content
+	content: {
+		database: {
+			type: 'd1',
+			binding: 'DB',
+		},
+
+		build: {
+			markdown: {
+				highlight: {
+					// Light and dark mode using Nuxt Color Mode
+					theme: 'nord',
+				},
+			},
 		},
 	},
 

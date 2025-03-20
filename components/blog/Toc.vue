@@ -7,9 +7,7 @@
 </script>
 
 <template>
-	<div
-		class="sticky top-28 hidden h-96 justify-self-end lg:col-span-3 lg:block"
-	>
+	<div class="sticky top-28 h-96 justify-self-end lg:col-span-3 lg:block">
 		<div
 			class="min-w-[200px] rounded-md border p-3 dark:border-gray-800 dark:bg-slate-900"
 		>

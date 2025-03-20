@@ -70,7 +70,7 @@
 </script>
 
 <template>
-	<div class="mx-auto grid grid-cols-12 gap-4 sm:w-11/12 lg:w-8/12 lg:gap-8">
+	<div class="mx-auto grid w-11/12 grid-cols-12 gap-4 lg:w-8/12 lg:gap-8">
 		<div class="col-span-12 lg:col-span-9">
 			<BlogHeader
 				:title="post.title"
@@ -79,9 +79,7 @@
 				:date="post.date"
 				:description="post.description"
 			/>
-			<div
-				class="prose prose-sm prose-zinc mx-auto max-w-5xl dark:prose-invert sm:prose-base md:prose-lg prose-h1:no-underline prose-img:rounded-lg"
-			>
+			<div class="prose mx-auto max-w-5xl dark:prose-invert prose-a:underline">
 				<ContentRenderer v-if="post" :value="post">
 					<template #empty>
 						<p>No content found.</p>

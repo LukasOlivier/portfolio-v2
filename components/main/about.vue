@@ -1,6 +1,6 @@
 <template>
 	<section id="about-me" class="mx-auto flex w-9/12 justify-between py-20">
-		<div class="flex flex-col sm:w-full md:w-3/5">
+		<div class="flex w-full flex-col md:w-3/5">
 			<h2
 				class="mb-5 text-4xl font-semibold leading-tight text-black dark:text-white md:text-5xl"
 			>
@@ -55,7 +55,7 @@
 			</h2>
 			<MainSkills />
 		</div>
-		<LogoAbout class="w-1/4 sm:hidden md:block" />
+		<LogoAbout class="w-1/4 md:block" />
 	</section>
 </template>
 

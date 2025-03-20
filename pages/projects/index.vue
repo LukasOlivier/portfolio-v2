@@ -248,12 +248,11 @@
 <template>
 	<div class="mx-auto mb-5 mt-20 w-9/12">
 		<h1
-			v-motion-slide-visible-once-left
 			class="my-5 text-4xl font-semibold leading-tight text-black dark:text-zinc-300 md:text-5xl"
 		>
 			My Projects
 		</h1>
-		<p v-motion-slide-visible-once-left class="mb-10 dark:text-zinc-300">
+		<p class="mb-10 dark:text-zinc-300">
 			Here you will find all the projects I have worked on during my career.
 		</p>
 		<section class="flex flex-col">
@@ -278,7 +277,7 @@
 				</ul>
 			</div>
 			<ul
-				class="grid grid-cols-4 gap-5 sm:grid-cols-1 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4"
+				class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4"
 			>
 				<project-item
 					v-for="project in getProjects()"

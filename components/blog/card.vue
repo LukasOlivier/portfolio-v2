@@ -1,15 +1,5 @@
-<script lang="ts" setup>
-	interface Props {
-		path: string;
-		title: string;
-		date: string;
-		description: string;
-		image: string;
-		alt: string;
-		published: boolean;
-	}
-
-	withDefaults(defineProps<Props>(), {
+<script setup>
+	withDefaults(defineProps, {
 		path: '/',
 		title: 'no-title',
 		date: 'no-date',

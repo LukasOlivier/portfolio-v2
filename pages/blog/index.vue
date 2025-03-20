@@ -1,6 +1,4 @@
-<script lang="ts" setup>
-	import type { Post } from '~/types/blog';
-
+<script setup>
 	// Constants
 	const POSTS_PER_PAGE = 5;
 	const DEFAULT_IMAGE = '/not-found.webp';
@@ -19,7 +17,7 @@
 	}
 
 	// Format posts with default values
-	const formattedPosts = computed<Post[]>(() => {
+	const formattedPosts = computed(() => {
 		if (!allPosts.value) return [];
 
 		return allPosts.value.map((post) => ({
@@ -35,9 +33,9 @@
 
 	// Filter posts by search query
 	const filteredPosts = computed(() => {
-		const query = searchQuery.value.toLowerCase();
-		if (!query) return formattedPosts.value;
+		if (!searchQuery.value) return formattedPosts.value;
 
+		const query = searchQuery.value.toLowerCase();
 		return formattedPosts.value.filter((post) =>
 			post.title.toLowerCase().includes(query)
 		);
@@ -67,7 +65,8 @@
 
 	// Reset page when search changes
 	watch(searchQuery, () => {
-		currentPage.value = 1;
+		console.log('Search query changed:', searchQuery.value);
+		currentPage.value = 1; // Reset to first page when search changes
 	});
 
 	// SEO
@@ -88,7 +87,7 @@
 		<ArchiveHero />
 
 		<!-- Search Input -->
-		<div v-motion-slide-visible-once-top>
+		<div>
 			<input
 				v-model="searchQuery"
 				type="text"
@@ -98,7 +97,7 @@
 		</div>
 
 		<!-- Posts Grid -->
-		<div v-motion-slide-visible-once-top class="my-5 space-y-5">
+		<div class="my-5 space-y-5">
 			<template v-for="post in paginatedPosts" :key="post.title">
 				<ArchiveCard
 					v-if="post.published"
@@ -112,7 +111,7 @@
 				/>
 			</template>
 			<ArchiveCard
-				v-if="allPosts.length <= 0"
+				v-if="filteredPosts.value && filteredPosts.value.length === 0"
 				title="No Post Found"
 				:image="DEFAULT_IMAGE"
 			/>
@@ -120,7 +119,7 @@
 
 		<!-- Pagination -->
 		<div
-			v-if="filteredPosts.length > POSTS_PER_PAGE"
+			v-if="filteredPosts.value && filteredPosts.value.length > POSTS_PER_PAGE"
 			class="flex items-center justify-center space-x-6"
 		>
 			<button

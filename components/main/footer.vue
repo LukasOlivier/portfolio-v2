@@ -96,7 +96,7 @@
 			</div>
 			<!-- Social Links -->
 			<div
-				class="grid grid-cols-1 gap-4 text-base sm:grid-cols-2 sm:grid-rows-2 sm:gap-x-10 sm:gap-y-4 sm:text-lg md:grid-cols-2 md:grid-rows-2"
+				class="grid grid-cols-1 grid-rows-2 gap-4 gap-x-10 gap-y-4 text-base md:grid-cols-2 md:grid-rows-2"
 			>
 				<a
 					v-for="link in socialLinks"

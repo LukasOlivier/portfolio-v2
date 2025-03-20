@@ -29,7 +29,7 @@
 
 <template>
 	<div class="flex h-screen flex-col">
-		<section id="home" class="mx-auto mt-52 sm:w-9/12 xl:w-1/3">
+		<section id="home" class="mx-auto mt-52 w-9/12 xl:w-1/3">
 			<h1
 				class="text-6xl font-semibold leading-tight text-black dark:text-white md:text-7xl"
 				style="font-display: swap"
@@ -53,7 +53,7 @@
 		</section>
 		<NuxtImg
 			format="webp"
-			class="absolute bottom-40 left-10 w-60 opacity-50 invert dark:invert-0 sm:hidden xl:block"
+			class="absolute bottom-40 left-10 hidden w-60 opacity-50 invert dark:invert-0 xl:block"
 			src="/patterns/pattern4.webp"
 			alt="swiggle"
 			quality="50"
@@ -64,7 +64,7 @@
 
 		<NuxtImg
 			format="webp"
-			class="absolute bottom-40 right-0 w-1/5 opacity-50 invert dark:invert-0 sm:hidden md:block"
+			class="absolute bottom-40 right-0 hidden w-1/5 opacity-50 invert dark:invert-0 md:block"
 			src="/patterns/pattern5.webp"
 			alt="pattern"
 			quality="50"
