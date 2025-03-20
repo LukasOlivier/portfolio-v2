@@ -17,12 +17,12 @@
 	<div
 		class="card overflow-hidden rounded-lg bg-white shadow-lg dark:bg-slate-700"
 	>
-		<NuxtPicture
+		<NuxtImg
 			class="h-56 w-full object-cover object-center"
 			format="webp"
 			:src="project.image"
 			:alt="project.title"
-			quality="80"
+			quality="50"
 			preload
 			width="500"
 			height="300"
