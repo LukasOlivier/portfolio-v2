@@ -241,6 +241,10 @@
 				content:
 					'Here you will find all the projects I have worked on during my career.',
 			},
+			{
+				rel: 'canonical',
+				href: 'https://www.lukasolivier.be/projects',
+			},
 		],
 	});
 </script>
@@ -277,7 +281,7 @@
 				</ul>
 			</div>
 			<ul
-				class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3 xxl:grid-cols-4"
+				class="xxl:grid-cols-4 grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3"
 			>
 				<project-item
 					v-for="project in getProjects()"

@@ -78,6 +78,7 @@
 					'Here you will find all the blog posts I have written & published on this site.',
 			},
 		],
+		link: [{ rel: 'canonical', href: 'https://www.lukasolivier.be/blog' }],
 	});
 </script>
 

@@ -56,7 +56,7 @@
 				property: 'og:image',
 				content: 'https://www.lukasolivier.be/' + post.value.image,
 			},
-			{ rel: 'canonical', href: 'https://www.lukasolivier.be' },
+			{ rel: 'canonical', href: 'https://www.lukasolivier.be/blog/' + slug },
 			{ name: 'twitter:card', content: 'summary_large_image' },
 			{ name: 'twitter:title', content: post.value.title },
 			{ name: 'twitter:description', content: post.value.description },
