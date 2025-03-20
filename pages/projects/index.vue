@@ -241,6 +241,8 @@
 				content:
 					'Here you will find all the projects I have worked on during my career.',
 			},
+		],
+		link: [
 			{
 				rel: 'canonical',
 				href: 'https://www.lukasolivier.be/projects',
