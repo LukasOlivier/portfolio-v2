@@ -36,7 +36,6 @@
 		document.removeEventListener('click', handleAnchorClick);
 	});
 
-	console.log(post);
 	useHead({
 		title: post.value.title || '',
 		meta: [

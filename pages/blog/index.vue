@@ -65,7 +65,6 @@
 
 	// Reset page when search changes
 	watch(searchQuery, () => {
-		console.log('Search query changed:', searchQuery.value);
 		currentPage.value = 1; // Reset to first page when search changes
 	});
 
