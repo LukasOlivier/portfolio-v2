@@ -14,7 +14,7 @@
 </script>
 
 <template>
-	<div
+	<li
 		class="card overflow-hidden rounded-lg bg-white shadow-lg dark:bg-slate-700"
 	>
 		<NuxtImg
@@ -75,7 +75,7 @@
 			</div>
 
 			<p
-				class="text-base text-gray-600 dark:text-zinc-400"
+				class="text-base text-gray-600 dark:text-zinc-200"
 				:class="{
 					'text-truncate': !showFullDescription,
 				}"
@@ -84,7 +84,7 @@
 				{{ project.description }}
 			</p>
 			<p
-				class="mt-5 inline-flex cursor-pointer items-center text-indigo-500 hover:underline dark:text-zinc-300"
+				class="mt-5 inline-flex cursor-pointer items-center text-indigo-800 hover:underline dark:text-zinc-300"
 				@click.prevent="toggleShowFullDescription"
 			>
 				{{ showFullDescription ? 'Show less' : 'Show more' }}
@@ -99,7 +99,7 @@
 				<Icon :name="tag" class="text-xl" />
 			</li>
 		</ul>
-	</div>
+	</li>
 </template>
 
 <style scoped>
