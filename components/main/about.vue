@@ -55,7 +55,7 @@
 			</h2>
 			<MainSkills />
 		</div>
-		<LogoAbout class="w-1/4 md:block" />
+		<LogoAbout class="hidden w-1/4 md:block" />
 	</section>
 </template>
 

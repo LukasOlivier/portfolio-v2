@@ -36,7 +36,10 @@
 </script>
 
 <template>
-	<ul id="skills" class="mt-6 flex flex-wrap gap-x-6 gap-y-8 text-4xl">
+	<ul
+		id="skills"
+		class="mt-6 flex flex-wrap justify-between gap-x-6 gap-y-8 text-4xl md:justify-start"
+	>
 		<li v-for="skill in skills" :key="skill.name">
 			<div class="icon">
 				<Icon :name="skill.icon" :title="skill.name" />

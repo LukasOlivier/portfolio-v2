@@ -13,13 +13,15 @@
 		<div
 			class="mx-auto flex w-9/12 items-center justify-center md:justify-between"
 		>
-			<ul class="hidden items-baseline space-x-5 md:flex">
-				<li class="flex items-center gap-2 text-center text-2xl font-bold">
+			<ul class="hidden items-baseline md:flex">
+				<li class="flex items-center gap-5 text-center text-2xl font-bold">
 					<LogoHeader></LogoHeader>
-					<NuxtLink to="/">Lukas Olivier</NuxtLink>
+					<NuxtLink class="whitespace-nowrap" to="/">Lukas Olivier</NuxtLink>
 				</li>
 			</ul>
-			<ul class="flex items-center space-x-3 text-lg md:space-x-4">
+			<ul
+				class="flex w-full items-center justify-between space-x-3 text-lg md:justify-end md:space-x-4"
+			>
 				<li>
 					<NuxtLink to="/">Home</NuxtLink>
 				</li>

@@ -39,7 +39,7 @@
 
 			<p
 				ref="typeWriterElement"
-				class="typeWriter mb-10 text-lg text-black dark:text-white"
+				class="typeWriter mb-10 min-h-[60px] text-lg text-black dark:text-white"
 			>
 				Founder of IzyBit
 			</p>
