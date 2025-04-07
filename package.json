@@ -44,7 +44,7 @@
 	},
 	"dependencies": {
 		"@nuxt/content": "^3.4.0",
-		"@types/node": "^22.13.10",
+		"@types/node": "^22.14.0",
 		"eslint": "^9.22.0",
 		"typewriter-effect": "^2.21.0",
 		"vue-eslint-parser": "^10.1.1",
