@@ -123,6 +123,7 @@
 	.text-truncate {
 		display: -webkit-box;
 		-webkit-line-clamp: 3; /* Number of lines to show */
+		line-clamp: 3; /* Standard property for compatibility */
 		-webkit-box-orient: vertical;
 		overflow: hidden;
 	}
