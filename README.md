@@ -1,8 +1,8 @@
-# Personal Portfolio Website
+# Lukas Olivier - Izybit Portfolio Website
 
 ## Overview
 
-This repository contains the source code for my personal portfolio website, showcasing my projects, skills, and professional experience. The site is built with modern web technologies to create a responsive, accessible, and user-friendly experience.
+This repository contains the source code for my personal portfolio website and Izybit company showcase, highlighting my projects, skills, and professional experience. The site is built with modern web technologies to create a responsive, accessible, and user-friendly experience that represents both my personal work and my company Izybit.
 
 ## Features
 

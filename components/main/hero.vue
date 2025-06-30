@@ -11,7 +11,7 @@
 		});
 
 		typewriter
-			.typeString('Founder of IzyBit')
+			.typeString('Founder of Izybit')
 			.pauseFor(2000)
 			.deleteAll()
 			.typeString('Student Industrial Engineering Computer Science')
@@ -41,7 +41,7 @@
 				ref="typeWriterElement"
 				class="typeWriter mb-10 min-h-[60px] text-lg text-black dark:text-white"
 			>
-				Founder of IzyBit
+				Founder of Izybit
 			</p>
 
 			<NuxtLink

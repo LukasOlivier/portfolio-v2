@@ -10,16 +10,17 @@
 			<p class="mb-5">
 				Hi there! 👋 I'm a {{ new Date().getFullYear() - 2003 }}-year-old
 				<span class="highlight">industrial engineering student at UGent</span>
-				with a passion for technology. Alongside my studies, I've started my
-				journey as a
-				<span class="highlight">student freelancer,</span>
-				specializing in software development.
+				with a passion for technology. Alongside my studies, I've founded
+				<span class="highlight">Izybit,</span>
+				my software development company, where I work as a
+				<span class="highlight">freelance developer,</span>
+				specializing in modern web applications.
 			</p>
 
 			<p class="mb-5">
 				<span class="section-title">🚀 What I Do</span>
-				I help individuals and businesses bring their ideas to life. Whether
-				it's building a sleek
+				Through <span class="highlight">Izybit,</span> I help individuals and 
+				businesses bring their ideas to life. Whether it's building a sleek
 				<span class="highlight">website, progressive web app,</span>
 				or a
 				<span class="highlight">RESTful API,</span>

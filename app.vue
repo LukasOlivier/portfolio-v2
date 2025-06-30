@@ -1,8 +1,8 @@
 <script setup>
 	const age = new Date().getFullYear() - 2003;
-	const description = `Lukas Olivier: I am a ${age}-year-old software engineering student, deeply passionate about programming and technology.`;
-	const ogTitle = 'Lukas Olivier - Software Engineering Student';
-	const twitterDescription = `Lukas Olivier: I am a ${age}-year-old software engineering student, deeply passionate about programming and technology.`;
+	const description = `Lukas Olivier: I am a ${age}-year-old software engineering student and founder of Izybit, deeply passionate about programming and technology.`;
+	const ogTitle = 'Lukas Olivier - Izybit - Software Engineering Student';
+	const twitterDescription = `Lukas Olivier: I am a ${age}-year-old software engineering student and founder of Izybit, deeply passionate about programming and technology.`;
 	const image =
 		'https://res.cloudinary.com/dmecmyphj/image/upload/v1673548905/nuxt-blog/cover_ntgs6u.webp';
 	const mySite = 'https://www.lukasolivier.be';
@@ -20,7 +20,7 @@
 			{
 				name: 'keywords',
 				content:
-					'lukas olivier, software engineering, student, programming, technology, nuxt3, vue3, tailwindcss, javascript, typescript, html, css, scss, sass, nodejs, expressjs, github, git',
+					'lukas olivier, izybit, software engineering, student, programming, technology, nuxt3, vue3, tailwindcss, javascript, typescript, html, css, scss, sass, nodejs, expressjs, github, git, company, startup',
 			},
 			{ name: 'author', content: 'Lukas Olivier' },
 			{ name: 'publisher', content: 'Lukas Olivier' },
