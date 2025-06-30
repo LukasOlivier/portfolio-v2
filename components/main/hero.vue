@@ -11,16 +11,16 @@
 		});
 
 		typewriter
-			.typeString('Founder of Izybit')
+			.typeString('Freelance Developer')
 			.pauseFor(2000)
 			.deleteAll()
-			.typeString('Student Industrial Engineering Computer Science')
+			.typeString('Student Software Engineering')
 			.pauseFor(1000)
 			.deleteAll()
 			.typeString('Musician')
 			.pauseFor(1000)
 			.deleteAll()
-			.typeString("Head leader of youth movement 'KSA Izegem'")
+			.typeString("Head leader 'KSA Izegem'")
 			.pauseFor(1000)
 			.deleteAll()
 			.start();
@@ -36,12 +36,9 @@
 			>
 				Lukas Olivier
 			</h1>
-
-			<p
-				ref="typeWriterElement"
-				class="typeWriter mb-10 min-h-[60px] text-lg text-black dark:text-white"
-			>
-				Founder of Izybit
+			<p class="mb-5 text-xl font-medium text-zinc-700 dark:text-zinc-300">
+				Founder of Izybit &
+				<span ref="typeWriterElement" class="typeWriter">Koas</span>
 			</p>
 
 			<NuxtLink
