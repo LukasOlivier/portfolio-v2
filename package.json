@@ -17,11 +17,11 @@
 		"format": "npm-run-all -p lint:fix prettier"
 	},
 	"devDependencies": {
-		"@iconify-json/devicon-plain": "^1.2.20",
+		"@iconify-json/devicon-plain": "^1.2.29",
 		"@iconify-json/mdi": "^1.2.3",
-		"@iconify-json/simple-icons": "^1.2.29",
-		"@nuxt/eslint": "^1.2.0",
-		"@nuxt/fonts": "^0.11.0",
+		"@iconify-json/simple-icons": "^1.2.41",
+		"@nuxt/eslint": "^1.4.1",
+		"@nuxt/fonts": "^0.11.4",
 		"@nuxt/icon": "1.11.0",
 		"@nuxt/image": "^1.10.0",
 		"@nuxthub/core": "0.8.18",
@@ -29,26 +29,26 @@
 		"@nuxtjs/eslint-config-typescript": "^12.1.0",
 		"@nuxtjs/robots": "5.2.8",
 		"@nuxtjs/sitemap": "7.2.9",
-		"@nuxtjs/tailwindcss": "^6.13.2",
+		"@nuxtjs/tailwindcss": "^6.14.0",
 		"@tailwindcss/forms": "^0.5.10",
 		"@tailwindcss/typography": "^0.5.16",
-		"@vueuse/core": "^13.0.0",
-		"eslint-plugin-prettier": "^5.2.3",
+		"@vueuse/core": "^13.4.0",
+		"eslint-plugin-prettier": "^5.5.1",
 		"npm-run-all": "^4.1.5",
-		"nuxt": "^3.16.1",
-		"prettier": "^3.5.3",
+		"nuxt": "^3.17.5",
+		"prettier": "^3.6.2",
 		"prettier-plugin-organize-imports": "^4.1.0",
-		"prettier-plugin-tailwindcss": "^0.6.11",
-		"typescript": "^5.8.2",
-		"wrangler": "^4.2.0"
+		"prettier-plugin-tailwindcss": "^0.6.13",
+		"typescript": "^5.8.3",
+		"wrangler": "^4.22.0"
 	},
 	"dependencies": {
-		"@nuxt/content": "^3.4.0",
-		"@types/node": "^22.13.10",
-		"eslint": "^9.22.0",
-		"typewriter-effect": "^2.21.0",
-		"vue-eslint-parser": "^10.1.1",
-		"vue-tsc": "^2.2.8"
+		"@nuxt/content": "^3.6.1",
+		"@types/node": "^22.15.34",
+		"eslint": "^9.30.0",
+		"typewriter-effect": "^2.22.0",
+		"vue-eslint-parser": "^10.1.4",
+		"vue-tsc": "^2.2.10"
 	},
 	"packageManager": "pnpm@9.15.0+sha512.76e2379760a4328ec4415815bcd6628dee727af3779aaa4c914e3944156c4299921a89f976381ee107d41f12cfa4b66681ca9c718f0668fa0831ed4c6d8ba56c"
 }
