@@ -19,8 +19,10 @@
 
 			<p class="mb-5">
 				<span class="section-title">🚀 What I Do</span>
-				Through <span class="highlight">Izybit,</span> I help individuals and 
-				businesses bring their ideas to life. Whether it's building a sleek
+				Through
+				<span class="highlight">Izybit,</span>
+				I help individuals and businesses bring their ideas to life. Whether
+				it's building a sleek
 				<span class="highlight">website, progressive web app,</span>
 				or a
 				<span class="highlight">RESTful API,</span>

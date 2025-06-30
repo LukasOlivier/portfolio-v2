@@ -8,14 +8,15 @@ export default defineNuxtConfig({
 			htmlAttrs: {
 				lang: 'en',
 			},
-			viewport: 'width=device-width,initial-scale=1',		title: 'Lukas Olivier - Izybit',
-		titleTemplate: '%s - Lukas Olivier - Izybit',
-		meta: [
-			{
-				name: 'description',
-				content: 'The e-portfolio of Lukas Olivier - Founder of Izybit',
-			},
-		],
+			viewport: 'width=device-width,initial-scale=1',
+			title: 'Lukas Olivier - Izybit',
+			titleTemplate: '%s - Lukas Olivier - Izybit',
+			meta: [
+				{
+					name: 'description',
+					content: 'The e-portfolio of Lukas Olivier - Founder of Izybit',
+				},
+			],
 		},
 	},
 
