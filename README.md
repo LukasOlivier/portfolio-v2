@@ -1,59 +1,83 @@
-# Lukas Olivier - Izybit Portfolio Website
+# Lukas Olivier – Portfolio
 
 ## Overview
 
-This repository contains the source code for my personal portfolio website and Izybit company showcase, highlighting my projects, skills, and professional experience. The site is built with modern web technologies to create a responsive, accessible, and user-friendly experience that represents both my personal work and my company Izybit.
+This repository contains the source code for my personal portfolio and professional showcase site for Izybit. The website highlights my projects, technical skills, and professional background, using modern web technologies to deliver a responsive, accessible, and user-friendly experience.
+
+## Tech Stack
+
+- **Framework**: Nuxt 3
+- **Frontend**: Vue.js, TypeScript
+- **Styling**: Tailwind CSS
+- **Deployment**: NuxtHub
+- **Package Manager**: pnpm (recommended)
 
 ## Features
 
-- Responsive design that works on desktop, tablet, and mobile devices
-- Project showcase with descriptions, technologies used, and links
-- Skills and technologies section highlighting my expertise
-- About me section providing professional background and personal information
-- Contact form for potential clients or employers to reach out
-- Dark/light theme toggle for user preference
+- 💻 Fully responsive design for desktop, tablet, and mobile
+- 🛠️ Project showcase with descriptions, tech stack, and external links
+- 🚀 Skills section highlighting key technologies and tools
+- 👤 About Me section with professional and personal background
+- 🌙 Light/dark theme toggle based on user preference
 
-## Installation
+## Prerequisites
 
-1. Clone the repository:
+- Node.js 18+
+- pnpm (recommended) or any other package manager like npm or yarn
 
-   ```
-   git clone https://github.com/LukasOlivier/portfolio-v2
-   cd portfolio-v2
-   ```
+## Getting Started
 
-2. Install dependencies:
+### 1. Clone the repository
 
-   ```
-   pnpm install
-   ```
+```bash
+git clone https://github.com/LukasOlivier/portfolio-v2
+cd portfolio-v2
+```
 
-3. Start the development server:
+### 2. Install dependencies
 
-   ```
-   pnpm dev
-   ```
+```bash
+pnpm install
+```
 
-4. Open your browser and navigate to `http://localhost:3000`
+### 3. Start the development server
+
+```bash
+pnpm dev
+```
+
+Visit `http://localhost:3000` in your browser.
+
+### Production build
+
+To build the site for production:
+
+```bash
+pnpm run build && pnpm run preview
+```
+
+## Environment Variables
+
+For deployment to your own NuxtHub instance, you'll need:
+
+```bash
+NUXT_HUB_PROJECT_KEY=your_nuxthub_project_key
+```
 
 ## Deployment
 
-This site is deployed at [lukasolivier.be](https://lukasolivier.be)
+The site is deployed using **NuxtHub** for seamless edge deployment and optimal performance.
 
-### Build for production
-
-```
-pnpm run build
-```
+🌐 Live site: [lukasolivier.be](https://www.lukasolivier.be)
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the [MIT License](LICENSE).
 
 ## Contact
 
-Feel free to reach out if you have any questions or would like to connect!
+Feel free to reach out with questions, opportunities, or collaboration ideas:
 
-- Email: mail@lukasolivier.be
-- LinkedIn: [www.linkedin.com/in/lukas-olivier](www.linkedin.com/in/lukas-olivier)
-- GitHub: [https://github.com/LukasOlivier](https://github.com/LukasOlivier)
+- 📧 Email: [mail@lukasolivier.be](mailto:mail@lukasolivier.be)
+- 💼 LinkedIn: [linkedin.com/in/lukas-olivier](https://www.linkedin.com/in/lukas-olivier)
+- 🐙 GitHub: [github.com/LukasOlivier](https://github.com/LukasOlivier)
