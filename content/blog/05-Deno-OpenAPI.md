@@ -6,7 +6,7 @@ image: /blog-img/deno/thumbnail.webp
 alt: Deno and OpenApi
 published: true
 sitemap:
-  loc: /blog/05-Deno-OpenAPI
+  loc: /blog/05-deno-openapi
   lastmod: 2024-11-02
   changefreq: never
   priority: 0.8

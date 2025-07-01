@@ -6,7 +6,7 @@ image: /blog-img/seo/thumbnail.webp
 alt: SEO
 published: true
 sitemap:
-  loc: /blog/01-SEO
+  loc: /blog/01-seo
   lastmod: 2024-11-02
 changefreq: never
 priority: 0.8

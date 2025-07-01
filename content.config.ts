@@ -16,7 +16,7 @@ export default defineContentConfig({
 					lastmod: z.string(),
 					changefreq: z.string(),
 					priority: z.number(),
-					published: z.boolean(),
+					published: z.boolean().optional(),
 				}),
 			}),
 		}),

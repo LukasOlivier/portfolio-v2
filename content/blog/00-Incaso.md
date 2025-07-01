@@ -6,7 +6,7 @@ image: /blog-img/incaso/eb5b81_2200ba9d322f4302b67e8661eb54af50~mv2.webp
 alt: INCASO
 published: true
 sitemap:
-  loc: /blog/00-Incaso
+  loc: /blog/00-incaso
   lastmod: 2024-11-02
   changefreq: never
   priority: 0.8

@@ -6,7 +6,7 @@ image: /blog-img/htf/htf.webp
 alt: Hack The Future Antwerp
 published: true
 sitemap:
-  loc: /blog/03-HackTheFuture
+  loc: /blog/03-hackthefuture
   lastmod: 2024-11-02
   changefreq: never
   priority: 0.8

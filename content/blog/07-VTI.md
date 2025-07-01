@@ -6,7 +6,7 @@ image: /blog-img/vti/3.webp
 alt: Workshop VTI Izegem
 published: true
 sitemap:
-  loc: /blog/07-VTI
+  loc: /blog/07-vti
   lastmod: 2024-11-02
   changefreq: never
   priority: 0.8

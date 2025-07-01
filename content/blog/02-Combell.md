@@ -6,7 +6,7 @@ image: /blog-img/combell/thumbnail.webp
 alt: 'Combell Unveiled: Premium Hosting for the Technological Tomorrow by Simon Verdonck'
 published: true
 sitemap:
-  loc: /blog/02-Combell
+  loc: /blog/02-combell
   lastmod: 2024-11-02
   changefreq: never
   priority: 0.8

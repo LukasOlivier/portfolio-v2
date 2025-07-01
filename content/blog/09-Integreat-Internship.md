@@ -6,7 +6,7 @@ image: /blog-img/integreat/thumbnail.webp
 alt: 'Integreat Internship'
 published: true
 sitemap:
-  loc: /blog/09-Integreat-Internship
+  loc: /blog/09-integreat-internship
   lastmod: 2024-11-02
   changefreq: never
   priority: 0.8

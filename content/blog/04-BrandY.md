@@ -6,7 +6,7 @@ image: /blog-img/brandy/brandy.webp
 alt: BrandY 2.0
 published: true
 sitemap:
-  loc: /blog/04-BrandY
+  loc: /blog/04-brandy
   lastmod: 2024-11-02
   changefreq: never
   priority: 0.8

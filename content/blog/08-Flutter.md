@@ -6,7 +6,7 @@ image: /blog-img/flutter/thumbnail.webp
 alt: Flutter Belgium
 published: true
 sitemap:
-  loc: /blog/08-Flutter
+  loc: /blog/08-flutter
   lastmod: 2024-11-02
   changefreq: never
   priority: 0.8

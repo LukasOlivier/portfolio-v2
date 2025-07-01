@@ -6,7 +6,7 @@ image: /blog-img/nuxt-setup-2025/thumbnail.png
 alt: 'Nuxt 3 Starter Project'
 published: true
 sitemap:
-  loc: /blog/11-Nuxt-setup-2025
+  loc: /blog/11-nuxt-setup-2025
   lastmod: 2025-03-17
   changefreq: never
   priority: 0.8

@@ -6,7 +6,7 @@ image: /blog-img/lieven/lieven.webp
 alt: Lieven Scheire
 published: true
 sitemap:
-  loc: /blog/06-Lieven-AI
+  loc: /blog/06-lieven-ai
   lastmod: 2024-11-02
   changefreq: never
   priority: 0.8
