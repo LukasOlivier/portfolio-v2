@@ -6,6 +6,11 @@
 		return queryCollection('blog').path(`/blog/${slug}`).first();
 	});
 
+	// Redirect to 404 if post doesn't exist
+	if (!post.value) {
+		throw createError({ statusCode: 404, statusMessage: 'Post not found' });
+	}
+
 	// Track if we're handling internal anchor navigation
 	let isInternalNavigation = false;
 
@@ -37,31 +42,31 @@
 	});
 
 	useHead({
-		title: post.value.title || '',
+		title: post.value?.title || 'Blog Post',
 		meta: [
-			{ name: 'description', content: post.value.description },
+			{ name: 'description', content: post.value?.description || '' },
 			{
 				name: 'description',
-				content: post.value.description,
+				content: post.value?.description || '',
 			},
 			{
 				property: 'og:title',
-				content: post.value.title,
+				content: post.value?.title || '',
 			},
 			{
 				property: 'og:description',
-				content: post.value.description,
+				content: post.value?.description || '',
 			},
 			{
 				property: 'og:image',
-				content: 'https://www.lukasolivier.be/' + post.value.image,
+				content: 'https://www.lukasolivier.be/' + (post.value?.image || ''),
 			},
 			{ name: 'twitter:card', content: 'summary_large_image' },
-			{ name: 'twitter:title', content: post.value.title },
-			{ name: 'twitter:description', content: post.value.description },
+			{ name: 'twitter:title', content: post.value?.title || '' },
+			{ name: 'twitter:description', content: post.value?.description || '' },
 			{
 				name: 'twitter:image',
-				content: 'https://www.lukasolivier.be/' + post.value.image,
+				content: 'https://www.lukasolivier.be/' + (post.value?.image || ''),
 			},
 		],
 		link: [
@@ -74,11 +79,11 @@
 	<div class="mx-auto grid w-11/12 grid-cols-12 gap-4 lg:w-8/12 lg:gap-8">
 		<div class="col-span-12 lg:col-span-9">
 			<BlogHeader
-				:title="post.title"
-				:image="post.image"
-				:alt="post.alt"
-				:date="post.date"
-				:description="post.description"
+				:title="post?.title"
+				:image="post?.image"
+				:alt="post?.alt"
+				:date="post?.date"
+				:description="post?.description"
 			/>
 			<div class="prose mx-auto max-w-5xl dark:prose-invert prose-a:underline">
 				<ContentRenderer v-if="post" :value="post">
