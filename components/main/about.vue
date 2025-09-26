@@ -9,8 +9,8 @@
 
 			<p class="mb-5">
 				Hi there! 👋 I'm a {{ new Date().getFullYear() - 2003 }}-year-old
-				<span class="highlight">industrial engineering student at UGent</span>
-				with a passion for technology. Alongside my studies, I've founded
+				<span class="highlight">software engineer with a Bachelor's degree in Applied Computer Science / Software Engineering</span>
+				with a passion for technology. I've founded
 				<span class="highlight">Izybit,</span>
 				my software development company, where I work as a
 				<span class="highlight">freelance developer,</span>
@@ -63,11 +63,12 @@
 </template>
 
 <style scoped>
-	.highlight {
-		font-weight: 600;
-	}
-	.section-title {
-		font-weight: 700;
-		display: block;
-	}
+.highlight {
+	font-weight: 600;
+}
+
+.section-title {
+	font-weight: 700;
+	display: block;
+}
 </style>
