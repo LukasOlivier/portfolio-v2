@@ -10,11 +10,12 @@
 		{
 			id: 17,
 			title: 'Route Random - Running Route Generator',
-			description: 'Route Random is a smart running route generator that helps you discover new paths for running, jogging, or walking - wherever you are. Instantly create random, circular routes tailored to your chosen distance and location. Search by address or click on the map to set your starting point, then fine-tune your route interactively. Export your routes to GPX or GeoJSON for use with Garmin, Strava, or any fitness app. No accounts, no tracking—just fresh routes, every time. Powered by OpenStreetMap, Leaflet, and OpenRouteService',
+			description:
+				'Route Random is a smart running route generator that helps you discover new paths for running, jogging, or walking - wherever you are. Instantly create random, circular routes tailored to your chosen distance and location. Search by address or click on the map to set your starting point, then fine-tune your route interactively. Export your routes to GPX or GeoJSON for use with Garmin, Strava, or any fitness app. No accounts, no tracking—just fresh routes, every time. Powered by OpenStreetMap, Leaflet, and OpenRouteService',
 			category: 'Personal',
 			image: '/projects-img/route-random.png',
 			tags: [
-				'devicon-plain:nuxtjs',
+				'devicon-plain:nextjs',
 				'simple-icons:tailwindcss',
 				'devicon-plain:typescript',
 			],
