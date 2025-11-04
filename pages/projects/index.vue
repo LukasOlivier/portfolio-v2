@@ -16,6 +16,7 @@
       image: '/projects-img/route-random.png',
       tags: [
         'devicon-plain:nextjs',
+        'simple-icons:react',
         'simple-icons:tailwindcss',
         'devicon-plain:typescript',
       ],

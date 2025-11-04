@@ -11,11 +11,6 @@
     });
 
     typewriter
-      .typeString('Freelance Developer')
-      .pauseFor(2000)
-      .deleteAll()
-      .typeString('Student Software Engineering')
-      .pauseFor(1000)
       .deleteAll()
       .typeString('Musician')
       .pauseFor(1000)
@@ -37,7 +32,7 @@
         Lukas Olivier
       </h1>
       <p class="mb-5 text-xl font-medium text-zinc-700 dark:text-zinc-300">
-        Founder of Izybit &
+        Software developer &
         <span ref="typeWriterElement" class="typeWriter">Koas</span>
       </p>
 

@@ -26,3 +26,10 @@
     </svg>
   </NuxtLink>
 </template>
+
+<style scoped>
+  a:hover::before {
+    visibility: hidden;
+    width: 100%;
+  }
+</style>

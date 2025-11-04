@@ -40,13 +40,6 @@
       ariaLabel: 'mail',
       iconProps: { size: 22, weight: 'bold' },
     },
-    {
-      name: 'BE1010398025',
-      url: 'https://kbopub.economie.fgov.be/kbopub/zoeknummerform.html?nummer=1010398025&actionLu=Zoek',
-      ariaLabel: 'VAT Number',
-      icon: 'mdi:bank',
-      iconProps: { size: 22, weight: 'bold' },
-    },
   ];
 </script>
 

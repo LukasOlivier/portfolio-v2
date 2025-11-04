@@ -7,53 +7,29 @@
         About Me
       </h2>
 
-      <p class="mb-5">
-        Hi there! 👋 I'm a {{ new Date().getFullYear() - 2003 }}-year-old
+      <p class="mb-10 leading-relaxed">
+        <span class="text-lg block mb-2">Hi there! 👋</span>
+
+        I'm a <span class="highlight">software developer</span> with a
+        Bachelor's degree in
         <span class="highlight"
-          >software engineer with a Bachelor's degree in Applied Computer
-          Science / Software Engineering</span
+          >Applied Computer Science / Software Engineering.</span
         >
-        with a passion for technology. I've founded
-        <span class="highlight">Izybit,</span>
-        my software development company, where I work as a
-        <span class="highlight">freelance developer,</span>
-        specializing in modern web applications.
-      </p>
-
-      <p class="mb-5">
-        <span class="section-title">🚀 What I Do</span>
-        Through
-        <span class="highlight">Izybit,</span>
-        I help individuals and businesses bring their ideas to life. Whether
-        it's building a sleek
-        <span class="highlight">website, progressive web app,</span>
-        or a
-        <span class="highlight">RESTful API,</span>
-        I can help you create a digital solution that meets your needs.
-      </p>
-
-      <p class="mb-5">
-        <span class="section-title">🌟 Beyond Work</span>
-
-        When I'm not coding, you'll find me contributing to a
-        <span class="highlight">youth movement,</span>
-        exploring my creative side through design, or learning new skills to
-        push myself further.
-      </p>
-
-      <p class="mb-10">
-        <span class="section-title">🌐 Let's Build Something Together</span>
-        Ready to turn your ideas into reality? Check out
-        <NuxtLink
-          aria-label="Projects Page"
-          class="highlight underline"
-          href="/projects"
+        I have a soft spot for JavaScript frameworksand enjoy experimenting with
+        new ways to build fast, modern, and maintainable web applications. My
+        website is simply a place where I share what I've been working on. From
+        personal
+        <NuxtLink class="underline font-semibold" to="/projects"
+          >projects</NuxtLink
         >
-          my Projects page
-        </NuxtLink>
-        to see what I've worked on.
+        and small experiments to the occasional
+        <NuxtLink class="underline font-semibold" to="/blog"
+          >blog post</NuxtLink
+        >
+        about tech or development in general.
         <br />
-        Let's create something amazing!
+        When I'm not coding, I'm probably playing the drums, DJing, running, or
+        volunteering as a head animator at KSA Izegem.
       </p>
 
       <h2 class="text-xl font-semibold leading-tight">
@@ -68,10 +44,5 @@
 <style scoped>
   .highlight {
     font-weight: 600;
-  }
-
-  .section-title {
-    font-weight: 700;
-    display: block;
   }
 </style>
