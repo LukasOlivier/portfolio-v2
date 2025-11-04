@@ -15,7 +15,7 @@
     >
       <ul class="hidden items-baseline md:flex">
         <li class="flex items-center gap-5 text-center text-2xl font-bold">
-          <LogoHeader></LogoHeader>
+          <LogoHeader />
           <NuxtLink class="whitespace-nowrap" to="/">Lukas Olivier</NuxtLink>
         </li>
       </ul>
@@ -54,12 +54,13 @@
 </template>
 
 <style scoped>
-  a {
+  /* Only apply underline animation to NuxtLink elements not inside .logo-header */
+  a:not(.logo-header) {
     position: relative;
     display: inline-block;
   }
 
-  a::before {
+  a:not(.logo-header)::before {
     content: '';
     position: absolute;
     width: 0;
@@ -71,7 +72,7 @@
     transition: all 0.2s ease-in-out;
   }
 
-  a:hover::before {
+  a:not(.logo-header):hover::before {
     visibility: visible;
     width: 100%;
   }
