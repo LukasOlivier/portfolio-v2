@@ -24,14 +24,16 @@
 
 <template>
   <div class="flex h-screen flex-col">
-    <section id="home" class="mx-auto mt-52 w-9/12 xl:w-1/3">
+    <section id="home" class="w-4/5 md:w-3/5 mx-auto mt-52">
       <h1
         class="text-6xl font-semibold leading-tight text-black dark:text-white md:text-7xl"
         style="font-display: swap"
       >
         Lukas Olivier
       </h1>
-      <p class="mb-5 text-xl font-medium text-zinc-700 dark:text-zinc-300">
+      <p
+        class="mb-5 text-xl font-medium text-zinc-700 dark:text-zinc-300 h-20 md:h-fit"
+      >
         Software developer &
         <span ref="typeWriterElement" class="typeWriter"></span>
       </p>

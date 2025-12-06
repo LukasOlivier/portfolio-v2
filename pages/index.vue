@@ -14,6 +14,10 @@
 <template>
   <main>
     <MainHero />
-    <LazyMainAbout />
+    <div class="space-y-20 w-4/5 md:w-3/5 mx-auto">
+      <MainAbout />
+      <MainSkills />
+      <MainExperience />
+    </div>
   </main>
 </template>

@@ -56,24 +56,29 @@
 </script>
 
 <template>
-  <ul
-    id="skills"
-    class="mt-6 flex flex-wrap justify-between gap-x-6 gap-y-8 text-4xl md:justify-start"
-  >
-    <li v-for="skill in skills" :key="skill.name">
-      <div v-if="skill.name === '---'">
-        <Icon
-          :name="skill.icon"
-          :title="skill.name"
-          class="w-3 h-5 text-gray-700 dark:text-gray-400"
-        />
-      </div>
-      <div v-else class="icon">
-        <Icon :name="skill.icon" :title="skill.name" />
-        <span class="icon-title text-center">{{ skill.name }}</span>
-      </div>
-    </li>
-  </ul>
+  <section id="skills">
+    <h2 class="text-3xl font-semibold leading-tight mb-6">
+      Things I've worked with so far:
+    </h2>
+    <ul
+      id="skills"
+      class="flex flex-wrap justify-between gap-x-6 gap-y-8 text-4xl md:justify-start"
+    >
+      <li v-for="skill in skills" :key="skill.name">
+        <div v-if="skill.name === '---'">
+          <Icon
+            :name="skill.icon"
+            :title="skill.name"
+            class="w-3 h-5 text-gray-700 dark:text-gray-400"
+          />
+        </div>
+        <div v-else class="icon">
+          <Icon :name="skill.icon" :title="skill.name" />
+          <span class="icon-title text-center">{{ skill.name }}</span>
+        </div>
+      </li>
+    </ul>
+  </section>
 </template>
 
 <style scoped>

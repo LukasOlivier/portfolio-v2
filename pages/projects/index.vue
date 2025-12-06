@@ -285,7 +285,7 @@
 </script>
 
 <template>
-  <div class="mx-auto mb-5 mt-20 w-9/12">
+  <div class="mx-auto mb-5 mt-20 w-4/5 md:w-3/5">
     <h1
       class="my-5 text-4xl font-semibold leading-tight text-black dark:text-zinc-300 md:text-5xl"
     >

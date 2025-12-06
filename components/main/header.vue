@@ -11,7 +11,7 @@
     class="border-b bg-white py-5 font-semibold dark:border-gray-800 dark:bg-black"
   >
     <div
-      class="mx-auto flex w-9/12 items-center justify-center md:justify-between"
+      class="mx-auto flex w-4/5 md:w-3/5 items-center justify-center md:justify-between"
     >
       <ul class="hidden items-baseline md:flex">
         <li class="flex items-center gap-5 text-center text-2xl font-bold">

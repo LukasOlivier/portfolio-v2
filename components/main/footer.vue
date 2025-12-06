@@ -46,7 +46,7 @@
 <template>
   <footer id="contact" class="mt-20 bg-black/5 py-10 dark:bg-black/30">
     <div
-      class="mx-auto flex w-9/12 flex-col items-start justify-between gap-8 md:w-9/12 md:flex-row md:items-center md:gap-4"
+      class="mx-auto flex w-4/5 md:w-3/5 flex-col items-start justify-between gap-8 md:flex-row md:items-center md:gap-4"
     >
       <!-- Info Section -->
       <div class="space-y-4">

@@ -83,7 +83,7 @@
 </script>
 
 <template>
-  <main class="mx-auto w-9/12 text-zinc-600">
+  <main class="mx-auto w-4/5 md:w-3/5 text-zinc-600">
     <ArchiveHero />
 
     <!-- Search Input -->
