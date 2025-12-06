@@ -2,7 +2,7 @@
 
 ## Overview
 
-This repository contains the source code for my personal portfolio and professional showcase site for Izybit. The website highlights my projects, technical skills, and professional background, using modern web technologies to deliver a responsive, accessible, and user-friendly experience.
+This repository contains the source code for my personal portfolio website. The website highlights my projects, technical skills, and professional background, using modern web technologies to deliver a responsive, accessible, and user-friendly experience.
 
 ## Tech Stack
 

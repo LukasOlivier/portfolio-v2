@@ -75,7 +75,7 @@
       {
         name: 'description',
         content:
-          'Here you will find all the blog posts I have written & published on this site. Topics include software development, technology insights, and Izybit company updates.',
+          'Here you will find all the blog posts I have written & published on this site. Topics include software development and technology insights.',
       },
     ],
     link: [{ rel: 'canonical', href: 'https://www.lukasolivier.be/blog' }],

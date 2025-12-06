@@ -10,15 +10,12 @@
       <p class="mb-10 leading-relaxed">
         <span class="text-lg block mb-2">Hi there! 👋</span>
 
-        I'm a <span class="highlight">software developer</span> with a
-        Bachelor's degree in
+        I'm a <span class="highlight">software developer</span> passionate about
         <span class="highlight"
-          >Applied Computer Science / Software Engineering.</span
+          >building fast, modern, and maintainable web applications.</span
         >
-        I have a soft spot for JavaScript frameworksand enjoy experimenting with
-        new ways to build fast, modern, and maintainable web applications. My
-        website is simply a place where I share what I've been working on. From
-        personal
+        This website is my personal space where I share what I've been working
+        on. From personal
         <NuxtLink class="underline font-semibold" to="/projects"
           >projects</NuxtLink
         >

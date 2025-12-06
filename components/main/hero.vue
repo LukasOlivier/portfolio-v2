@@ -15,7 +15,7 @@
       .typeString('Musician')
       .pauseFor(1000)
       .deleteAll()
-      .typeString("Head leader 'KSA Izegem'")
+      .typeString("Head animator at 'KSA Izegem'")
       .pauseFor(1000)
       .deleteAll()
       .start();
@@ -33,7 +33,7 @@
       </h1>
       <p class="mb-5 text-xl font-medium text-zinc-700 dark:text-zinc-300">
         Software developer &
-        <span ref="typeWriterElement" class="typeWriter">Koas</span>
+        <span ref="typeWriterElement" class="typeWriter"></span>
       </p>
 
       <NuxtLink
