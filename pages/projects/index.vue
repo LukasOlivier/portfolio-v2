@@ -8,6 +8,24 @@
   const pickedCategory = ref(categories.value[0]);
   const projects = ref([
     {
+      id: 18,
+      title: 'Tappd v2 - Restaurant Ordering Platform',
+      description:
+        'Tappd v2 is a modern online ordering platform for bars, restaurants, and cafés. Customers order drinks and food directly from their table via an intuitive mobile interface, while staff receive real-time order updates through a dedicated dashboard. Features include Stripe payment integration for secure transactions, WebSocket-powered live order tracking, role-based staff management, and instant table request notifications. Built with Nuxt 3, Hono, Bun, and PostgreSQL for a fast, scalable, production-ready experience.',
+      category: 'Professional',
+      image: '/projects-img/tappd.png',
+      tags: [
+        'devicon-plain:nuxtjs',
+        'simple-icons:tailwindcss',
+        'devicon-plain:typescript',
+        'devicon-plain:bun',
+        'simple-icons:hono',
+        'simple-icons:stripe',
+        'simple-icons:postgresql',
+      ],
+      website: 'https://tappd.demo.lukasolivier.be',
+    },
+    {
       id: 17,
       title: 'Route Random - Running Route Generator',
       description:
@@ -285,7 +303,7 @@
 </script>
 
 <template>
-  <div class="mx-auto mb-5 mt-20 w-4/5 md:w-3/5">
+  <div class="mx-auto mb-5 mt-20 w-9/12">
     <h1
       class="my-5 text-4xl font-semibold leading-tight text-black dark:text-zinc-300 md:text-5xl"
     >
