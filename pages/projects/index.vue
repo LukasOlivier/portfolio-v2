@@ -23,7 +23,7 @@
         'simple-icons:stripe',
         'simple-icons:postgresql',
       ],
-      website: 'https://tappd.demo.lukasolivier.be',
+      website: 'https://tappd-demo.lukasolivier.be',
     },
     {
       id: 17,
