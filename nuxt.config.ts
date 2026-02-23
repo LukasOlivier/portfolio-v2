@@ -11,6 +11,15 @@ export default defineNuxtConfig({
       viewport: 'width=device-width,initial-scale=1',
       title: 'Lukas Olivier - Software Developer',
       titleTemplate: '%s - Lukas Olivier',
+
+      script: [
+        {
+          src: process.env.VITE_UMAMI_SCRIPT_URL,
+          defer: true,
+          'data-website-id': process.env.VITE_UMAMI_WEBSITE_ID,
+        },
+      ],
+
       meta: [
         {
           name: 'description',
