@@ -12,18 +12,22 @@ export default defineNuxtConfig({
       title: 'Lukas Olivier - Software Developer',
       titleTemplate: '%s - Lukas Olivier',
 
-      script: [
-        {
-          src: process.env.VITE_UMAMI_SCRIPT_URL,
-          defer: true,
-          'data-website-id': process.env.VITE_UMAMI_WEBSITE_ID,
-        },
-      ],
-
       meta: [
         {
           name: 'description',
           content: 'The portfolio of Lukas Olivier - Software Developer',
+        },
+      ],
+      script: [
+        {
+          defer: true,
+          src: 'https://umami.lukasolivier.be/script.js',
+          'data-website-id': 'dc67474f-26ff-476b-810f-fabb68e53407',
+        },
+        {
+          defer: true,
+          src: 'https://umami.lukasolivier.be/recorder.js',
+          'data-website-id': 'dc67474f-26ff-476b-810f-fabb68e53407',
         },
       ],
     },
