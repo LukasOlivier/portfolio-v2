@@ -6,7 +6,7 @@ This repository contains the source code for my personal portfolio website. The 
 
 ## Tech Stack
 
-- **Framework**: Nuxt 3
+- **Framework**: Nuxt 4
 - **Frontend**: Vue.js, TypeScript
 - **Styling**: Tailwind CSS
 - **Deployment**: NuxtHub
@@ -22,7 +22,7 @@ This repository contains the source code for my personal portfolio website. The 
 
 ## Prerequisites
 
-- Node.js 18+
+- Node.js 20+
 - pnpm (recommended) or any other package manager like npm or yarn
 
 ## Getting Started
