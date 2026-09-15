@@ -3,10 +3,10 @@
 @tailwind utilities;
 
 html {
-	scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 html,
 body {
-	overscroll-behavior: none; /* Disable rubber-band effect */
+  overscroll-behavior: none; /* Disable rubber-band effect */
 }

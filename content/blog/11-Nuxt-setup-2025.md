@@ -56,14 +56,14 @@ Add them to your _nuxt.config.ts_:
 
 ```ts
 export default defineNuxtConfig({
-	devtools: { enabled: true },
-	modules: [
-		'@nuxtjs/seo',
-		'@nuxt/fonts',
-		'@nuxt/icon',
-		'@nuxt/image',
-		'@nuxt/eslint',
-	],
+  devtools: { enabled: true },
+  modules: [
+    '@nuxtjs/seo',
+    '@nuxt/fonts',
+    '@nuxt/icon',
+    '@nuxt/image',
+    '@nuxt/eslint',
+  ],
 });
 ```
 
@@ -89,9 +89,9 @@ Create an _index.vue_ file inside the _pages_ folder:
 
 ```vue
 <template>
-	<div>
-		<h1>Hello World!</h1>
-	</div>
+  <div>
+    <h1>Hello World!</h1>
+  </div>
 </template>
 ```
 
@@ -103,11 +103,11 @@ Create _default.vue_ in the _layouts_ folder:
 
 ```vue
 <template>
-	<div>
-		<!-- You can add a header here -->
-		<slot />
-		<!-- You can add a footer here -->
-	</div>
+  <div>
+    <!-- You can add a header here -->
+    <slot />
+    <!-- You can add a footer here -->
+  </div>
 </template>
 ```
 
@@ -117,9 +117,9 @@ Now, modify _app.vue_ to use layouts:
 
 ```vue
 <template>
-	<NuxtLayout>
-		<NuxtPage />
-	</NuxtLayout>
+  <NuxtLayout>
+    <NuxtPage />
+  </NuxtLayout>
 </template>
 ```
 
@@ -135,16 +135,16 @@ Add the following to your _nuxt.config.ts_:
 
 ```ts
 export default defineNuxtConfig({
-	modules: ['@nuxt/fonts'],
-	fonts: {
-		families: [
-			{ name: 'Space Grotesk', preload: true, display: 'swap' },
-			{ name: 'Poppins', preload: true, display: 'swap' },
-		],
-		providers: {
-			google: false, // Disable Google Fonts for GDPR compliance
-		},
-	},
+  modules: ['@nuxt/fonts'],
+  fonts: {
+    families: [
+      { name: 'Space Grotesk', preload: true, display: 'swap' },
+      { name: 'Poppins', preload: true, display: 'swap' },
+    ],
+    providers: {
+      google: false, // Disable Google Fonts for GDPR compliance
+    },
+  },
 });
 ```
 
@@ -156,10 +156,10 @@ _@nuxt/icon_ is a no-brainer in each project for me. It provides a quick setup, 
 
 ```vue
 <template>
-	<div>
-		<h1>Hello world!</h1>
-		<Icon name="uil:globe" style="color: black" />
-	</div>
+  <div>
+    <h1>Hello world!</h1>
+    <Icon name="uil:globe" style="color: black" />
+  </div>
 </template>
 ```
 
@@ -173,11 +173,11 @@ Add the following to your _nuxt.config.ts_:
 
 ```ts
 export default defineNuxtConfig({
-	// other configurations
-	image: {
-		quality: 80,
-		format: ['webp', 'avif', 'jpg'],
-	},
+  // other configurations
+  image: {
+    quality: 80,
+    format: ['webp', 'avif', 'jpg'],
+  },
 });
 ```
 
@@ -187,13 +187,13 @@ hello-world.jpg is an image in the _public_ folder.
 
 ```vue
 <template>
-	<div>
-		<div>
-			<h1>Hello world!</h1>
-			<Icon name="uil:globe" style="color: black" />
-		</div>
-		<NuxtImg src="/images/hello-world.png" alt="Nuxt Logo" />
-	</div>
+  <div>
+    <div>
+      <h1>Hello world!</h1>
+      <Icon name="uil:globe" style="color: black" />
+    </div>
+    <NuxtImg src="/images/hello-world.png" alt="Nuxt Logo" />
+  </div>
 </template>
 ```
 
@@ -205,14 +205,14 @@ I'm a big fan of Tailwind for styling. The official documentation explains it be
 
 ```vue
 <template>
-	<div class="flex h-screen flex-col items-center justify-center">
-		<div class="flex items-center justify-center p-4 text-2xl">
-			<Icon name="uil:globe" style="color: black" />
-			<h1 class="text-blue-500">Hello world!</h1>
-			<Icon name="uil:globe" style="color: black" />
-		</div>
-		<NuxtImg src="/images/hello-world.png" alt="Nuxt Logo" />
-	</div>
+  <div class="flex h-screen flex-col items-center justify-center">
+    <div class="flex items-center justify-center p-4 text-2xl">
+      <Icon name="uil:globe" style="color: black" />
+      <h1 class="text-blue-500">Hello world!</h1>
+      <Icon name="uil:globe" style="color: black" />
+    </div>
+    <NuxtImg src="/images/hello-world.png" alt="Nuxt Logo" />
+  </div>
 </template>
 ```
 
@@ -227,22 +227,22 @@ There are many prettier configurations available, but I like to use the followin
 ```json
 // .prettierrc
 {
-	"semi": true,
-	"singleQuote": true,
-	"useTabs": true,
-	"tabWidth": 2,
-	"trailingComma": "es5",
-	"printWidth": 80,
-	"endOfLine": "lf",
-	"arrowParens": "always",
-	"bracketSpacing": true,
-	"embeddedLanguageFormatting": "auto",
-	"plugins": [
-		"prettier-plugin-organize-imports",
-		"prettier-plugin-tailwindcss"
-	],
-	"htmlWhitespaceSensitivity": "ignore",
-	"vueIndentScriptAndStyle": true
+  "semi": true,
+  "singleQuote": true,
+  "useTabs": true,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "printWidth": 80,
+  "endOfLine": "lf",
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "embeddedLanguageFormatting": "auto",
+  "plugins": [
+    "prettier-plugin-organize-imports",
+    "prettier-plugin-tailwindcss"
+  ],
+  "htmlWhitespaceSensitivity": "ignore",
+  "vueIndentScriptAndStyle": true
 }
 ```
 
@@ -254,42 +254,42 @@ Example setup in _app.vue_
 
 ```vue
 <script setup>
-	const description = `Hi, welcome to our nuxt starter site! This project includes all basic needs for almost every project!`;
+  const description = `Hi, welcome to our nuxt starter site! This project includes all basic needs for almost every project!`;
 
-	const ogTitle = 'Nuxt 3 - Starter project';
+  const ogTitle = 'Nuxt 3 - Starter project';
 
-	const twitterDescription = `Hi, welcome to our nuxt starter site!`;
+  const twitterDescription = `Hi, welcome to our nuxt starter site!`;
 
-	const image = 'https://example.com/default-image.webp';
+  const image = 'https://example.com/default-image.webp';
 
-	const mySite = 'https://example.com';
+  const mySite = 'https://example.com';
 
-	useHead({
-		htmlAttrs: {
-			lang: 'en',
-		},
-		link: [{ rel: 'canonical', href: mySite }],
-		meta: [
-			{ name: 'description', content: description },
-			{
-				name: 'keywords',
-				content: 'nuxt 3, starter, project',
-			},
-			{ name: 'author', content: 'John Doe' },
-			{ name: 'publisher', content: 'John Doe' },
-			{ property: 'og:site_name', content: mySite },
-			{ property: 'og:type', content: 'website' },
-			{ property: 'og:url', content: mySite },
-			{ property: 'og:title', content: ogTitle },
-			{ property: 'og:description', content: description },
-			{ property: 'og:image', content: image },
-			{ name: 'twitter:card', content: 'summary_large_image' },
-			{ name: 'twitter:url', content: mySite },
-			{ name: 'twitter:title', content: ogTitle },
-			{ name: 'twitter:description', content: twitterDescription },
-			{ name: 'twitter:image', content: image },
-		],
-	});
+  useHead({
+    htmlAttrs: {
+      lang: 'en',
+    },
+    link: [{ rel: 'canonical', href: mySite }],
+    meta: [
+      { name: 'description', content: description },
+      {
+        name: 'keywords',
+        content: 'nuxt 3, starter, project',
+      },
+      { name: 'author', content: 'John Doe' },
+      { name: 'publisher', content: 'John Doe' },
+      { property: 'og:site_name', content: mySite },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:url', content: mySite },
+      { property: 'og:title', content: ogTitle },
+      { property: 'og:description', content: description },
+      { property: 'og:image', content: image },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      { name: 'twitter:url', content: mySite },
+      { name: 'twitter:title', content: ogTitle },
+      { name: 'twitter:description', content: twitterDescription },
+      { name: 'twitter:image', content: image },
+    ],
+  });
 </script>
 ```
 
@@ -297,15 +297,15 @@ Example for _page.vue_
 
 ```vue
 <script setup>
-	useHead({
-		title: 'Home',
-		meta: [
-			{
-				name: 'description',
-				content: 'Welcome to the index page of the Nuxt 3 starter project.',
-			},
-		],
-	});
+  useHead({
+    title: 'Home',
+    meta: [
+      {
+        name: 'description',
+        content: 'Welcome to the index page of the Nuxt 3 starter project.',
+      },
+    ],
+  });
 </script>
 ```
 
@@ -319,8 +319,8 @@ Add the following to your _nuxt.config.ts_:
 
 ```ts
 export default defineNuxtConfig({
-	// other configurations
-	site: { url: 'https://example.com', name: 'My Awesome Website' },
+  // other configurations
+  site: { url: 'https://example.com', name: 'My Awesome Website' },
 });
 ```
 
