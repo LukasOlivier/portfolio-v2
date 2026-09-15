@@ -44,6 +44,7 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@nuxt/eslint',
     '@nuxthub/core',
+    'nuxt-security',
   ],
 
   hub: {
@@ -79,12 +80,22 @@ export default defineNuxtConfig({
     },
   },
 
+  // Security headers
+  security: {
+    nonce: true,
+    headers: {
+      contentSecurityPolicy: {
+        'script-src': ["'strict-dynamic'", "'nonce-{{nonce}}'"],
+        'connect-src': ["'self'", 'https://umami.lukasolivier.be'],
+      },
+    },
+  },
+
   site: {
     url: 'https://www.lukasolivier.be', // Needed for og-image
   },
 
   // Performance
-
   image: {
     format: ['webp'],
     quality: 100,
