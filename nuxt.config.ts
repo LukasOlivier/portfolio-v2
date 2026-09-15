@@ -43,7 +43,6 @@ export default defineNuxtConfig({
     '@nuxt/fonts',
     '@nuxt/icon',
     '@nuxt/eslint',
-    '@nuxthub/core',
     'nuxt-security',
   ],
 

@@ -1,6 +1,6 @@
 <script setup>
   const techStack = [
-    { name: 'Nuxt3', url: 'https://nuxt.com/' },
+    { name: 'Nuxt', url: 'https://nuxt.com/' },
     { name: 'Tailwind CSS', url: 'https://tailwindcss.com/' },
   ];
 

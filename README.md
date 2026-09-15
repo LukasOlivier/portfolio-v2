@@ -9,16 +9,24 @@ This repository contains the source code for my personal portfolio website. The 
 - **Framework**: Nuxt 4
 - **Frontend**: Vue.js, TypeScript
 - **Styling**: Tailwind CSS
-- **Deployment**: NuxtHub
+- **Deployment**: Vercel
 - **Package Manager**: pnpm (recommended)
 
 ## Features
 
-- 💻 Fully responsive design for desktop, tablet, and mobile
-- 🛠️ Project showcase with descriptions, tech stack, and external links
-- 🚀 Skills section highlighting key technologies and tools
-- 👤 About Me section with professional and personal background
-- 🌙 Light/dark theme toggle based on user preference
+- Fully responsive design for desktop, tablet, and mobile
+- Project showcase with descriptions, tech stack, and external links
+- Skills section highlighting key technologies and tools
+- About Me section with professional and personal background
+- Light/dark theme toggle based on user preference
+
+## Quality & Compliance
+
+This portfolio is built with a strong focus on performance, security, and web standards. Based on recent validation and audit checks:
+
+- [Google PageSpeed Insights](https://pagespeed.web.dev/analysis/https-www-lukasolivier-be/l7s91xfdu8?form_factor=desktop): 100/100 across all categories
+- A+ rating on [www.ssllabs.com](https://www.ssllabs.com/ssltest/analyze.html?d=www.lukasolivier.be)
+- Security Headers: A+ score on [https://securityheaders.com/](https://securityheaders.com/?q=https%3A%2F%2Fwww.lukasolivier.be&followRedirects=on)
 
 ## Prerequisites
 
@@ -56,17 +64,9 @@ To build the site for production:
 pnpm run build && pnpm run preview
 ```
 
-## Environment Variables
-
-For deployment to your own NuxtHub instance, you'll need:
-
-```bash
-NUXT_HUB_PROJECT_KEY=your_nuxthub_project_key
-```
-
 ## Deployment
 
-The site is deployed using **NuxtHub** for seamless edge deployment and optimal performance.
+The site is deployed using **Vercel** for seamless edge deployment and optimal performance.
 
 🌐 Live site: [lukasolivier.be](https://www.lukasolivier.be)
 
