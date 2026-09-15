@@ -102,11 +102,7 @@
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Icon
-            :name="link.icon"
-            :size="link.iconProps?.size || 20"
-            :weight="link.iconProps?.weight"
-          />
+          <Icon :name="link.icon" :size="link.iconProps?.size || 20" />
           {{ link.name }}
         </a>
       </div>

@@ -4,7 +4,7 @@ export default defineNuxtConfig({
 
   app: {
     head: {
-      charset: 'utf-16',
+      charset: 'utf-8',
       htmlAttrs: {
         lang: 'en',
       },
@@ -46,10 +46,6 @@ export default defineNuxtConfig({
     '@nuxthub/core',
     'nuxt-security',
   ],
-
-  hub: {
-    database: true,
-  },
 
   typescript: {
     strict: true,

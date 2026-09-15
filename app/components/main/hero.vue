@@ -27,7 +27,6 @@
     <section id="home" class="w-4/5 md:w-3/5 mx-auto mt-52">
       <h1
         class="text-6xl font-semibold leading-tight text-black dark:text-white md:text-7xl"
-        style="font-display: swap"
       >
         Lukas Olivier
       </h1>

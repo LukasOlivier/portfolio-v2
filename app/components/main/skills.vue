@@ -61,7 +61,6 @@
       Things I've worked with so far:
     </h2>
     <ul
-      id="skills"
       class="flex flex-wrap justify-between gap-x-6 gap-y-8 text-4xl md:justify-start"
     >
       <li v-for="skill in skills" :key="skill.name">

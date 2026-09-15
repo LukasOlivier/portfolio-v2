@@ -4,12 +4,10 @@
       <header class="fixed z-10 w-full bg-[#F1F2F4] dark:bg-slate-950">
         <MainHeader />
       </header>
-      <main class="pb-10 pt-20">
+      <div class="pb-10 pt-20">
         <slot />
-      </main>
-      <footer>
-        <MainFooter />
-      </footer>
+      </div>
+      <MainFooter />
     </div>
   </div>
 </template>
