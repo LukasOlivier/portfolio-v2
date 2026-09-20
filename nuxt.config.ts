@@ -109,11 +109,6 @@ export default defineNuxtConfig({
 
   // Content
   content: {
-    database: {
-      type: 'd1',
-      bindingName: 'nuxt-content',
-    },
-
     build: {
       markdown: {
         highlight: {
