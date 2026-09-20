@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  devtools: { enabled: true },
+  devtools: { enabled: false },
 
   app: {
     head: {
@@ -81,7 +81,11 @@ export default defineNuxtConfig({
     nonce: true,
     headers: {
       contentSecurityPolicy: {
-        'script-src': ["'strict-dynamic'", "'nonce-{{nonce}}'"],
+        'script-src': [
+          "'strict-dynamic'",
+          "'nonce-{{nonce}}'",
+          "'wasm-unsafe-eval'",
+        ],
         'connect-src': ["'self'", 'https://umami.lukasolivier.be'],
       },
     },
