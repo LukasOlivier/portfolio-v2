@@ -20,7 +20,7 @@ Nuxt 3 is a robust framework designed for building modern web applications using
 
 Before getting started, make sure you have the following installed:
 
-- **Node.js** - [Version 18.x](https://nodejs.org/en) or newer (preferably an [active LTS release](https://github.comnodejs/release#release-schedule))
+- **Node.js** - [Version 18.x](https://nodejs.org/en) or newer (preferably an [active LTS release](https://github.com/nodejs/release#release-schedule))
 - **Text Editor** - Any IDE works, but [Visual Studio Code](https://code.visualstudio.com/) with the [Vue extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar) or [WebStorm](https://www.jetbrains.com/webstorm/) is recommended
 
 ### Additional Tips

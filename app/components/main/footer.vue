@@ -23,7 +23,7 @@
   const socialLinks = [
     {
       name: 'LukasOlivier',
-      url: 'https://www.linkedin.com/in/lukas-olivier-a19862231/',
+      url: 'https://www.linkedin.com/in/lukas-olivier',
       icon: 'mdi:linkedin',
       ariaLabel: 'linkedin',
     },

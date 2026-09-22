@@ -48,7 +48,7 @@
       description:
         'Software developer building fast, modern, maintainable web applications with Vue, Nuxt, and Node.js.',
       sameAs: [
-        'https://www.linkedin.com/in/lukas-olivier-a19862231/',
+        'https://www.linkedin.com/in/lukas-olivier',
         'https://github.com/LukasOlivier',
       ],
       worksFor: defineOrganization({

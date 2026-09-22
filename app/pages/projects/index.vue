@@ -42,11 +42,11 @@
     },
     {
       id: 16,
-      title: 'Recyclr - Sustainable Building Materials Marketplace',
+      title: 'Materialenmarkt - Sustainable Building Materials Marketplace',
       description:
-        'Recyclr is a marketplace platform designed to give building materials a second life. Users can buy and sell second-hand construction materials, contributing to a more sustainable building industry. The platform features a map-based interface for location-based browsing, detailed listings with images, and a user profile system. Built with Vue.js and Tailwind CSS, Recyclr combines sustainability with a modern tech stack to create an intuitive and environmentally conscious marketplace.',
+        'Materialenmarkt is a marketplace platform designed to give building materials a second life. Users can buy and sell second-hand construction materials, contributing to a more sustainable building industry. The platform features a map-based interface for location-based browsing, detailed listings with images, and a user profile system. Built with Vue.js and Tailwind CSS, Materialenmarkt combines sustainability with a modern tech stack to create an intuitive and environmentally conscious marketplace.',
       category: 'Professional',
-      image: '/projects-img/recyclr.jpg',
+      image: '/projects-img/materialenmarkt.jpg',
       tags: [
         'devicon-plain:nuxtjs',
         'simple-icons:tailwindcss',
@@ -56,7 +56,7 @@
         'simple-icons:drizzle',
         'devicon-plain:postgresql',
       ],
-      website: 'https://www.recyclr.be',
+      website: 'https://materialenmarkt.lukasolivier.be',
     },
     {
       id: 15,
@@ -70,7 +70,6 @@
         'simple-icons:tailwindcss',
         'devicon-plain:typescript',
       ],
-      website: 'https://resin.estate',
       github: 'https://github.com/DaedalusLabs/RESIN',
     },
     {
@@ -98,7 +97,7 @@
       category: 'Professional',
       image: '/projects-img/szg.webp',
       tags: ['devicon-plain:nuxtjs', 'simple-icons:tailwindcss'],
-      website: 'https://new.szg.be',
+      website: 'https://www.szg.be',
     },
     {
       id: 12,
