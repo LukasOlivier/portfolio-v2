@@ -18,7 +18,7 @@
     "format": "npm-run-all -p lint:fix prettier"
   },
   "devDependencies": {
-    "@iconify-json/devicon-plain": "^1.2.59",
+    "@iconify-json/devicon-plain": "^1.2.61",
     "@iconify-json/material-symbols": "^1.2.92",
     "@iconify-json/mdi": "^1.2.3",
     "@iconify-json/simple-icons": "^1.2.96",
