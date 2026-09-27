@@ -43,7 +43,7 @@
     "nuxt": "^4.5.2",
     "nuxt-schema-org": "6.3.2",
     "nuxt-security": "2.6.0",
-    "prettier": "^3.9.8",
+    "prettier": "^3.9.9",
     "prettier-plugin-organize-imports": "^4.3.0",
     "prettier-plugin-tailwindcss": "^0.8.1",
     "typescript": "^6.0.3",
