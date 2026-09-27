@@ -51,7 +51,7 @@
     "wrangler": "^4.135.0"
   },
   "dependencies": {
-    "@nuxt/content": "^3.16.0",
+    "@nuxt/content": "^3.16.1",
     "better-sqlite3": "^13.0.3",
     "typewriter-effect": "^2.22.0",
     "vue": "^3.5.43"
