@@ -1194,8 +1194,12 @@ packages:
     resolution: {integrity: sha512-pJCEwGG7Lfr/+PQp9ZTwKXNeO5wzbfKL7H3MYpCorM4oFBoQrdjnBgEoqG+RjhsvS1FKrDbKux+M1HhlnGWqcA==}
     engines: {node: '>=20'}
 
-  '@modelcontextprotocol/server@2.0.0':
-    resolution: {integrity: sha512-YhHWdHfpFMQfd0prsEnxKeS3Qz3ytIGmsS0sth4KDjnacIT7hxk6hXHkJ9KysxlkvTM+WZAtQbbcUhdoP4Hvtw==}
+  '@modelcontextprotocol/core@2.4.0':
+    resolution: {integrity: sha512-z8QBKqdfXLPzkLQuG4xp8hrVEMm1PZ1IgxMN2sMbJiFiAKOWXnAzogXn2W4aqIBlP1ea6U5yiqVquvUNM1Cj6Q==}
+    engines: {node: '>=20'}
+
+  '@modelcontextprotocol/server@2.4.0':
+    resolution: {integrity: sha512-rgR9yxSaAJ+bcsi/XroT/S2AfPiIWloXAnrdfYSCms9ivVju0ishu/wW0J21Ho6+ZOR1r7RyeRbjiRuF87ix5Q==}
     engines: {node: '>=20'}
 
   '@napi-rs/lzma-linux-x64-gnu@1.5.1':
@@ -7077,7 +7081,7 @@ snapshots:
   '@devframes/agentic@1.0.0(crossws@0.4.12(srvx@0.11.22))(devframe@1.0.0)':
     dependencies:
       '@modelcontextprotocol/client': 2.0.0
-      '@modelcontextprotocol/server': 2.0.0
+      '@modelcontextprotocol/server': 2.4.0
       devframe: 1.0.0(@devframes/agentic@1.0.0)(cac@7.0.0)(srvx@0.11.22)
       h3: 2.0.1-rc.32(crossws@0.4.12(srvx@0.11.22))
       pathe: 2.0.3
@@ -7711,9 +7715,13 @@ snapshots:
     dependencies:
       zod: 4.6.5
 
-  '@modelcontextprotocol/server@2.0.0':
+  '@modelcontextprotocol/core@2.4.0':
     dependencies:
-      '@modelcontextprotocol/core': 2.0.0
+      zod: 4.6.5
+
+  '@modelcontextprotocol/server@2.4.0':
+    dependencies:
+      '@modelcontextprotocol/core': 2.4.0
       zod: 4.6.5
 
   '@napi-rs/lzma-linux-x64-gnu@1.5.1':
